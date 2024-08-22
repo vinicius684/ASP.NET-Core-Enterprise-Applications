@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GalmeaH93etuFp9wS3rg+QmN5hkJ6M34/kB9RfgLFow=",
+  "Source": "NSE.Cliente.API",
+  "BasePath": "_content/NSE.Cliente.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

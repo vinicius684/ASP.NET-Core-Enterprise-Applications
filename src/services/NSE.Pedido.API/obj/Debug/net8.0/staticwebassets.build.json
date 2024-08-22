@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2jPSd9ULiIV1KG7+3kqxgqdTrOKWzMniVr8vmL8Pk/0=",
+  "Source": "NSE.Pedido.API",
+  "BasePath": "_content/NSE.Pedido.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

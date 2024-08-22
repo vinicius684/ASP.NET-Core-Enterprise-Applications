@@ -1,0 +1,12 @@
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\building blocks\NSE.Core\bin\Debug\net8.0\NSE.Core.deps.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\building blocks\NSE.Core\bin\Debug\net8.0\NSE.Core.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\building blocks\NSE.Core\bin\Debug\net8.0\NSE.Core.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\net8.0\NSE.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\net8.0\NSE.Core.AssemblyInfoInputs.cache
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\net8.0\NSE.Core.AssemblyInfo.cs
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\net8.0\NSE.Core.csproj.CoreCompileInputs.cache
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\net8.0\NSE.Core.sourcelink.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\net8.0\NSE.Core.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\net8.0\refint\NSE.Core.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\net8.0\NSE.Core.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\net8.0\ref\NSE.Core.dll
