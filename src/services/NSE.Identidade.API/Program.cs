@@ -13,7 +13,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>()
                 .AddRoles<IdentityRole>()
                 //.AddErrorDescriber<IdentityMensagensPortugues>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
-                .AddDefaultTokenProviders();// token para caso precise resetar ums enha, autenticar uma conta recem gerada. Em outras palavras, um criptografia dentro de um link para te reconhecer
+                .AddDefaultTokenProviders();//token para caso precise resetar uma senha, autenticar uma conta recem gerada. Em outras palavras, uma criptografia dentro de um link para te reconhecer
 
 builder.Services.AddControllers();
 
