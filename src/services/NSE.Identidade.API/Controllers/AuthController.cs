@@ -4,6 +4,7 @@ using NSE.Identidade.API.Models;
 
 namespace NSE.Identidade.API.Controllers
 {
+    [ApiController] //dizendo que é uma API controller, libera o entendimento dos schemas do swagger, com isso trafegar json e não formulário
     [Route("api/identidade")]
     public class AuthController : Controller
     {
