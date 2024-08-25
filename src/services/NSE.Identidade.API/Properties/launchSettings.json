@@ -18,6 +18,14 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
+    "IIS - Staging": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Staging"
+      }
+    },
     "IIS - Production": {
       "commandName": "IISExpress",
       "launchBrowser": true,

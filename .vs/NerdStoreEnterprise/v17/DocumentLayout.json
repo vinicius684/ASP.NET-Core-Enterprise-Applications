@@ -3,67 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\configuration\\apiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\configuration\\apiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\configuration\\identityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\configuration\\identityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\extensions\\identitymensagensportugues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\extensions\\identitymensagensportugues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\configuration\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\configuration\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\nse.identidade.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\nse.identidade.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\nse.identidade.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\nse.identidade.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\models\\userviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\models\\userviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vpinh\\AppData\\Roaming\\Microsoft\\UserSecrets\\ec5ade2b-5166-4afd-b25e-bee95dcebd7f\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\extensions\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\extensions\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\nse.identidade.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\nse.identidade.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vpinh\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\migrations\\20240822141741_inital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\migrations\\20240822141741_inital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92B8C9E4-8D33-4F02-9569-55E5A92D3066}|src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\web\\nse.webapp.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92B8C9E4-8D33-4F02-9569-55E5A92D3066}|src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj|solutionrelative:src\\web\\nse.webapp.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A610F9A5-24DA-4E1A-85D5-60AF93CAE539}|src\\building blocks\\NSE.Core\\NSE.Core.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\building blocks\\nse.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A610F9A5-24DA-4E1A-85D5-60AF93CAE539}|src\\building blocks\\NSE.Core\\NSE.Core.csproj|solutionrelative:src\\building blocks\\nse.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.identidade.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -73,7 +53,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -84,107 +64,121 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SwaggerConfig.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Configuration\\SwaggerConfig.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Configuration\\SwaggerConfig.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Configuration\\SwaggerConfig.cs",
+              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Configuration\\SwaggerConfig.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T17:22:46.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Dockerfile",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Dockerfile",
+              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-25T16:52:39.3Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IdentityMensagensPortugues.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Extensions\\IdentityMensagensPortugues.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Extensions\\IdentityMensagensPortugues.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Extensions\\IdentityMensagensPortugues.cs",
-              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Extensions\\IdentityMensagensPortugues.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAADeAAAA",
+              "Title": "IdentityConfig.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Configuration\\IdentityConfig.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Configuration\\IdentityConfig.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Configuration\\IdentityConfig.cs",
+              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Configuration\\IdentityConfig.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwD0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T01:38:22.943Z",
+              "WhenOpened": "2024-08-25T15:53:28.786Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainController.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Controllers\\MainController.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Controllers\\MainController.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Controllers\\MainController.cs",
-              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Controllers\\MainController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAACvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T18:19:07.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAowEoAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T18:25:32.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-23T11:43:17.222Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Program.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Program.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Program.cs",
-              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAABAAAA",
+              "Title": "ApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Configuration\\ApiConfig.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Configuration\\ApiConfig.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Configuration\\ApiConfig.cs",
+              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Configuration\\ApiConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T12:49:54.636Z",
+              "WhenOpened": "2024-08-25T15:40:55.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "NSE.Identidade.API.csproj",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
-              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-22T12:41:26.633Z"
+              "Title": "NSE.Identidade.API.http",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.http",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\NSE.Identidade.API.http",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.http",
+              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\NSE.Identidade.API.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-08-25T15:29:48.464Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAABIAAAAAAAAAAAAUwA8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-25T14:35:36.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Program.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Program.cs",
+              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T14:23:01.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\vpinh\\AppData\\Roaming\\Microsoft\\UserSecrets\\ec5ade2b-5166-4afd-b25e-bee95dcebd7f\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\ec5ade2b-5166-4afd-b25e-bee95dcebd7f\\secrets.json",
+              "ToolTip": "C:\\Users\\vpinh\\AppData\\Roaming\\Microsoft\\UserSecrets\\ec5ade2b-5166-4afd-b25e-bee95dcebd7f\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\ec5ade2b-5166-4afd-b25e-bee95dcebd7f\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-25T15:29:41.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\appsettings.Development.json",
               "RelativeToolTip": "src\\services\\NSE.Identidade.API\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAB9AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-23T12:52:53.039Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserViewModels.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Models\\UserViewModels.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Models\\UserViewModels.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Models\\UserViewModels.cs",
-              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Models\\UserViewModels.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAuwB0AAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T18:16:08.354Z"
+              "WhenOpened": "2024-08-25T14:19:29.383Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -194,92 +188,23 @@
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\appsettings.json",
               "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\appsettings.json",
               "RelativeToolTip": "src\\services\\NSE.Identidade.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-22T13:51:16.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AppSettings.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Extensions\\AppSettings.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Extensions\\AppSettings.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Extensions\\AppSettings.cs",
-              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Extensions\\AppSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T12:48:25.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAACwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T12:55:43.509Z"
+              "WhenOpened": "2024-08-25T14:18:59.666Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "NSE.Identidade.API",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
-              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-23T11:44:13.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20240822141741_Inital.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Migrations\\20240822141741_Inital.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Migrations\\20240822141741_Inital.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Migrations\\20240822141741_Inital.cs",
-              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Migrations\\20240822141741_Inital.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAgwFMAAADqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T14:17:41.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Container.targets",
-              "DocumentMoniker": "C:\\Users\\vpinh\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets",
-              "ToolTip": "C:\\Users\\vpinh\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets",
-              "ViewState": "AQIAAIIAAAAAAAAAAAAWwNYAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-08-22T21:31:57.443Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Program.cs",
-              "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Program.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Program.cs",
-              "RelativeToolTip": "src\\web\\NSE.WebApp.MVC\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T12:49:44.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\Class1.cs",
-              "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Class1.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\Class1.cs",
-              "RelativeToolTip": "src\\building blocks\\NSE.Core\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T22:29:04.28Z"
+              "WhenOpened": "2024-08-22T18:25:32.284Z",
+              "EditorCaption": ""
             }
           ]
         }

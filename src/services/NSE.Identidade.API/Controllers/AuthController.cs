@@ -76,45 +76,58 @@ namespace NSE.Identidade.API.Controllers
             return CustomResponse();
         }
 
-
         private async Task<UsuarioRespostaLogin> GerarJwt(string email)
         {
-            var user = await _userManager.FindByEmailAsync(email);
-            var claims = await _userManager.GetClaimsAsync(user);
+            var user = await _userManager.FindByEmailAsync(email); //obtenho user do identity
+            var claims = await _userManager.GetClaimsAsync(user); //suas claims Identity
+
+            var identityClaims = await ObterClaimsUsuario(claims, user); //passo minha lista de claim do idenentity do Usuário, que será somada às Clains específicas do JWT + roles do identity. Aqui é tipo refeência que é passado(List), portanto mesmo estando em escopo diferente, a var claims passa a receber todas as claims incrementadas nesse método
+            var encodedToken = CodificarToken(identityClaims); //Crio e codifico o Token
+
+            return ObterRespostaToken(encodedToken, user, claims); //Resposta final, representação do Usuário na minha app, contendo o Token
+        }
+
+        private async Task<ClaimsIdentity> ObterClaimsUsuario(ICollection<Claim> claims, IdentityUser user) //Populo Claims específica JWT e Roles Identity e devolto o Objeto ClaimIdentity esperado pelo user
+        {
             var userRoles = await _userManager.GetRolesAsync(user);
 
-            //Com base na coleção de claims obtida, vou adicionar essas 5 claims específicas para JWT. Infos douser passadas no token em formato de claims
             claims.Add(new Claim(JwtRegisteredClaimNames.Sub, user.Id));
             claims.Add(new Claim(JwtRegisteredClaimNames.Email, user.Email));
             claims.Add(new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()));
             claims.Add(new Claim(JwtRegisteredClaimNames.Nbf, ToUnixEpochDate(DateTime.UtcNow).ToString()));
             claims.Add(new Claim(JwtRegisteredClaimNames.Iat, ToUnixEpochDate(DateTime.UtcNow).ToString(), ClaimValueTypes.Integer64));
-
             foreach (var userRole in userRoles)
             {
                 claims.Add(new Claim("role", userRole));
             }
 
-            //objeto real da coleção de claims que aql usuário vai ter na representação dele no JWT - objeto esperado pelo Subject para representar as Claims do JWT 
             var identityClaims = new ClaimsIdentity();
             identityClaims.AddClaims(claims);
 
-            var tokenHandler = new JwtSecurityTokenHandler();//vai pegar com base na chave que eu tenho e gerar meu token, utilizando infos da Instanciação de SecurityTokenDescriptor
+            return identityClaims;
+        }
+
+        private string CodificarToken(ClaimsIdentity identityClaims) //Criação e  códigicação do JWT
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_appSettings.Secret);
             var token = tokenHandler.CreateToken(new SecurityTokenDescriptor
             {
                 Issuer = _appSettings.Emissor,
                 Audience = _appSettings.ValidoEm,
-                Subject = identityClaims,//Dados do user
-                Expires = DateTime.UtcNow.AddHours(_appSettings.ExpiracaoHoras),//Duas hrs pra frente, no padrão UTC
+                Subject = identityClaims,
+                Expires = DateTime.UtcNow.AddHours(_appSettings.ExpiracaoHoras),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             });
 
-            var encodedToken = tokenHandler.WriteToken(token);//Tranforma o objeto SecurityToken gerado pelo CreateToken em uma string codificada em formato JWT que pode ser facilmente transportada
+            return tokenHandler.WriteToken(token);
+        }
 
-            var response = new UsuarioRespostaLogin
+        private UsuarioRespostaLogin ObterRespostaToken(string encodedToken, IdentityUser user, IEnumerable<Claim> claims) //Resposta representação do meu Usuário na app, contendo o token
+        {
+            return new UsuarioRespostaLogin
             {
-                AccessToken = encodedToken,//meu token codificado
+                AccessToken = encodedToken,
                 ExpiresIn = TimeSpan.FromHours(_appSettings.ExpiracaoHoras).TotalSeconds,
                 UsuarioToken = new UsuarioToken
                 {
@@ -123,8 +136,6 @@ namespace NSE.Identidade.API.Controllers
                     Claims = claims.Select(c => new UsuarioClaim { Type = c.Type, Value = c.Value })
                 }
             };
-
-            return response;
         }
 
         private static long ToUnixEpochDate(DateTime date) //pegar um data e transformar ela no padrão que o JWT espera, EpochDate
@@ -132,3 +143,54 @@ namespace NSE.Identidade.API.Controllers
 
     }
 }
+
+//Geração do JWT em método unico antes da refatoração
+//private async Task<UsuarioRespostaLogin> GerarJwt(string email)
+//{
+//    var user = await _userManager.FindByEmailAsync(email);
+//    var claims = await _userManager.GetClaimsAsync(user);
+//    var userRoles = await _userManager.GetRolesAsync(user);
+
+//    //Com base na coleção de claims obtida, vou adicionar essas 5 claims específicas para JWT. Infos douser passadas no token em formato de claims
+//    claims.Add(new Claim(JwtRegisteredClaimNames.Sub, user.Id));
+//    claims.Add(new Claim(JwtRegisteredClaimNames.Email, user.Email));
+//    claims.Add(new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()));
+//    claims.Add(new Claim(JwtRegisteredClaimNames.Nbf, ToUnixEpochDate(DateTime.UtcNow).ToString()));
+//    claims.Add(new Claim(JwtRegisteredClaimNames.Iat, ToUnixEpochDate(DateTime.UtcNow).ToString(), ClaimValueTypes.Integer64));
+
+//    foreach (var userRole in userRoles)
+//    {
+//        claims.Add(new Claim("role", userRole));
+//    }
+
+//    //objeto real da coleção de claims que aql usuário vai ter na representação dele no JWT - objeto esperado pelo Subject para representar as Claims do JWT 
+//    var identityClaims = new ClaimsIdentity();
+//    identityClaims.AddClaims(claims);
+
+//    var tokenHandler = new JwtSecurityTokenHandler();//vai pegar com base na chave que eu tenho e gerar meu token, utilizando infos da Instanciação de SecurityTokenDescriptor
+//    var key = Encoding.ASCII.GetBytes(_appSettings.Secret);
+//    var token = tokenHandler.CreateToken(new SecurityTokenDescriptor
+//    {
+//        Issuer = _appSettings.Emissor,
+//        Audience = _appSettings.ValidoEm,
+//        Subject = identityClaims,//Dados do user
+//        Expires = DateTime.UtcNow.AddHours(_appSettings.ExpiracaoHoras),//Duas hrs pra frente, no padrão UTC
+//        SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+//    });
+
+//    var encodedToken = tokenHandler.WriteToken(token);//Tranforma o objeto SecurityToken gerado pelo CreateToken em uma string codificada em formato JWT que pode ser facilmente transportada
+
+//    var response = new UsuarioRespostaLogin
+//    {
+//        AccessToken = encodedToken,//meu token codificado
+//        ExpiresIn = TimeSpan.FromHours(_appSettings.ExpiracaoHoras).TotalSeconds,
+//        UsuarioToken = new UsuarioToken
+//        {
+//            Id = user.Id,
+//            Email = user.Email,
+//            Claims = claims.Select(c => new UsuarioClaim { Type = c.Type, Value = c.Value })
+//        }
+//    };
+
+//    return response;
+//}
