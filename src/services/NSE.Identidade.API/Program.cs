@@ -17,7 +17,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddDefaultIdentity<IdentityUser>()
                 .AddRoles<IdentityRole>()
-                //.AddErrorDescriber<IdentityMensagensPortugues>()
+                .AddErrorDescriber<IdentityMensagensPortugues>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();//token para caso precise resetar uma senha, autenticar uma conta recem gerada. Em outras palavras, uma criptografia dentro de um link para te reconhecer
 
