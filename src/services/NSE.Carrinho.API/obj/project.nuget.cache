@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "inOmeIciY0E=",
+  "dgSpecHash": "ApAPcrIsdWk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj",
+  "projectFilePath": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vpinh\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\vpinh\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
