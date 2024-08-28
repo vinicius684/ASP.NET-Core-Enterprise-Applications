@@ -16,7 +16,7 @@ namespace NSE.WebApp.MVC.Services
             _httpCliente = httpCliente;
         }
 
-        public async Task<string> Login(UsuarioLogin usuarioLogin)
+        public async Task<UsuarioRespostaLogin> Login(UsuarioLogin usuarioLogin)
         {
             //o conteúdo a ser enviado deve ser serializado
             var loginContent = new StringContent( //criar o corpo de uma requisição HTTP quando o conteúdo é uma string.
@@ -27,10 +27,15 @@ namespace NSE.WebApp.MVC.Services
 
             var response = await _httpCliente.PostAsync("https://localhost:44375/api/identidade/autenticar", loginContent);
 
-            return JsonSerializer.Deserialize<string>(await response.Content.ReadAsStringAsync());
+            var options = new JsonSerializerOptions //Não vai ligar para maiusculo e minusco(nome atributos) para deserializar o Json recebido para meu objeto UsuarioRepostaLogin
+            {
+                PropertyNameCaseInsensitive = true,
+            };
+
+            return JsonSerializer.Deserialize<UsuarioRespostaLogin>(await response.Content.ReadAsStringAsync(), options);
         }
 
-        public async Task<string> Registro(UsuarioRegistro usuarioRegistro)
+        public async Task<UsuarioRespostaLogin> Registro(UsuarioRegistro usuarioRegistro)
         {
             var registroContent = new StringContent(
                 JsonSerializer.Serialize(usuarioRegistro),
@@ -40,7 +45,7 @@ namespace NSE.WebApp.MVC.Services
 
             var response = await _httpCliente.PostAsync("https://localhost:44375/api/identidade/nova-conta", registroContent);
 
-            return JsonSerializer.Deserialize<string>(await response.Content.ReadAsStringAsync());
+            return JsonSerializer.Deserialize<UsuarioRespostaLogin>(await response.Content.ReadAsStringAsync());
         }
     }
 }
