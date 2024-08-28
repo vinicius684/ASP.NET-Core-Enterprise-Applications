@@ -1,11 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using NSE.WebApp.MVC.Models;
+using NSE.WebApp.MVC.Services;
 
 
 namespace NSE.WebApp.MVC.Controllers
 {
     public class IdentidadeController : Controller
     {
+        private readonly IAutenticacaoService _autenticacaoService;
+
+        public IdentidadeController(IAutenticacaoService autenticacaoService)
+        {
+            _autenticacaoService = autenticacaoService;
+        }
+
         [HttpGet]
         [Route("nova-conta")]
         public IActionResult Registro()
@@ -43,7 +51,8 @@ namespace NSE.WebApp.MVC.Controllers
             //ViewData["ReturnUrl"] = returnUrl;
             if (!ModelState.IsValid) return View(usuarioLogin);
 
-            //var resposta = await _autenticacaoService.Login(usuarioLogin);
+            //API - Login
+            var resposta = await _autenticacaoService.Login(usuarioLogin);
 
             //if (ResponsePossuiErros(resposta.ResponseResult)) return View(usuarioLogin);
 

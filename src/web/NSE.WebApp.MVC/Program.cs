@@ -7,7 +7,7 @@ builder.Services.AddIdentityConfiguration();//
 
 builder.Services.AddMvcConfiguration();//
 
-
+builder.Services.RegisterServices();//
 
 
 
