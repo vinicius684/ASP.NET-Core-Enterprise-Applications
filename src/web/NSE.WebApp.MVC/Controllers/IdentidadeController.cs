@@ -1,6 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Mvc;
 using NSE.WebApp.MVC.Models;
 using NSE.WebApp.MVC.Services;
+using System.Security.Claims;
+using System.IdentityModel.Tokens.Jwt;
 
 
 namespace NSE.WebApp.MVC.Controllers
@@ -27,11 +31,12 @@ namespace NSE.WebApp.MVC.Controllers
         {
             if (!ModelState.IsValid) return View(usuarioRegistro);
 
-            //var resposta = await _autenticacaoService.Registro(usuarioRegistro); API - Registro
+            //API - Registro
+            var resposta = await _autenticacaoService.Registro(usuarioRegistro); 
 
             //if (ResponsePossuiErros(resposta.ResponseResult)) return View(usuarioRegistro);
 
-            //await RealizarLogin(resposta);
+            await RealizarLogin(resposta);
 
             return RedirectToAction("Index", "Home");
         }
@@ -52,11 +57,12 @@ namespace NSE.WebApp.MVC.Controllers
             if (!ModelState.IsValid) return View(usuarioLogin);
 
             //API - Login
-            var resposta = await _autenticacaoService.Login(usuarioLogin);
+            var resposta = await _autenticacaoService.Login(usuarioLogin); //retorna Obj com jwt, claims e demais infos
 
             //if (ResponsePossuiErros(resposta.ResponseResult)) return View(usuarioLogin);
 
-            //await RealizarLogin(resposta);
+            //Login na app
+            await RealizarLogin(resposta);
 
             //if (string.IsNullOrEmpty(returnUrl)) return RedirectToAction("Index", "Home");
 
@@ -71,6 +77,35 @@ namespace NSE.WebApp.MVC.Controllers
         {
             //await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Index", "Home");
+        }
+
+        private async Task RealizarLogin(UsuarioRespostaLogin resposta)
+        {
+            var token = ObterTokenFormatado(resposta.AccessToken);
+
+            var claims = new List<Claim>();
+            claims.Add(new Claim("JWT", resposta.AccessToken));
+            claims.AddRange(token.Claims);
+
+            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme); //quer dizer que vai cosneguir gerar as claims dentro do cookie
+
+            var authProperties = new AuthenticationProperties
+            {
+                ExpiresUtc = DateTimeOffset.UtcNow.AddMinutes(60),
+                IsPersistent = true //durar multiplos requests dentro do periodoo acima
+            };
+
+            //processo de login - através do próprio asp.net core, ou seja, autenticar o usuário e criar uma sessão autenticada
+            await HttpContext.SignInAsync(
+                CookieAuthenticationDefaults.AuthenticationScheme,
+                new ClaimsPrincipal(claimsIdentity),
+                authProperties
+             );
+        }
+
+        private static JwtSecurityToken ObterTokenFormatado(string jwtToken)
+        {
+            return new JwtSecurityTokenHandler().ReadToken(jwtToken) as JwtSecurityToken;
         }
     }
 }
