@@ -32,6 +32,7 @@ namespace NSE.WebApp.MVC.Services
                 PropertyNameCaseInsensitive = true,
             };
 
+
             return JsonSerializer.Deserialize<UsuarioRespostaLogin>(await response.Content.ReadAsStringAsync(), options);
         }
 
@@ -45,7 +46,13 @@ namespace NSE.WebApp.MVC.Services
 
             var response = await _httpCliente.PostAsync("https://localhost:44375/api/identidade/nova-conta", registroContent);
 
-            return JsonSerializer.Deserialize<UsuarioRespostaLogin>(await response.Content.ReadAsStringAsync());
+            var options = new JsonSerializerOptions //Não vai ligar para maiusculo e minusco(nome atributos) para deserializar o Json recebido para meu objeto UsuarioRepostaLogin
+            {
+                PropertyNameCaseInsensitive = true,
+            };
+
+
+            return JsonSerializer.Deserialize<UsuarioRespostaLogin>(await response.Content.ReadAsStringAsync(), options);
         }
     }
 }

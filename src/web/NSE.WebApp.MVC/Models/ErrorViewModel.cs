@@ -6,4 +6,6 @@ namespace NSE.WebApp.MVC.Models
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
+
+    
 }
