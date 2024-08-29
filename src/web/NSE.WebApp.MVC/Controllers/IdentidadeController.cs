@@ -9,7 +9,7 @@ using System.IdentityModel.Tokens.Jwt;
 
 namespace NSE.WebApp.MVC.Controllers
 {
-    public class IdentidadeController : Controller
+    public class IdentidadeController : MainController
     {
         private readonly IAutenticacaoService _autenticacaoService;
 
@@ -32,10 +32,11 @@ namespace NSE.WebApp.MVC.Controllers
             if (!ModelState.IsValid) return View(usuarioRegistro);
 
             //API - Registro
-            var resposta = await _autenticacaoService.Registro(usuarioRegistro); 
+            var resposta = await _autenticacaoService.Registro(usuarioRegistro);
 
-            //if (ResponsePossuiErros(resposta.ResponseResult)) return View(usuarioRegistro);
+            if (ResponsePossuiErros(resposta.ResponseResult)) return View(usuarioRegistro);
 
+            //APP Login
             await RealizarLogin(resposta);
 
             return RedirectToAction("Index", "Home");
@@ -59,7 +60,7 @@ namespace NSE.WebApp.MVC.Controllers
             //API - Login
             var resposta = await _autenticacaoService.Login(usuarioLogin); //retorna Obj com jwt, claims e demais infos
 
-            //if (ResponsePossuiErros(resposta.ResponseResult)) return View(usuarioLogin);
+            if (ResponsePossuiErros(resposta.ResponseResult)) return View(usuarioLogin);
 
             //Login na app
             await RealizarLogin(resposta);
