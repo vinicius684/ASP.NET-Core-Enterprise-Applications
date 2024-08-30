@@ -30,8 +30,7 @@ namespace NSE.Identidade.API.Extensions
         {
             if (httpRequestException.StatusCode == HttpStatusCode.Unauthorized) //401 - usuário não conhecido
             {
-                context.Response.Redirect("/login");
-                //context.Response.Redirect($"/login?ReturnUrl={context.Request.Path}");
+                context.Response.Redirect($"/login?ReturnUrl={context.Request.Path}"); //redireciona para o login e guarda a rota que vc estava antes, te possibilitando voltar para lá
                 return;
             }
 
