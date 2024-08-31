@@ -8,23 +8,24 @@ namespace NSE.WebApp.MVC.Services
 {
     public abstract class Service
     {
-        //protected StringContent ObterConteudo(object dado)
-        //{
-        //    return new StringContent(
-        //        JsonSerializer.Serialize(dado),
-        //        Encoding.UTF8,
-        //        "application/json");
-        //}
+        //o conteúdo(dado) a ser enviado no request deve ser serializado
+        protected StringContent ObterConteudo(object dado)
+        {
+            return new StringContent(//criar o corpo(Json) de uma requisição HTTP quando o conteúdo é uma string.
+                JsonSerializer.Serialize(dado),
+                Encoding.UTF8,
+                "application/json");//colocado no header da requisição
+        }
 
-        //protected async Task<T> DeserializarObjetoResponse<T>(HttpResponseMessage responseMessage)
-        //{
-        //    var options = new JsonSerializerOptions
-        //    {
-        //        PropertyNameCaseInsensitive = true
-        //    };
+        protected async Task<T> DeserializarObjetoResponse<T>(HttpResponseMessage responseMessage)
+        {
+            var options = new JsonSerializerOptions//Não vai ligar para maiusculo e minusco(nome atributos) para deserializar o Json recebido para meu objeto UsuarioRepostaLogin
+            {
+                PropertyNameCaseInsensitive = true
+            };
 
-        //    return JsonSerializer.Deserialize<T>(await responseMessage.Content.ReadAsStringAsync(), options);
-        //}
+            return JsonSerializer.Deserialize<T>(await responseMessage.Content.ReadAsStringAsync(), options);
+        }
 
         protected bool TratarErrosResponse(HttpResponseMessage response)
         {
