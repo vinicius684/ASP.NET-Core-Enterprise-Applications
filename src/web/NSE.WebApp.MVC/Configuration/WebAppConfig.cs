@@ -1,12 +1,15 @@
 ﻿using NSE.Identidade.API.Extensions;
+using NSE.WebApp.MVC.Extensions;
 
 namespace NSE.WebApp.MVC.Configuration
 {
     public static class WebAppConfig
     {
-        public static IServiceCollection AddMvcConfiguration(this IServiceCollection services) //ExtensionMethod de Services
+        public static IServiceCollection AddMvcConfiguration(this IServiceCollection services, IConfiguration configuration) //ExtensionMethod de Services
         {
             services.AddControllersWithViews();
+
+            services.Configure<AppSettings>(configuration);
 
             return services;
         }
