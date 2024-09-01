@@ -4,38 +4,38 @@
     ViewData["Title"] = "Log in";
 }
 
-<h1>@ViewData["Title"]</h1>
-<div class="row">
-    <div class="col-md-12">
-        <section>
+
+<section class="section-conten padding-y container" style="min-height:45vh">
+
+    <vc:Summary></vc:Summary>
+
+    <div class="card mx-auto" style="max-width: 380px; margin-top: 100px;">
+
+        <div class="card-body">
+            <h4 class="card-title mb-4">Seja bem vindo!</h4>
             <form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
-                <h4>Seja bem vindo e boas compras</h4>
-                <hr />
-
-                <vc:Summary></vc:Summary>
-
                 <div class="form-group">
                     <label asp-for="Email"></label>
                     <input asp-for="Email" class="form-control" />
                     <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
+
                 <div class="form-group">
                     <label asp-for="Senha"></label>
                     <input type="password" asp-for="Senha" class="form-control" />
                     <span asp-validation-for="Senha" class="text-danger"></span>
                 </div>
+
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary-submit">Entrar</button>
-                </div>
-                <div class="form-group">
-                    <p>
-                        <a asp-action="Registro" asp-controller="Identidade">Criar uma conta</a>
-                    </p>
+                    <button type="submit" class="btn btn-primary btn-block">Entrar</button>
                 </div>
             </form>
-        </section>
+        </div>
+        <div class="card-footer text-center">Ainda não tem uma conta?<a asp-controller="Identidade" asp-action="Registro"> Criar uma conta</a></div>
     </div>
-</div>
+
+</section>
+
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
