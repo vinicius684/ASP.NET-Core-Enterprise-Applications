@@ -170,3 +170,6 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-C
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Catalogo.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Catalogo.API\bin\Debug\net8.0\NSE.Core.dll
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Catalogo.API\bin\Debug\net8.0\NSE.Core.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Catalogo.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Catalogo.API\bin\Debug\net8.0\NSE.WebAPI.Core.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Catalogo.API\bin\Debug\net8.0\NSE.WebAPI.Core.pdb

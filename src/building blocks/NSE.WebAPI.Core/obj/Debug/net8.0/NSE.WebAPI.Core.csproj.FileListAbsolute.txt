@@ -1,0 +1,13 @@
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\building blocks\NSE.WebAPI.Core\bin\Debug\net8.0\NSE.WebAPI.Core.deps.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\building blocks\NSE.WebAPI.Core\bin\Debug\net8.0\NSE.WebAPI.Core.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\building blocks\NSE.WebAPI.Core\bin\Debug\net8.0\NSE.WebAPI.Core.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\NSE.WebAPI.Core.csproj.AssemblyReference.cache
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\NSE.WebAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\NSE.WebAPI.Core.AssemblyInfoInputs.cache
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\NSE.WebAPI.Core.AssemblyInfo.cs
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\NSE.WebAPI.Core.csproj.CoreCompileInputs.cache
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\NSE.WebAPI.Core.sourcelink.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\NSE.WebAPI.Core.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\refint\NSE.WebAPI.Core.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\NSE.WebAPI.Core.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\building blocks\NSE.WebAPI.Core\obj\Debug\net8.0\ref\NSE.WebAPI.Core.dll
