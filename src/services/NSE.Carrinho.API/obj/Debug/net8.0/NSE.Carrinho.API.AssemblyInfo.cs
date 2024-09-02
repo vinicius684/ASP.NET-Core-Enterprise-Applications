@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NSE.Carrinho.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57f0af8cd149e184931342efda2355a03d528a86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f9d7cf6b72e92b3c97a8692b213cef3abf50128")]
 [assembly: System.Reflection.AssemblyProductAttribute("NSE.Carrinho.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NSE.Carrinho.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
