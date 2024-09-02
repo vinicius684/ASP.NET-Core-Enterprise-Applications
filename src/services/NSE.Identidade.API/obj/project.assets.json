@@ -1708,6 +1708,19 @@
             "rid": "win"
           }
         }
+      },
+      "NSE.WebAPI.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8"
+        },
+        "compile": {
+          "bin/placeholder/NSE.WebAPI.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NSE.WebAPI.Core.dll": {}
+        }
       }
     }
   },
@@ -4728,6 +4741,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "NSE.WebAPI.Core/1.0.0": {
+      "type": "project",
+      "path": "../../building blocks/NSE.WebAPI.Core/NSE.WebAPI.Core.csproj",
+      "msbuildProject": "../../building blocks/NSE.WebAPI.Core/NSE.WebAPI.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4741,6 +4759,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.8",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.20.1",
+      "NSE.WebAPI.Core >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -4775,7 +4794,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj": {
+              "projectPath": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

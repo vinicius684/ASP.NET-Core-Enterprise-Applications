@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NSE.WebAPI.Core.Identidade;
 
 namespace NSE.Identidade.API.Configuration
 {
@@ -26,7 +27,7 @@ namespace NSE.Identidade.API.Configuration
 
             app.UseRouting();//utilize esquema de rotas
 
-            app.UseIdentityConfiguration(); //ExtensionMethod de Useidentity está aqui pois  app.UseAuthentication(); app.UseAuthorization() precisam estar extamente entre UseRouting e MapControllers
+            app.UseAuthConfiguration(); //ExtensionMethod de Useidentity está aqui pois  app.UseAuthentication(); app.UseAuthorization() precisam estar extamente entre UseRouting e MapControllers
 
             app.MapControllers();
 
