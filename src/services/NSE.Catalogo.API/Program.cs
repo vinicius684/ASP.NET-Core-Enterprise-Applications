@@ -1,39 +1,18 @@
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using NSE.Catalogo.API.Data;
-using NSE.Catalogo.API.Data.Repository;
-using NSE.Catalogo.API.Models;
+
+using NSE.Catalogo.API.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-var configuration = builder.Configuration;
+builder.Services.AddApiConfiguration(builder.Configuration);//
 
-builder.Services.AddDbContext<CatalogoContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddSwaggerConfiguration();//
 
-builder.Services.AddControllers();
-
-builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
-builder.Services.AddScoped<CatalogoContext>();
-
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.RegisterServices();//
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwaggerConfiguration();
 
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
+app.UseApiConfiguration(builder.Environment);//
 
 app.Run();
