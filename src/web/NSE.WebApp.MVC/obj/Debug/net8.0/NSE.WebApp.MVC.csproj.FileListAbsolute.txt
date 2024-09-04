@@ -74,3 +74,4 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-C
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\web\NSE.WebApp.MVC\bin\Debug\net8.0\Microsoft.Extensions.Http.Polly.dll
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\web\NSE.WebApp.MVC\bin\Debug\net8.0\Polly.dll
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\web\NSE.WebApp.MVC\bin\Debug\net8.0\Polly.Extensions.Http.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\web\NSE.WebApp.MVC\obj\Debug\net8.0\NSE.WebApp.MVC.MvcApplicationPartsAssemblyInfo.cache

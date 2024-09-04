@@ -1,5 +1,7 @@
-﻿using NSE.Identidade.API.Extensions;
+﻿using Microsoft.AspNetCore.Localization;
+using NSE.Identidade.API.Extensions;
 using NSE.WebApp.MVC.Extensions;
+using System.Globalization;
 
 namespace NSE.WebApp.MVC.Configuration
 {
@@ -33,6 +35,14 @@ namespace NSE.WebApp.MVC.Configuration
             app.UseRouting();
 
             app.UseIdentityConfiguration();
+
+            var supportedCultures = new[] { new CultureInfo("pt-BR") }; //se quisesse dar suporte a várias culturas, acultura escolhida poderia estar sendo passada via parâmetro na sua rota ou persistida num cookie
+            app.UseRequestLocalization(new RequestLocalizationOptions 
+            {
+                DefaultRequestCulture = new RequestCulture("pt-BR"),
+                SupportedCultures = supportedCultures,
+                SupportedUICultures = supportedCultures
+            });
 
             app.UseMiddleware<ExceptionMiddleware>();//sendo declarado após os middlewares de redirecionamento genéricos, pois no response os middlewares são executados na ordem iversa
 
