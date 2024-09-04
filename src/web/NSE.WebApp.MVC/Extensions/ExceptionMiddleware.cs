@@ -1,4 +1,5 @@
 ﻿using NSE.WebApp.MVC.Extensions;
+using Refit;
 using System.Net;
 
 namespace NSE.Identidade.API.Extensions
@@ -22,19 +23,29 @@ namespace NSE.Identidade.API.Extensions
             }
             catch (CustomHttpRequestException ex)
             {
-                HandleRequestExceptionAsync(httpContext, ex);
+                HandleRequestExceptionAsync(httpContext, ex.StatusCode);
+            }
+            catch (ValidationApiException ex)//exception refit
+            {
+                HandleRequestExceptionAsync(httpContext, ex.StatusCode);
+            }
+            catch (ApiException ex) //exception refit
+            {
+                HandleRequestExceptionAsync(httpContext, ex.StatusCode);
             }
         }
 
-        private static void HandleRequestExceptionAsync(HttpContext context, CustomHttpRequestException httpRequestException)
+        private static void HandleRequestExceptionAsync(HttpContext context, HttpStatusCode statusCode)
         {
-            if (httpRequestException.StatusCode == HttpStatusCode.Unauthorized) //401 - usuário não conhecido
+            if (statusCode == HttpStatusCode.Unauthorized)//401 - usuário não conhecido
             {
-                context.Response.Redirect($"/login?ReturnUrl={context.Request.Path}"); //redireciona para o login e guarda a rota que vc estava antes, te possibilitando voltar para lá
+                context.Response.Redirect($"/login?ReturnUrl={context.Request.Path}");//redireciona para o login e guarda a rota que vc estava antes, te possibilitando voltar para lá
                 return;
             }
 
-            context.Response.StatusCode = (int)httpRequestException.StatusCode; //caso não seja 401, vai ser o statusCode da minha exception
+            context.Response.StatusCode = (int)statusCode;//caso não seja 401, vai ser o statusCode da minha exception
         }
+
+
     }
 }

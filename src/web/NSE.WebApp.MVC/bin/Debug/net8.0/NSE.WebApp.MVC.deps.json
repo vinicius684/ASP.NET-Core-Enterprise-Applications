@@ -9,7 +9,8 @@
       "NSE.WebApp.MVC/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8",
-          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.20.1"
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.20.1",
+          "Refit": "7.1.2"
         },
         "runtime": {
           "NSE.WebApp.MVC.dll": {}
@@ -92,6 +93,17 @@
         }
       },
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.20.1": {},
+      "Refit/7.1.2": {
+        "dependencies": {
+          "System.Net.Http.Json": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Refit.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.2.1"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.1.2": {
         "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "7.1.2",
@@ -102,6 +114,17 @@
             "assemblyVersion": "7.1.2.0",
             "fileVersion": "7.1.2.41121"
           }
+        }
+      },
+      "System.Net.Http.Json/8.0.0": {
+        "dependencies": {
+          "System.Text.Json": "8.0.0"
+        }
+      },
+      "System.Text.Encodings.Web/8.0.0": {},
+      "System.Text.Json/8.0.0": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "8.0.0"
         }
       }
     }
@@ -168,12 +191,40 @@
       "path": "microsoft.visualstudio.azure.containers.tools.targets/1.20.1",
       "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.20.1.nupkg.sha512"
     },
+    "Refit/7.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZB1ZgciDq/lNz3OAPfYah4rCVYeI4LMxEksYUff8p4Bth9uf/8WQCXuzMckRJjh3NLysuwdCNkgxnezCm1SqTw==",
+      "path": "refit/7.1.2",
+      "hashPath": "refit.7.1.2.nupkg.sha512"
+    },
     "System.IdentityModel.Tokens.Jwt/7.1.2": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-Thhbe1peAmtSBFaV/ohtykXiZSOkx59Da44hvtWfIMFofDA3M3LaVyjstACf2rKGn4dEDR2cUpRAZ0Xs/zB+7Q==",
       "path": "system.identitymodel.tokens.jwt/7.1.2",
       "hashPath": "system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512"
+    },
+    "System.Net.Http.Json/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-48Bxrd6zcGeQzS4GMEDVjuqCcAw/9wcEWnIu48FQJ5IzfKPiMR1nGtz9LrvGzU4+3TLbx/9FDlGmCUeLin1Eqg==",
+      "path": "system.net.http.json/8.0.0",
+      "hashPath": "system.net.http.json.8.0.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yev/k9GHAEGx2Rg3/tU6MQh4HGBXJs70y7j1LaM1i/ER9po+6nnQ6RRqTJn1E7Xu0fbIFK80Nh5EoODxrbxwBQ==",
+      "path": "system.text.encodings.web/8.0.0",
+      "hashPath": "system.text.encodings.web.8.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OdrZO2WjkiEG6ajEFRABTRCi/wuXQPxeV6g8xvUJqdxMvvuCCEk86zPla8UiIQJz3durtUEbNyY/3lIhS0yZvQ==",
+      "path": "system.text.json/8.0.0",
+      "hashPath": "system.text.json.8.0.0.nupkg.sha512"
     }
   }
 }

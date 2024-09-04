@@ -16,7 +16,7 @@ builder.Services.AddIdentityConfiguration();//
 
 builder.Services.AddMvcConfiguration(builder.Configuration);//
 
-builder.Services.RegisterServices();//
+builder.Services.RegisterServices(builder.Configuration);//
 
 
 
