@@ -3,6 +3,7 @@ using NSE.WebApp.MVC.Services;
 using NSE.WebApp.MVC.Services.Handlers;
 using Polly;
 using Polly.Extensions.Http;
+using Polly.Retry;
 
 namespace NSE.WebApp.MVC.Configuration
 {
@@ -14,26 +15,17 @@ namespace NSE.WebApp.MVC.Configuration
 
             services.AddHttpClient<IAutenticacaoService, AutenticacaoService>(); //forma de configurar e gerenciar instancias HttpClient
 
-            var retryWaitPolicy = HttpPolicyExtensions
-                .HandleTransientHttpError()
-                .WaitAndRetryAsync(new[]
-                {
-                    TimeSpan.FromSeconds(1),
-                    TimeSpan.FromSeconds(5),
-                    TimeSpan.FromSeconds(10)
-                }, (outcome, timespan, retryCount, context) =>
-                {
-                    Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($"Tentando pela {retryCount} vez!");
-                    Console.ForegroundColor = ConsoleColor.White;
-                });
-
             services.AddHttpClient<ICatalogoService, CatalogoService>()
                 .AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>() //colocando o Handler para manipular meu request do HttpClient                                                           
-                    //.AddTransientHttpErrorPolicy( 
-                    // p => p.WaitAndRetryAsync(3, _ => TimeSpan.FromMilliseconds(600))); Policy Padrão
-                    .AddPolicyHandler(retryWaitPolicy); //Policy Handle
-   
+                                                                                   //.AddTransientHttpErrorPolicy( 
+                                                                                   // p => p.WaitAndRetryAsync(3, _ => TimeSpan.FromMilliseconds(600))); 1 - Policy simples Padrão
+                 .AddPolicyHandler(PollyExtensions.EsperarTentar()) //2 - Policy Handle
+                 .AddTransientHttpErrorPolicy(
+                     p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));//Circuit Breaker - Parâmetros n vezs que a app deve falhar(pega multiplos usuários) e o tempo que deve esperar até tentar novamente
+
+
+
+
             #region Refit
             //Refit para ICatalogoService
             //services.AddHttpClient("Refit", options =>
@@ -47,6 +39,28 @@ namespace NSE.WebApp.MVC.Configuration
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>(); //singleton porque trata-se de uma ferramenta que chama o HttpContext que é scoped e trata cada usuário(requisição) como unico
             services.AddScoped<IUser, AspNetUser>();
+        }
+    }
+
+    public class PollyExtensions
+    {
+        public static AsyncRetryPolicy<HttpResponseMessage> EsperarTentar()
+        {
+            var retry = HttpPolicyExtensions
+                .HandleTransientHttpError()
+                .WaitAndRetryAsync(new[]
+                {
+                    TimeSpan.FromSeconds(1),
+                    TimeSpan.FromSeconds(5),
+                    TimeSpan.FromSeconds(10),
+                }, (outcome, timespan, retryCount, context) =>
+                {
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.WriteLine($"Tentando pela {retryCount} vez!");
+                    Console.ForegroundColor = ConsoleColor.White;
+                });
+
+            return retry;
         }
     }
 }

@@ -39,7 +39,7 @@ namespace NSE.WebApp.MVC.Controllers
             //APP Login
             await RealizarLogin(resposta);
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Catalogo");
         }
 
         [HttpGet]
@@ -65,7 +65,7 @@ namespace NSE.WebApp.MVC.Controllers
             //Login na app
             await RealizarLogin(resposta);
 
-            if (string.IsNullOrEmpty(returnUrl)) return RedirectToAction("Index", "Home");
+            if (string.IsNullOrEmpty(returnUrl)) return RedirectToAction("Index", "Catalogo");
 
             return LocalRedirect(returnUrl);
         }
@@ -75,7 +75,7 @@ namespace NSE.WebApp.MVC.Controllers
         public async Task<IActionResult> Logout() //Limpar o cookie de autenticação para que o usuário não seja mais entendido como um usário logado
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Catalogo");
         }
 
         private async Task RealizarLogin(UsuarioRespostaLogin resposta)

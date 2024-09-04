@@ -1,4 +1,5 @@
 ﻿using NSE.WebApp.MVC.Extensions;
+using Polly.CircuitBreaker;
 using Refit;
 using System.Net;
 
@@ -33,6 +34,10 @@ namespace NSE.Identidade.API.Extensions
             {
                 HandleRequestExceptionAsync(httpContext, ex.StatusCode);
             }
+            catch (BrokenCircuitException)
+            {
+                HandleCircuitBreakerExceptionAsync(httpContext);
+            }
         }
 
         private static void HandleRequestExceptionAsync(HttpContext context, HttpStatusCode statusCode)
@@ -46,6 +51,10 @@ namespace NSE.Identidade.API.Extensions
             context.Response.StatusCode = (int)statusCode;//caso não seja 401, vai ser o statusCode da minha exception
         }
 
+        private static void HandleCircuitBreakerExceptionAsync(HttpContext context)
+        {
+            context.Response.Redirect("/sistema-indisponivel");
+        }
 
     }
 }

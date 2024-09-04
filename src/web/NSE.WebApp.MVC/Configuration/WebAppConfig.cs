@@ -32,11 +32,13 @@ namespace NSE.WebApp.MVC.Configuration
 
             app.UseRouting();
 
+            app.UseIdentityConfiguration();
+
             app.UseMiddleware<ExceptionMiddleware>();//sendo declarado após os middlewares de redirecionamento genéricos, pois no response os middlewares são executados na ordem iversa
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Catalogo}/{action=Index}/{id?}"
+                 pattern: "{controller=Catalogo}/{action=Index}/{id?}"
             );
 
 
