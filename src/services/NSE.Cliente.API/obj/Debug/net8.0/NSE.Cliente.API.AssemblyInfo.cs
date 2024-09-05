@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NSE.Cliente.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b24303aebfa253ab6f5d54f0de0c31557105aff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b99954c4d379327b492de92a179fedc0e8f3cf5")]
 [assembly: System.Reflection.AssemblyProductAttribute("NSE.Cliente.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NSE.Cliente.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
