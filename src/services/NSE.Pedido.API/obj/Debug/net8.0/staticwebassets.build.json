@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "2jPSd9ULiIV1KG7+3kqxgqdTrOKWzMniVr8vmL8Pk/0=",
-  "Source": "NSE.Pedido.API",
-  "BasePath": "_content/NSE.Pedido.API",
+  "Hash": "yhR4idq2sIy454AEMxvQAKRrYfbmpDZqcLoqRmPbtdY=",
+  "Source": "NSE.Pedidos.API",
+  "BasePath": "_content/NSE.Pedidos.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

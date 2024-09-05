@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NSE.Pedidos.API.props" />
+</Project>

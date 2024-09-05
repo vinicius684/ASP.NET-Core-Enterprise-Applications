@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "GalmeaH93etuFp9wS3rg+QmN5hkJ6M34/kB9RfgLFow=",
-  "Source": "NSE.Cliente.API",
-  "BasePath": "_content/NSE.Cliente.API",
+  "Hash": "rChjMKTYMsvxSJ/X1fjT8MEbtITBBTxF6JLPRJsofoM=",
+  "Source": "NSE.Clientes.API",
+  "BasePath": "_content/NSE.Clientes.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

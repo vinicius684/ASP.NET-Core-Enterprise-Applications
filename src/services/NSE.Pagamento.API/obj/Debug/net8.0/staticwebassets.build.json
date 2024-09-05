@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "+v+zeC4xGh9w+bBqX2BWM7qOLs1jVjQ+4piBCdZkdRY=",
-  "Source": "NSE.Pagamento.API",
-  "BasePath": "_content/NSE.Pagamento.API",
+  "Hash": "nCS9dig4fvWC/BnJz4O2klv32oQ/UYtmialCpnp7/e4=",
+  "Source": "NSE.Pagamentos.API",
+  "BasePath": "_content/NSE.Pagamentos.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
