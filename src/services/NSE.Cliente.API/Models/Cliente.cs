@@ -5,7 +5,7 @@ namespace NSE.Clientes.API.Models
     public class Cliente : Entity, IAggregateRoot
     {
         public string Nome { get; private set; }
-        public Email Email { get; private set; } //Email e cpf não devem ser representados por ´string, segundo o DDD devemos especilizar no domínio principalmente quando há validação
+        public Email Email { get; private set; } //Email e cpf não devem ser representados por ´string, segundo o DDD devemos especilizar no domínio principalmente quando há validação - obs: forma diferente de mapear na mapping
         public Cpf Cpf { get; private set; }
         public bool Excluido { get; private set; }
         public Endereco Endereco { get; private set; }
