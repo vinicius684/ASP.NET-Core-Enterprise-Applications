@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NSE.Catalogo.API.Models;
+using NSE.WebAPI.Core.Controllers;
 using NSE.WebAPI.Core.Identidade;
 
 namespace NSE.Catalogo.API.Controllers
@@ -10,9 +11,8 @@ namespace NSE.Catalogo.API.Controllers
         Nesse caso como a entidade é simples, não tem problema retornar a entidade direto, agora quando a entidade tem mto mais 
         informações do que vc deseja mostrar, o ideal é que vc retorne um objeto response que represente sua entidade.
      */
-    [ApiController]
     [Authorize]
-    public class CatalogoController : Controller
+    public class CatalogoController : MainController
     {
         private readonly IProdutoRepository _produtoRepository;
 

@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.AspNetCore.Mvc;
+using FluentValidation.Results;
 
-namespace NSE.Identidade.API.Controllers
+
+namespace NSE.WebAPI.Core.Controllers
 {
     [ApiController] //dizendo que é uma API controller, libera o entendimento dos schemas do swagger, com isso trafegar json e não formulário
     public abstract class MainController : Controller //abstract, só pode ser herdada
@@ -32,6 +34,17 @@ namespace NSE.Identidade.API.Controllers
             return CustomResponse();
         }
 
+        protected ActionResult CustomResponse(ValidationResult validationResult) //Sobrecarga, se for um erro de validação da VM. Onde vou receber o resultado da validação da VM
+        {
+       
+            foreach (var erro in validationResult.Errors)
+            {
+                AdicionarErroProcessamento(erro.ErrorMessage);
+            }
+
+            return CustomResponse();
+        }
+
         protected bool OperacaoValida()
         {
             return !Erros.Any();
@@ -48,3 +61,4 @@ namespace NSE.Identidade.API.Controllers
         }
     }
 }
+

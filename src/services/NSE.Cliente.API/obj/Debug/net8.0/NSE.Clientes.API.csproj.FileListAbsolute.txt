@@ -140,3 +140,6 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-C
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Cliente.API\obj\Debug\net8.0\NSE.Clientes.API.pdb
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Cliente.API\obj\Debug\net8.0\NSE.Clientes.API.genruntimeconfig.cache
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Cliente.API\obj\Debug\net8.0\ref\NSE.Clientes.API.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Cliente.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Cliente.API\bin\Debug\net8.0\MediatR.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Cliente.API\bin\Debug\net8.0\MediatR.Contracts.dll
