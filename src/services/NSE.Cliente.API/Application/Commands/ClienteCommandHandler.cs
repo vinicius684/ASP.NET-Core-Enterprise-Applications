@@ -2,12 +2,14 @@
 using FluentValidation.Results;
 using NSE.Clientes.API.Models;
 using NSE.Core.Messages;
+using NSE.Clientes.API.Application.Events;
+using NSE.Core.Mediator;
 
 namespace NSE.Clientes.API.Application.Commands
 {
     public class ClienteCommandHandler : CommandHandler, IRequestHandler<RegistrarClienteCommand, ValidationResult>
     {
-        private readonly IClienteRepository _clienteRepository;
+        private readonly IClienteRepository _clienteRepository;  
 
         public ClienteCommandHandler(IClienteRepository clienteRepository)
         {
@@ -27,7 +29,10 @@ namespace NSE.Clientes.API.Application.Commands
                 AdicionarErro("Este CPF já está em uso.");
                 return ValidationResult;
             }
+
             _clienteRepository.Adicionar(cliente);
+
+            cliente.AdicionarEvento(new ClienteRegistradoEvent(message.Id, message.Nome, message.Email, message.Cpf));
 
             return await PersistirDados(_clienteRepository.UnitOfWork);//independente de salvar ou não, vai retornar o ValidationResult e quem for receber vai ter que dar um IsValid nesse VR para saber se a coisa funcionou bem ou não
         }
