@@ -21,17 +21,15 @@ namespace NSE.Identidade.API.Controllers
         private readonly UserManager<IdentityUser> _userManager;//gerenciar usuário
         private readonly AppSettings _appSettings;
 
-        private IBus _bus; //sem readonly pq vai ser manipulado
+        private IBus _bus; //sem readonly pq vai ser manipulado. Sem instanciação no construtor pois já crio instancia no CreateBus
 
         public AuthController(SignInManager<IdentityUser> signInManager, 
             UserManager<IdentityUser> userManager,
-            IOptions<AppSettings> appSettings,
-            IBus bus)//IOptions - opção de leitura que o prório asp.net te dá como suporte para ler aquivs de configuração
+            IOptions<AppSettings> appSettings)//IOptions - opção de leitura que o prório asp.net te dá como suporte para ler aquivs de configuração
         {
             _signInManager = signInManager;
             _userManager = userManager;
             _appSettings = appSettings.Value;
-            _bus = bus;
         }
 
         [HttpPost("nova-conta")]
