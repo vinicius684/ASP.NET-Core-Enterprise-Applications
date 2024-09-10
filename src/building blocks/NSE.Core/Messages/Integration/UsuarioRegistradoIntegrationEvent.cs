@@ -1,5 +1,6 @@
-﻿namespace NSE.Core.Messages.IntegrationEvent.cs
-{
+﻿namespace NSE.Core.Messages.Integration
+{ 
+
     public class UsuarioRegistradoIntegrationEvent : IntegrationEvent //usuario registrado, vai se tornar um cliente agora. Não está sendo colocada na api de autenticação porque ela tb pode ser usada por Cliente
     {
         public Guid id { get; private set; }

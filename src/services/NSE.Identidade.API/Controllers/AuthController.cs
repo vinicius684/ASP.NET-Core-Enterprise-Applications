@@ -9,6 +9,8 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using NSE.WebAPI.Core.Controllers;
+using NSE.Core.Messages.Integration;
+using EasyNetQ;
 
 namespace NSE.Identidade.API.Controllers
 {
@@ -19,13 +21,17 @@ namespace NSE.Identidade.API.Controllers
         private readonly UserManager<IdentityUser> _userManager;//gerenciar usuário
         private readonly AppSettings _appSettings;
 
+        private IBus _bus; //sem readonly pq vai ser manipulado
+
         public AuthController(SignInManager<IdentityUser> signInManager, 
             UserManager<IdentityUser> userManager,
-            IOptions<AppSettings> appSettings)//IOptions - opção de leitura que o prório asp.net te dá como suporte para ler aquivs de configuração
+            IOptions<AppSettings> appSettings,
+            IBus bus)//IOptions - opção de leitura que o prório asp.net te dá como suporte para ler aquivs de configuração
         {
             _signInManager = signInManager;
             _userManager = userManager;
             _appSettings = appSettings.Value;
+            _bus = bus;
         }
 
         [HttpPost("nova-conta")]
@@ -45,6 +51,9 @@ namespace NSE.Identidade.API.Controllers
 
             if (result.Succeeded)
             {
+                //Alguma coisa aqui => integração
+                var sucesso = await RegistrarCliente(usuarioRegistro);
+
                //await _signInManager.SignInAsync(user, isPersistent: false);//se o registro deu sucesso, não há necessidade de fazer o login a n ser que esteja trabalhando diretamente na aplicação que vai interpretar o usuário. Aqui só quero gerar o token pra alguem utilizar
                 return CustomResponse(await GerarJwt(usuarioRegistro.Email));
             }
@@ -56,6 +65,38 @@ namespace NSE.Identidade.API.Controllers
 
             return CustomResponse();
         }
+
+        private async Task<ResponseMessage> RegistrarCliente(UsuarioRegistro usuarioRegistro)
+        {
+            var usuario = await _userManager.FindByEmailAsync(usuarioRegistro.Email); //todas as infos do usuário principalmente o Id que o UsuarioRegistro não entrega
+
+            var usuarioRegistrado = new UsuarioRegistradoIntegrationEvent(
+                Guid.Parse(usuario.Id), usuarioRegistro.Nome, usuarioRegistro.Email, usuarioRegistro.Cpf);
+
+            _bus = RabbitHutch.CreateBus("host=localhost:5672");
+
+            var sucesso = await _bus.Rpc.RequestAsync<UsuarioRegistradoIntegrationEvent, ResponseMessage>(usuarioRegistrado);
+
+            return sucesso;
+        }
+
+        //private async Task<ResponseMessage> RegistrarCliente(UsuarioRegistro usuarioRegistro)
+        //{
+        //    var usuario = await _userManager.FindByEmailAsync(usuarioRegistro.Email);
+
+        //    var usuarioRegistrado = new UsuarioRegistradoIntegrationEvent(
+        //        Guid.Parse(usuario.Id), usuarioRegistro.Nome, usuarioRegistro.Email, usuarioRegistro.Cpf);
+
+        //    try
+        //    {
+        //        return await _bus.RequestAsync<UsuarioRegistradoIntegrationEvent, ResponseMessage>(usuarioRegistrado);
+        //    }
+        //    catch
+        //    {
+        //        await _userManager.DeleteAsync(usuario);
+        //        throw;
+        //    }
+        //}
 
         [HttpPost("autenticar")]
         public async Task<ActionResult> Login(UsuarioLogin usuarioLogin)
