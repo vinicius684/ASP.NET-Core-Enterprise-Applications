@@ -71,7 +71,10 @@ namespace NSE.Identidade.API.Controllers
             var usuarioRegistrado = new UsuarioRegistradoIntegrationEvent(
                 Guid.Parse(usuario.Id), usuarioRegistro.Nome, usuarioRegistro.Email, usuarioRegistro.Cpf);
 
-            _bus = RabbitHutch.CreateBus("host=localhost:5672");
+            //_bus = RabbitHutch.CreateBus("host=localhost:5672");
+
+            _bus = RabbitHutch.CreateBus("host=localhost:5672",
+             serviceRegister => serviceRegister.EnableNewtonsoftJson());
 
             var sucesso = await _bus.Rpc.RequestAsync<UsuarioRegistradoIntegrationEvent, ResponseMessage>(usuarioRegistrado);
 

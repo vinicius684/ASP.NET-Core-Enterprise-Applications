@@ -295,3 +295,11 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-C
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Identidade.API\bin\Debug\net8.0\NSE.WebAPI.Core.dll
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Identidade.API\bin\Debug\net8.0\NSE.WebAPI.Core.pdb
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Identidade.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Identidade.API\bin\Debug\net8.0\EasyNetQ.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Identidade.API\bin\Debug\net8.0\MediatR.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Identidade.API\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Identidade.API\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Identidade.API\bin\Debug\net8.0\NSE.Core.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Identidade.API\bin\Debug\net8.0\NSE.Core.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Identidade.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Identidade.API\bin\Debug\net8.0\EasyNetQ.Serialization.NewtonsoftJson.dll

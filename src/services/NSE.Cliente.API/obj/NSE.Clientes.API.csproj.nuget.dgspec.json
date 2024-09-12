@@ -208,6 +208,10 @@
               "target": "Package",
               "version": "[7.8.0, )"
             },
+            "EasyNetQ.Serialization.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.8.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"

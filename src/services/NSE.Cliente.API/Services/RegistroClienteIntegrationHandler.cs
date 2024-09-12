@@ -6,6 +6,7 @@ using NSE.Core.Mediator;
 using NSE.Core.Messages.Integration;
 
 
+
 namespace NSE.Clientes.API.Services
 {
     /*
@@ -14,7 +15,7 @@ namespace NSE.Clientes.API.Services
         pipeline da aplicação, ele processa tarefas de forma contínua e paralela, sem depender de um request específico.
      */
 
-    public class RegistroClienteIntegrationHandler : BackgroundService 
+    public class RegistroClienteIntegrationHandler : BackgroundService
     {
         private IBus _bus;
         private readonly IServiceProvider _serviceProvider;
@@ -26,7 +27,10 @@ namespace NSE.Clientes.API.Services
 
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            _bus = RabbitHutch.CreateBus("host=localhost:5672");
+            //_bus = RabbitHutch.CreateBus("host=localhost:5672");
+
+            _bus = RabbitHutch.CreateBus("host=localhost:5672",
+                 serviceRegister => serviceRegister.EnableNewtonsoftJson());
 
             _bus.Rpc.RespondAsync<UsuarioRegistradoIntegrationEvent, ResponseMessage>(async request => //esperar por uma classe UsuarioRegistradoIntegrationEvent e responder um ResponseMessage
                 new ResponseMessage(await RegistrarCliente(request)));

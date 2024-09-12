@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A610F9A5-24DA-4E1A-85D5-60AF93CAE539}|src\\building blocks\\NSE.Core\\NSE.Core.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\building blocks\\nse.core\\messages\\integrationevent.cs\\usuarioregistradointegrationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A610F9A5-24DA-4E1A-85D5-60AF93CAE539}|src\\building blocks\\NSE.Core\\NSE.Core.csproj|solutionrelative:src\\building blocks\\nse.core\\messages\\integrationevent.cs\\usuarioregistradointegrationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\services\\nse.identidade.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A610F9A5-24DA-4E1A-85D5-60AF93CAE539}|src\\building blocks\\NSE.Core\\NSE.Core.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\building blocks\\nse.core\\messages\\integrationevent.cs\\responsemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A610F9A5-24DA-4E1A-85D5-60AF93CAE539}|src\\building blocks\\NSE.Core\\NSE.Core.csproj|solutionrelative:src\\building blocks\\nse.core\\messages\\integrationevent.cs\\responsemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30F4370D-AE2A-4F6A-8974-8EAC5A2EE750}|src\\services\\NSE.Cliente.API\\NSE.Clientes.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\services\\nse.cliente.api\\services\\registroclienteintegrationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30F4370D-AE2A-4F6A-8974-8EAC5A2EE750}|src\\services\\NSE.Cliente.API\\NSE.Clientes.API.csproj|solutionrelative:src\\services\\nse.cliente.api\\services\\registroclienteintegrationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A610F9A5-24DA-4E1A-85D5-60AF93CAE539}|src\\building blocks\\NSE.Core\\NSE.Core.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\building blocks\\nse.core\\messages\\integrationevent.cs\\integrationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A610F9A5-24DA-4E1A-85D5-60AF93CAE539}|src\\building blocks\\NSE.Core\\NSE.Core.csproj|solutionrelative:src\\building blocks\\nse.core\\messages\\integrationevent.cs\\integrationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A610F9A5-24DA-4E1A-85D5-60AF93CAE539}|src\\building blocks\\NSE.Core\\NSE.Core.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\building blocks\\nse.core\\messages\\integration\\usuarioregistradointegrationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A610F9A5-24DA-4E1A-85D5-60AF93CAE539}|src\\building blocks\\NSE.Core\\NSE.Core.csproj|solutionrelative:src\\building blocks\\nse.core\\messages\\integration\\usuarioregistradointegrationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\UsuarioRegistradoIntegrationEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\UsuarioRegistradoIntegrationEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30F4370D-AE2A-4F6A-8974-8EAC5A2EE750}|src\\services\\NSE.Cliente.API\\NSE.Clientes.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\services\\nse.cliente.api\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -68,10 +72,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{64F90AC6-F659-4EFF-A81A-6F6AEC46CF33}|src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\building blocks\\nse.webapi.core\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64F90AC6-F659-4EFF-A81A-6F6AEC46CF33}|src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj|solutionrelative:src\\building blocks\\nse.webapi.core\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\services\\nse.identidade.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01E7CF7D-3E81-4810-811E-E33E0813D5F6}|src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\services\\nse.catalogo.api\\controllers\\catalogocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -628,6 +628,14 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vpinh\\AppData\\Roaming\\Microsoft\\UserSecrets\\ec5ade2b-5166-4afd-b25e-bee95dcebd7f\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\ResponseMessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\ResponseMessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\IntegrationEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\IntegrationEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -637,7 +645,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -649,33 +657,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioRegistradoIntegrationEvent.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\UsuarioRegistradoIntegrationEvent.cs",
-              "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\UsuarioRegistradoIntegrationEvent.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\UsuarioRegistradoIntegrationEvent.cs",
-              "RelativeToolTip": "src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\UsuarioRegistradoIntegrationEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T16:53:16.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ResponseMessage.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\ResponseMessage.cs",
-              "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\ResponseMessage.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\ResponseMessage.cs",
-              "RelativeToolTip": "src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\ResponseMessage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAwAAAA",
+              "Title": "RegistroClienteIntegrationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Services\\RegistroClienteIntegrationHandler.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Cliente.API\\Services\\RegistroClienteIntegrationHandler.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Services\\RegistroClienteIntegrationHandler.cs",
+              "RelativeToolTip": "src\\services\\NSE.Cliente.API\\Services\\RegistroClienteIntegrationHandler.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T16:50:40.462Z",
+              "WhenOpened": "2024-09-11T12:49:24.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "UsuarioRegistradoIntegrationEvent.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\Messages\\Integration\\UsuarioRegistradoIntegrationEvent.cs",
+              "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Messages\\Integration\\UsuarioRegistradoIntegrationEvent.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\Messages\\Integration\\UsuarioRegistradoIntegrationEvent.cs",
+              "RelativeToolTip": "src\\building blocks\\NSE.Core\\Messages\\Integration\\UsuarioRegistradoIntegrationEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T12:09:27.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioRegistradoIntegrationEvent.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\UsuarioRegistradoIntegrationEvent.cs",
+              "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\UsuarioRegistradoIntegrationEvent.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\UsuarioRegistradoIntegrationEvent.cs",
+              "RelativeToolTip": "src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\UsuarioRegistradoIntegrationEvent.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T16:53:16.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 159,
               "Title": "IntegrationEvent.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\IntegrationEvent.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\IntegrationEvent.cs",
@@ -683,12 +702,36 @@
               "RelativeToolTip": "src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\IntegrationEvent.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T16:42:32.677Z",
+              "WhenOpened": "2024-09-10T16:42:32.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T18:25:32.284Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 158,
+              "Title": "ResponseMessage.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\ResponseMessage.cs",
+              "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\ResponseMessage.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\ResponseMessage.cs",
+              "RelativeToolTip": "src\\building blocks\\NSE.Core\\Messages\\IntegrationEvent.cs\\ResponseMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T16:50:40.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\DomainObjects\\Entity.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\DomainObjects\\Entity.cs",
@@ -700,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ClientesContext.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Data\\ClientesContext.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Cliente.API\\Data\\ClientesContext.cs",
@@ -712,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UsuarioViewModel.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\web\\NSE.WebApp.MVC\\Models\\UsuarioViewModel.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Models\\UsuarioViewModel.cs",
@@ -724,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DependencyInjectionConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\web\\NSE.WebApp.MVC\\Configuration\\DependencyInjectionConfig.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Configuration\\DependencyInjectionConfig.cs",
@@ -736,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\web\\NSE.WebApp.MVC\\Views\\Shared\\Components\\Summary\\Default.cshtml",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Views\\Shared\\Components\\Summary\\Default.cshtml",
@@ -744,12 +787,11 @@
               "RelativeToolTip": "src\\web\\NSE.WebApp.MVC\\Views\\Shared\\Components\\Summary\\Default.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-29T17:31:36.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T17:31:36.06Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CpfAnnotation.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\web\\NSE.WebApp.MVC\\Extensions\\CpfAnnotation.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Extensions\\CpfAnnotation.cs",
@@ -761,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Cliente.API\\Models\\Cliente.cs",
@@ -769,12 +811,11 @@
               "RelativeToolTip": "src\\services\\NSE.Cliente.API\\Models\\Cliente.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAgwCAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T16:05:13.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T16:05:13.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Container.targets",
               "DocumentMoniker": "C:\\Users\\vpinh\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets",
@@ -786,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Identidade.API\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Data\\ApplicationDbContext.cs",
@@ -798,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\web\\NSE.WebApp.MVC\\Views\\Identidade\\Login.cshtml",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Views\\Identidade\\Login.cshtml",
@@ -810,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Registro.cshtml",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\web\\NSE.WebApp.MVC\\Views\\Identidade\\Registro.cshtml",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Views\\Identidade\\Registro.cshtml",
@@ -846,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ClientesController.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Cliente.API\\Controllers\\ClientesController.cs",
@@ -858,7 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CatalogoContext.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Catalogo.API\\Data\\CatalogoContext.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Data\\CatalogoContext.cs",
@@ -882,7 +923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "MainController.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.WebAPI.Core\\Controllers\\MainController.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.WebAPI.Core\\Controllers\\MainController.cs",
@@ -891,18 +932,6 @@
               "ViewState": "AQIAAAYAAAAAAAAAAAAqwAsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T17:09:45.003Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T18:25:32.284Z"
             },
             {
               "$type": "Document",
