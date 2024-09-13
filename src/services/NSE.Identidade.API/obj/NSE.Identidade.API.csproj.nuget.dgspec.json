@@ -56,6 +56,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.4.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -74,7 +78,89 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj",
+        "projectName": "NSE.MessageBus",
+        "projectPath": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj",
+        "packagesPath": "C:\\Users\\vpinh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.MessageBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vpinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
+                "projectPath": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\NSE.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EasyNetQ": {
+              "target": "Package",
+              "version": "[7.8.0, )"
+            },
+            "EasyNetQ.Serialization.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.8.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -148,7 +234,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -182,6 +268,9 @@
             "projectReferences": {
               "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
                 "projectPath": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\NSE.Core.csproj"
+              },
+              "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj": {
+                "projectPath": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj"
               },
               "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj": {
                 "projectPath": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj"
@@ -274,7 +363,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

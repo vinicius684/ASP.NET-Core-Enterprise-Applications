@@ -1595,7 +1595,8 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "FluentValidation": "11.9.2",
-          "MediatR": "12.4.0"
+          "MediatR": "12.4.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
         },
         "compile": {
           "bin/placeholder/NSE.Core.dll": {}
@@ -4538,7 +4539,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

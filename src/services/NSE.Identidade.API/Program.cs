@@ -8,6 +8,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.Extensions.Configuration;
 using NSE.Identidade.API.Extensions;
 using NSE.Identidade.API.Configuration;
+using NSE.identidade.API.Configuration;
 
 
 //Configura os serviços que a aplicação vai usar, registrando-os no container de DI.
@@ -27,6 +28,8 @@ builder.Services.AddIdentityConfiguration(builder.Configuration);//
 builder.Services.AddApiConfiguration();//
 
 builder.Services.AddSwaggerConfiguration();//
+
+builder.Services.AddMessageBusConfiguartion(builder.Configuration);
 
 //Configura o pipeline de requisições, adicionando middlewares que definem como cada requisição será tratada.
 var app = builder.Build();
