@@ -8,8 +8,8 @@ namespace NSE.MessageBus
 {
     public class MessageBus : IMessageBus //tenho um message Bus que abstrai o EasyNetQ, EasyNetQ abstrai a própria biblioteca do rabbit MQ pra .net, que abstrai a coneção com o rabbitMQ
     {
-        private IBus _bus;
-       // private IAdvancedBus _advancedBus;
+        private IBus _bus;//sem readonly pq vai ser manipulado. Sem instanciação no construtor pois já crio instancia no CreateBus
+                          // private IAdvancedBus _advancedBus;
 
         private readonly string _connectionString; //criar conexão com o buss aqui dentro
 

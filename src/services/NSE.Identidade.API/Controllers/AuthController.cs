@@ -11,6 +11,7 @@ using System.Text;
 using NSE.WebAPI.Core.Controllers;
 using NSE.Core.Messages.Integration;
 using EasyNetQ;
+using NSE.MessageBus;
 
 namespace NSE.Identidade.API.Controllers
 {
@@ -21,16 +22,19 @@ namespace NSE.Identidade.API.Controllers
         private readonly UserManager<IdentityUser> _userManager;//gerenciar usuário
         private readonly AppSettings _appSettings;
 
-        private IBus _bus; //sem readonly pq vai ser manipulado. Sem instanciação no construtor pois já crio instancia no CreateBus
+        private readonly IMessageBus _bus;
 
         public AuthController(SignInManager<IdentityUser> signInManager, 
             UserManager<IdentityUser> userManager,
-            IOptions<AppSettings> appSettings)//IOptions - opção de leitura que o prório asp.net te dá como suporte para ler aquivs de configuração
+            IOptions<AppSettings> appSettings,//IOptions - opção de leitura que o prório asp.net te dá como suporte para ler aquivs de configuração
+            IMessageBus bus)
         {
             _signInManager = signInManager;
             _userManager = userManager;
             _appSettings = appSettings.Value;
+            _bus = bus;
         }
+
 
         [HttpPost("nova-conta")]
         public async Task<ActionResult> Registrar(UsuarioRegistro usuarioRegistro)
@@ -49,10 +53,15 @@ namespace NSE.Identidade.API.Controllers
 
             if (result.Succeeded)
             {
-                //Alguma coisa aqui => integração
-                var sucesso = await RegistrarCliente(usuarioRegistro);
+                //Integração
+                var clienteReuslt = await RegistrarCliente(usuarioRegistro);
 
-               //await _signInManager.SignInAsync(user, isPersistent: false);//se o registro deu sucesso, não há necessidade de fazer o login a n ser que esteja trabalhando diretamente na aplicação que vai interpretar o usuário. Aqui só quero gerar o token pra alguem utilizar
+                if (!clienteReuslt.ValidationResult.IsValid) //tratamento regrade negócio, sucesso ou não da operação de criar clien
+                {
+                    await _userManager.DeleteAsync(user);
+                    return CustomResponse(clienteReuslt.ValidationResult);
+                }
+
                 return CustomResponse(await GerarJwt(usuarioRegistro.Email));
             }
 
@@ -64,40 +73,6 @@ namespace NSE.Identidade.API.Controllers
             return CustomResponse();
         }
 
-        private async Task<ResponseMessage> RegistrarCliente(UsuarioRegistro usuarioRegistro)
-        {
-            var usuario = await _userManager.FindByEmailAsync(usuarioRegistro.Email); //todas as infos do usuário principalmente o Id que o UsuarioRegistro não entrega
-
-            var usuarioRegistrado = new UsuarioRegistradoIntegrationEvent(
-                Guid.Parse(usuario.Id), usuarioRegistro.Nome, usuarioRegistro.Email, usuarioRegistro.Cpf);
-
-            //_bus = RabbitHutch.CreateBus("host=localhost:5672");
-
-            _bus = RabbitHutch.CreateBus("host=localhost:5672",
-             serviceRegister => serviceRegister.EnableNewtonsoftJson());
-
-            var sucesso = await _bus.Rpc.RequestAsync<UsuarioRegistradoIntegrationEvent, ResponseMessage>(usuarioRegistrado);
-
-            return sucesso;
-        }
-
-        //private async Task<ResponseMessage> RegistrarCliente(UsuarioRegistro usuarioRegistro)
-        //{
-        //    var usuario = await _userManager.FindByEmailAsync(usuarioRegistro.Email);
-
-        //    var usuarioRegistrado = new UsuarioRegistradoIntegrationEvent(
-        //        Guid.Parse(usuario.Id), usuarioRegistro.Nome, usuarioRegistro.Email, usuarioRegistro.Cpf);
-
-        //    try
-        //    {
-        //        return await _bus.RequestAsync<UsuarioRegistradoIntegrationEvent, ResponseMessage>(usuarioRegistrado);
-        //    }
-        //    catch
-        //    {
-        //        await _userManager.DeleteAsync(usuario);
-        //        throw;
-        //    }
-        //}
 
         [HttpPost("autenticar")]
         public async Task<ActionResult> Login(UsuarioLogin usuarioLogin)
@@ -122,6 +97,7 @@ namespace NSE.Identidade.API.Controllers
             return CustomResponse();
         }
 
+
         private async Task<UsuarioRespostaLogin> GerarJwt(string email)
         {
             var user = await _userManager.FindByEmailAsync(email); //obtenho user do identity
@@ -132,6 +108,7 @@ namespace NSE.Identidade.API.Controllers
 
             return ObterRespostaToken(encodedToken, user, claims); //Resposta final, representação do Usuário na minha app, contendo o Token
         }
+
 
         private async Task<ClaimsIdentity> ObterClaimsUsuario(ICollection<Claim> claims, IdentityUser user) //Populo Claims específica JWT e Roles Identity e devolto o Objeto ClaimIdentity esperado pelo user
         {
@@ -153,6 +130,7 @@ namespace NSE.Identidade.API.Controllers
             return identityClaims;
         }
 
+
         private string CodificarToken(ClaimsIdentity identityClaims) //Criação e  códigicação do JWT
         {
             var tokenHandler = new JwtSecurityTokenHandler();
@@ -169,6 +147,7 @@ namespace NSE.Identidade.API.Controllers
             return tokenHandler.WriteToken(token);
         }
 
+
         private UsuarioRespostaLogin ObterRespostaToken(string encodedToken, IdentityUser user, IEnumerable<Claim> claims) //Resposta representação do meu Usuário na app, contendo o token
         {
             return new UsuarioRespostaLogin
@@ -184,59 +163,29 @@ namespace NSE.Identidade.API.Controllers
             };
         }
 
+
         private static long ToUnixEpochDate(DateTime date) //pegar um data e transformar ela no padrão que o JWT espera, EpochDate
             => (long)Math.Round((date.ToUniversalTime() - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.Zero)).TotalSeconds);
+
+
+        private async Task<ResponseMessage> RegistrarCliente(UsuarioRegistro usuarioRegistro)
+        {
+            var usuario = await _userManager.FindByEmailAsync(usuarioRegistro.Email); //todas as infos do usuário principalmente o Id que o UsuarioRegistro não entrega
+
+            var usuarioRegistrado = new UsuarioRegistradoIntegrationEvent(
+                Guid.Parse(usuario.Id), usuarioRegistro.Nome, usuarioRegistro.Email, usuarioRegistro.Cpf);
+
+            try//tratamento de exception, erro no bus. Nesse caso vai "jogar a exception pra cima", a mvc vai pegar
+            {
+                return await _bus.RequestAsync<UsuarioRegistradoIntegrationEvent, ResponseMessage>(usuarioRegistrado);
+            }
+            catch
+            {
+                await _userManager.DeleteAsync(usuario);
+                throw;
+            }
+        }
 
     }
 }
 
-//Geração do JWT em método unico antes da refatoração
-//private async Task<UsuarioRespostaLogin> GerarJwt(string email)
-//{
-//    var user = await _userManager.FindByEmailAsync(email);
-//    var claims = await _userManager.GetClaimsAsync(user);
-//    var userRoles = await _userManager.GetRolesAsync(user);
-
-//    //Com base na coleção de claims obtida, vou adicionar essas 5 claims específicas para JWT. Infos douser passadas no token em formato de claims
-//    claims.Add(new Claim(JwtRegisteredClaimNames.Sub, user.Id));
-//    claims.Add(new Claim(JwtRegisteredClaimNames.Email, user.Email));
-//    claims.Add(new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()));
-//    claims.Add(new Claim(JwtRegisteredClaimNames.Nbf, ToUnixEpochDate(DateTime.UtcNow).ToString()));
-//    claims.Add(new Claim(JwtRegisteredClaimNames.Iat, ToUnixEpochDate(DateTime.UtcNow).ToString(), ClaimValueTypes.Integer64));
-
-//    foreach (var userRole in userRoles)
-//    {
-//        claims.Add(new Claim("role", userRole));
-//    }
-
-//    //objeto real da coleção de claims que aql usuário vai ter na representação dele no JWT - objeto esperado pelo Subject para representar as Claims do JWT 
-//    var identityClaims = new ClaimsIdentity();
-//    identityClaims.AddClaims(claims);
-
-//    var tokenHandler = new JwtSecurityTokenHandler();//vai pegar com base na chave que eu tenho e gerar meu token, utilizando infos da Instanciação de SecurityTokenDescriptor
-//    var key = Encoding.ASCII.GetBytes(_appSettings.Secret);
-//    var token = tokenHandler.CreateToken(new SecurityTokenDescriptor
-//    {
-//        Issuer = _appSettings.Emissor,
-//        Audience = _appSettings.ValidoEm,
-//        Subject = identityClaims,//Dados do user
-//        Expires = DateTime.UtcNow.AddHours(_appSettings.ExpiracaoHoras),//Duas hrs pra frente, no padrão UTC
-//        SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
-//    });
-
-//    var encodedToken = tokenHandler.WriteToken(token);//Tranforma o objeto SecurityToken gerado pelo CreateToken em uma string codificada em formato JWT que pode ser facilmente transportada
-
-//    var response = new UsuarioRespostaLogin
-//    {
-//        AccessToken = encodedToken,//meu token codificado
-//        ExpiresIn = TimeSpan.FromHours(_appSettings.ExpiracaoHoras).TotalSeconds,
-//        UsuarioToken = new UsuarioToken
-//        {
-//            Id = user.Id,
-//            Email = user.Email,
-//            Claims = claims.Select(c => new UsuarioClaim { Type = c.Type, Value = c.Value })
-//        }
-//    };
-
-//    return response;
-//}

@@ -5117,8 +5117,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "EasyNetQ >= 7.8.0",
-      "EasyNetQ.Serialization.NewtonsoftJson >= 7.8.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.8",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.8",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.8",
@@ -5193,14 +5191,6 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "EasyNetQ": {
-            "target": "Package",
-            "version": "[7.8.0, )"
-          },
-          "EasyNetQ.Serialization.NewtonsoftJson": {
-            "target": "Package",
-            "version": "[7.8.0, )"
-          },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[8.0.8, )"
