@@ -9,7 +9,7 @@ namespace NSE.MessageBus
     public class MessageBus : IMessageBus //tenho um message Bus que abstrai o EasyNetQ, EasyNetQ abstrai a própria biblioteca do rabbit MQ pra .net, que abstrai a coneção com o rabbitMQ
     {
         private IBus _bus;//sem readonly pq vai ser manipulado. Sem instanciação no construtor pois já crio instancia no CreateBus
-                          // private IAdvancedBus _advancedBus;
+        private IAdvancedBus _advancedBus;
 
         private readonly string _connectionString; //criar conexão com o buss aqui dentro
 
@@ -20,7 +20,7 @@ namespace NSE.MessageBus
         }
 
         public bool IsConnected => _bus?.Advanced.IsConnected ?? false;
-        //public IAdvancedBus AdvancedBus => _bus?.Advanced;
+        public IAdvancedBus AdvancedBus => _bus?.Advanced;//bus já foi setao, mas n tem problema nenhum obter a mesma propriedade de outro lugar. Dessa forma é interessante pois só vou ter advanced se o bus estiver conectado
 
         public void Publish<T>(T message) where T : IntegrationEvent
         {
@@ -89,19 +89,19 @@ namespace NSE.MessageBus
             policy.Execute(() =>
             {
                 _bus = RabbitHutch.CreateBus(_connectionString);
-                //_advancedBus = _bus.Advanced;
-                //_advancedBus.Disconnected += OnDisconnect;
+                _advancedBus = _bus.Advanced;
+                _advancedBus.Disconnected += OnDisconnect;
             });
         }
 
-        //private void OnDisconnect(object s, EventArgs e)
-        //{
-        //    var policy = Policy.Handle<EasyNetQException>()
-        //        .Or<BrokerUnreachableException>()
-        //        .RetryForever();
+        private void OnDisconnect(object s, EventArgs e) //essa policy é basicamente para app conectar mais rapido ao event bus
+        {
+            var policy = Policy.Handle<EasyNetQException>()
+                .Or<BrokerUnreachableException>()
+                .RetryForever(); 
 
-        //    policy.Execute(TryConnect);
-        //}
+            policy.Execute(TryConnect);
+        }
 
         public void Dispose()
         {

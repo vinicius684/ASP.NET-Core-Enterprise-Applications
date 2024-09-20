@@ -12,6 +12,7 @@ namespace NSE.Core.DomainObjects
 
         public Cpf(string numero)
         {
+            //numero = numero.ApenasNumeros(numero); // Remove caracteres especiais
             if (!Validar(numero)) throw new DomainException("CPF inválido");
             Numero = numero;
         }

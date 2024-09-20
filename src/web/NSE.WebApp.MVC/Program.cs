@@ -1,3 +1,4 @@
+using NSE.Core.Utils;
 using NSE.WebApp.MVC.Configuration;
 
 
@@ -19,7 +20,9 @@ builder.Services.AddMvcConfiguration(builder.Configuration);//
 builder.Services.RegisterServices(builder.Configuration);//
 
 
-
+string cpfComFormatacao = "733.970.050-19";
+string cpfSemFormatacao = cpfComFormatacao.ApenasNumeros(cpfComFormatacao);
+Console.WriteLine(cpfSemFormatacao); // Deve exibir "73397005019"
 
 var app = builder.Build();
 

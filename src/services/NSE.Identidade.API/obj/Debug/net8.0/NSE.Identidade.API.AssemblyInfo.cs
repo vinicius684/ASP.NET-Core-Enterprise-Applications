@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NSE.Identidade.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a60dc0201739946a9fe90420d4ec72aabfb41acc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb13ddce24a84e9c8e9a96282c9b524af504356f")]
 [assembly: System.Reflection.AssemblyProductAttribute("NSE.Identidade.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NSE.Identidade.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

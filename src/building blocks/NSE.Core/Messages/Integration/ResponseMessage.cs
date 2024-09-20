@@ -15,7 +15,7 @@ namespace NSE.Core.Messages.Integration
 
         public ResponseMessage(ValidationResult validationResult) 
         {
-            validationResult = validationResult;
+            ValidationResult = validationResult;
         }
     }
 }

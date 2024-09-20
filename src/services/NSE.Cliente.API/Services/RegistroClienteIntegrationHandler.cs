@@ -27,12 +27,25 @@ namespace NSE.Clientes.API.Services
             _bus = bus;
         }
 
+        private void SetResponder() 
+        {
+
+            _bus.RespondAsync<UsuarioRegistradoIntegrationEvent, ResponseMessage>(async request => //esperar por uma classe UsuarioRegistradoIntegrationEvent e responder um ResponseMessage
+               await RegistrarCliente(request));
+
+            _bus.AdvancedBus.Connected += OnConnect; //evento - quando o bus-advancedbus estiver connectado - reativa as assinaturas para eventos após uma reconexão
+        }
+
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            _bus.RespondAsync<UsuarioRegistradoIntegrationEvent, ResponseMessage>(async request => //esperar por uma classe UsuarioRegistradoIntegrationEvent e responder um ResponseMessage
-                await RegistrarCliente(request));
+            SetResponder();
 
             return Task.CompletedTask;
+        }
+
+        private void OnConnect(object s, EventArgs e)
+        {
+            SetResponder(); //background só inicializa uma vez, logo se a coneção é perdida, ela não é exatamente recriada, logo recriando o bus e sua assinatura
         }
 
         private async Task<ResponseMessage> RegistrarCliente(UsuarioRegistradoIntegrationEvent message)

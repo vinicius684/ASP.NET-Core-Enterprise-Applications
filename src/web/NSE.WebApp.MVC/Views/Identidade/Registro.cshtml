@@ -13,7 +13,7 @@
         <div class="card-body">
             <h4 class="card-title mb-4">Seja bem vindo!</h4>
 
-            <form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+            <form id="meuFormulario" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
                  <div class="form-group">
                     <label asp-for="Nome"></label>
                     <input asp-for="Nome" class="form-control" />
@@ -21,8 +21,8 @@
                 </div>
 
                 <div class="form-group">
-                    <label asp-for="Cpf"></label>
-                    <input asp-for="Cpf" class="form-control" />
+                    <label for="cpf" asp-for="Cpf"></label>
+                    <input type="text" id="cpf" name="cpf" maxlength="14" required asp-for="Cpf" class="form-control" />
                     <span asp-validation-for="Cpf" class="text-danger"></span>
                 </div>
 
@@ -56,3 +56,26 @@
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }
+
+<script>
+// Função para formatar o CPF enquanto o usuário digita
+document.getElementById('cpf').addEventListener('input', function (e) {
+    let value = e.target.value;
+
+    // Remove qualquer caractere que não seja número
+    value = value.replace(/\D/g, '');
+
+    // Adiciona os pontos e o traço da formatação do CPF
+    if (value.length > 3) value = value.slice(0, 3) + '.' + value.slice(3);
+    if (value.length > 7) value = value.slice(0, 7) + '.' + value.slice(7);
+    if (value.length > 11) value = value.slice(0, 11) + '-' + value.slice(11, 13);
+
+    e.target.value = value;
+});
+
+// Antes de enviar, remove a formatação (pontos e traço)
+document.getElementById('meuFormulario').addEventListener('submit', function (e) {
+    const cpfInput = document.getElementById('cpf');
+    cpfInput.value = cpfInput.value.replace(/\D/g, ''); // Remove todos os não numéricos
+});ElonM
+</script>

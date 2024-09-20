@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "NSE.Clientes.API.Controllers.ClientesController",
+    "Method": "Index",
+    "RelativePath": "clientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
