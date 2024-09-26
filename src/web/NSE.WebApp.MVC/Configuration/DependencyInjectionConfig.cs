@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc.DataAnnotations;
+using NSE.WebAPI.Core.Usuario;
 using NSE.WebApp.MVC.Extensions;
 using NSE.WebApp.MVC.Services;
 using NSE.WebApp.MVC.Services.Handlers;
@@ -41,7 +42,7 @@ namespace NSE.WebApp.MVC.Configuration
 
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>(); //singleton porque trata-se de uma ferramenta que chama o HttpContext que é scoped e trata cada usuário(requisição) como unico
-            services.AddScoped<IUser, AspNetUser>();
+            services.AddScoped<IAspNetUser, AspNetUser>();
         }
     }
 

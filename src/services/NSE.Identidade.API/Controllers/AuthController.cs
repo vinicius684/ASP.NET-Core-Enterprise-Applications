@@ -60,6 +60,7 @@ namespace NSE.Identidade.API.Controllers
                 {
                     await _userManager.DeleteAsync(user);
                     return CustomResponse(clienteReuslt.ValidationResult);
+                    throw new Exception("Erro ao validar o cliente");
                 }
 
                 return CustomResponse(await GerarJwt(usuarioRegistro.Email));
