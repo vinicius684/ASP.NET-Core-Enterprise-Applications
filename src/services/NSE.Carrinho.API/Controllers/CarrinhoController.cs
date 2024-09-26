@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using NSE.Carrinho.API.Data;
 using NSE.Carrinho.API.Model;
 using NSE.WebAPI.Core.Controllers;
@@ -23,21 +24,23 @@ namespace NSE.Carrinho.API.Controllers
         [HttpGet("carrinho")]
         public async Task<CarrinhoCliente> ObterCarrinho()
         {
-            //return await ObterCarrinhoCliente() ?? new CarrinhoCliente();
-            return null;
+            return await ObterCarrinhoCliente() ?? new CarrinhoCliente(); //caso o carrinho retornado seja nulo, retorna um instancia de carrinho
         }
 
         [HttpPost("carrinho")]
         public async Task<IActionResult> AdicionarItemCarrinho(CarrinhoItem item)
         {
-            //var carrinho = await ObterCarrinhoCliente();
+            var carrinho = await ObterCarrinhoCliente();
 
-            //if (carrinho == null)
-            //    ManipularNovoCarrinho(item);
-            //else
-            //    ManipularCarrinhoExistente(carrinho, item);
+            if (carrinho == null)
+                ManipularNovoCarrinho(item);
+            else
+                ManipularCarrinhoExistente(carrinho, item);
 
-            //if (!OperacaoValida()) return CustomResponse();
+            if (!OperacaoValida()) return CustomResponse();
+
+            var result = await _context.SaveChangesAsync();
+            if (result <= 0) AdicionarErroProcessamento("Não foi possível persistir os dados no banco");
 
             //await PersistirDados();
             return CustomResponse();
@@ -82,38 +85,41 @@ namespace NSE.Carrinho.API.Controllers
             return CustomResponse();
         }
 
-        //private async Task<CarrinhoCliente> ObterCarrinhoCliente()
-        //{
-        //    return await _context.CarrinhoCliente
-        //        .Include(c => c.Itens)
-        //        .FirstOrDefaultAsync(c => c.ClienteId == _user.ObterUserId());
-        //}
-        //private void ManipularNovoCarrinho(CarrinhoItem item)
-        //{
-        //    var carrinho = new CarrinhoCliente(_user.ObterUserId());
-        //    carrinho.AdicionarItem(item);
+        private async Task<CarrinhoCliente> ObterCarrinhoCliente()
+        {
+            return await _context.CarrinhoCliente
+                .Include(c => c.Itens)
+                .FirstOrDefaultAsync(c => c.ClienteId == _user.ObterUserId());
+        }
 
-        //    ValidarCarrinho(carrinho);
-        //    _context.CarrinhoCliente.Add(carrinho);
-        //}
-        //private void ManipularCarrinhoExistente(CarrinhoCliente carrinho, CarrinhoItem item)
-        //{
-        //    var produtoItemExistente = carrinho.CarrinhoItemExistente(item);
+        private void ManipularNovoCarrinho(CarrinhoItem item)
+        {
+            var carrinho = new CarrinhoCliente(_user.ObterUserId());
+            carrinho.AdicionarItem(item);
 
-        //    carrinho.AdicionarItem(item);
-        //    ValidarCarrinho(carrinho);
+            //ValidarCarrinho(carrinho);
+            _context.CarrinhoCliente.Add(carrinho);
+        }
 
-        //    if (produtoItemExistente)
-        //    {
-        //        _context.CarrinhoItens.Update(carrinho.ObterPorProdutoId(item.ProdutoId));
-        //    }
-        //    else
-        //    {
-        //        _context.CarrinhoItens.Add(item);
-        //    }
+        private void ManipularCarrinhoExistente(CarrinhoCliente carrinho, CarrinhoItem item)
+        {
+            var produtoItemExistente = carrinho.CarrinhoItemExistente(item);
 
-        //    _context.CarrinhoCliente.Update(carrinho);
-        //}
+            carrinho.AdicionarItem(item);
+            //ValidarCarrinho(carrinho);
+
+            if (produtoItemExistente)
+            {
+                _context.CarrinhoItens.Update(carrinho.ObterPorProdutoId(item.ProdutoId)); //atualizar item com a qtd somada
+            }
+            else
+            {
+                _context.CarrinhoItens.Add(item); //adicionar item
+            }
+
+            _context.CarrinhoCliente.Update(carrinho);
+        }
+
         //private async Task<CarrinhoItem> ObterItemCarrinhoValidado(Guid produtoId, CarrinhoCliente carrinho, CarrinhoItem item = null)
         //{
         //    //if (item != null && produtoId != item.ProdutoId)
