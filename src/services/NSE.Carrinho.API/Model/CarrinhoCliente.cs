@@ -53,8 +53,10 @@
             CalcularValorCarrinho();
         }
 
-        internal void AtualizarItem(CarrinhoItem item)
+        internal void AtualizarItem(CarrinhoItem item)//remover item com qtd antiga e adicioonar com qtd nova
         {
+            if (!item.EhValido()) return;
+
             item.AssociarCarrinho(Id);
 
             var itemExistente = ObterPorProdutoId(item.ProdutoId);
@@ -65,10 +67,10 @@
             CalcularValorCarrinho();
         }
 
-        internal void AtualizarUnidades(CarrinhoItem item, int unidades)
+        internal void AtualizarUnidades(CarrinhoItem item, int unidades)//att unidades do item recebido
         {
-            item.AtualizarUnidades(unidades);
-            AtualizarItem(item);
+            item.AtualizarUnidades(unidades); //att unidades do item
+            AtualizarItem(item); //remove item existente e adiciona item att
         }
 
         internal void RemoverItem(CarrinhoItem item)
@@ -77,13 +79,13 @@
             CalcularValorCarrinho();
         }
 
-        internal bool EhValido()
-        {
-            var erros = Itens.SelectMany(i => new CarrinhoItem.ItemCarrinhoValidation().Validate(i).Errors).ToList();
-            erros.AddRange(new CarrinhoClienteValidation().Validate(this).Errors);
-            ValidationResult = new ValidationResult(erros);
+        //internal bool EhValido()
+        //{
+        //    var erros = Itens.SelectMany(i => new CarrinhoItem.ItemCarrinhoValidation().Validate(i).Errors).ToList();
+        //    erros.AddRange(new CarrinhoClienteValidation().Validate(this).Errors);
+        //    ValidationResult = new ValidationResult(erros);
 
-            return ValidationResult.IsValid;
-        }
+        //    return ValidationResult.IsValid;
+        //}
     }
 }
