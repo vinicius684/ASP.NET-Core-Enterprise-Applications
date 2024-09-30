@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4ADA5BAC-D652-4056-994D-722465353895}|src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\services\\nse.carrinho.api\\controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADA5BAC-D652-4056-994D-722465353895}|src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj|solutionrelative:src\\services\\nse.carrinho.api\\controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADA5BAC-D652-4056-994D-722465353895}|src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\services\\nse.carrinho.api\\model\\carrinhocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADA5BAC-D652-4056-994D-722465353895}|src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj|solutionrelative:src\\services\\nse.carrinho.api\\model\\carrinhocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADA5BAC-D652-4056-994D-722465353895}|src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\services\\nse.carrinho.api\\model\\carrinhoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADA5BAC-D652-4056-994D-722465353895}|src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj|solutionrelative:src\\services\\nse.carrinho.api\\model\\carrinhoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\services\\nse.identidade.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,14 +43,6 @@
       "RelativeMoniker": "D:0:0:{30F4370D-AE2A-4F6A-8974-8EAC5A2EE750}|src\\services\\NSE.Cliente.API\\NSE.Clientes.API.csproj|solutionrelative:src\\services\\nse.cliente.api\\models\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4ADA5BAC-D652-4056-994D-722465353895}|src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\services\\nse.carrinho.api\\controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ADA5BAC-D652-4056-994D-722465353895}|src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj|solutionrelative:src\\services\\nse.carrinho.api\\controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ADA5BAC-D652-4056-994D-722465353895}|src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\services\\nse.carrinho.api\\model\\carrinhocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ADA5BAC-D652-4056-994D-722465353895}|src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj|solutionrelative:src\\services\\nse.carrinho.api\\model\\carrinhocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30F4370D-AE2A-4F6A-8974-8EAC5A2EE750}|src\\services\\NSE.Cliente.API\\NSE.Clientes.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\services\\nse.cliente.api\\data\\clientescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30F4370D-AE2A-4F6A-8974-8EAC5A2EE750}|src\\services\\NSE.Cliente.API\\NSE.Clientes.API.csproj|solutionrelative:src\\services\\nse.cliente.api\\data\\clientescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -65,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A610F9A5-24DA-4E1A-85D5-60AF93CAE539}|src\\building blocks\\NSE.Core\\NSE.Core.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\building blocks\\nse.core\\domainobjects\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A610F9A5-24DA-4E1A-85D5-60AF93CAE539}|src\\building blocks\\NSE.Core\\NSE.Core.csproj|solutionrelative:src\\building blocks\\nse.core\\domainobjects\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ADA5BAC-D652-4056-994D-722465353895}|src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\services\\nse.carrinho.api\\model\\carrinhoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ADA5BAC-D652-4056-994D-722465353895}|src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj|solutionrelative:src\\services\\nse.carrinho.api\\model\\carrinhoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4ADA5BAC-D652-4056-994D-722465353895}|src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\asp.net-core-enterprise-applications\\src\\services\\nse.carrinho.api\\migrations\\20240926143426_carrinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -704,7 +704,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -720,20 +720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegistroClienteIntegrationHandler.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Services\\RegistroClienteIntegrationHandler.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Cliente.API\\Services\\RegistroClienteIntegrationHandler.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Services\\RegistroClienteIntegrationHandler.cs",
-              "RelativeToolTip": "src\\services\\NSE.Cliente.API\\Services\\RegistroClienteIntegrationHandler.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwC8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T10:14:30.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "RegistrarClienteCommand.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Application\\Commands\\RegistrarClienteCommand.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Cliente.API\\Application\\Commands\\RegistrarClienteCommand.cs",
@@ -741,12 +728,11 @@
               "RelativeToolTip": "src\\services\\NSE.Cliente.API\\Application\\Commands\\RegistrarClienteCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T14:18:44.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T14:18:44.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ClienteCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Application\\Commands\\ClienteCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Cliente.API\\Application\\Commands\\ClienteCommandHandler.cs",
@@ -754,12 +740,11 @@
               "RelativeToolTip": "src\\services\\NSE.Cliente.API\\Application\\Commands\\ClienteCommandHandler.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T12:33:12.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T12:33:12.19Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UserViewModels.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Identidade.API\\Models\\UserViewModels.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Models\\UserViewModels.cs",
@@ -767,12 +752,11 @@
               "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Models\\UserViewModels.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwCgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T17:44:36.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T17:44:36.592Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Identidade.API\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Data\\ApplicationDbContext.cs",
@@ -780,12 +764,47 @@
               "RelativeToolTip": "src\\services\\NSE.Identidade.API\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T17:42:49.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T17:42:49.9Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "CarrinhoCliente.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Carrinho.API\\Model\\CarrinhoCliente.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\Model\\CarrinhoCliente.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Carrinho.API\\Model\\CarrinhoCliente.cs",
+              "RelativeToolTip": "src\\services\\NSE.Carrinho.API\\Model\\CarrinhoCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:59:30.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarrinhoItem.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Carrinho.API\\Model\\CarrinhoItem.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\Model\\CarrinhoItem.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Carrinho.API\\Model\\CarrinhoItem.cs",
+              "RelativeToolTip": "src\\services\\NSE.Carrinho.API\\Model\\CarrinhoItem.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwCwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:59:43.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegistroClienteIntegrationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Services\\RegistroClienteIntegrationHandler.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Cliente.API\\Services\\RegistroClienteIntegrationHandler.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Services\\RegistroClienteIntegrationHandler.cs",
+              "RelativeToolTip": "src\\services\\NSE.Cliente.API\\Services\\RegistroClienteIntegrationHandler.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwC8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T10:14:30.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Data\\Repository\\ClienteRepository.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Cliente.API\\Data\\Repository\\ClienteRepository.cs",
@@ -793,12 +812,11 @@
               "RelativeToolTip": "src\\services\\NSE.Cliente.API\\Data\\Repository\\ClienteRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T13:59:56.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T13:59:56.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "IClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Models\\IClienteRepository.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Cliente.API\\Models\\IClienteRepository.cs",
@@ -806,12 +824,11 @@
               "RelativeToolTip": "src\\services\\NSE.Cliente.API\\Models\\IClienteRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T00:24:58.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-28T00:24:58.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "CarrinhoController.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Carrinho.API\\Controllers\\CarrinhoController.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\Controllers\\CarrinhoController.cs",
@@ -819,12 +836,11 @@
               "RelativeToolTip": "src\\services\\NSE.Carrinho.API\\Controllers\\CarrinhoController.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAwwEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T10:47:36.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T10:47:36.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ClientesContext.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Data\\ClientesContext.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Cliente.API\\Data\\ClientesContext.cs",
@@ -832,12 +848,11 @@
               "RelativeToolTip": "src\\services\\NSE.Cliente.API\\Data\\ClientesContext.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T23:34:48.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T23:34:48.552Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CarrinhoContext.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Carrinho.API\\Data\\CarrinhoContext.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\Data\\CarrinhoContext.cs",
@@ -845,12 +860,11 @@
               "RelativeToolTip": "src\\services\\NSE.Carrinho.API\\Data\\CarrinhoContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T10:34:56.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T10:34:56.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\Data\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Data\\IUnitOfWork.cs",
@@ -858,25 +872,11 @@
               "RelativeToolTip": "src\\building blocks\\NSE.Core\\Data\\IUnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T14:12:27.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T14:12:27.715Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CarrinhoCliente.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Carrinho.API\\Model\\CarrinhoCliente.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\Model\\CarrinhoCliente.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Carrinho.API\\Model\\CarrinhoCliente.cs",
-              "RelativeToolTip": "src\\services\\NSE.Carrinho.API\\Model\\CarrinhoCliente.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAkwE0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T13:59:30.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "DependencyInjectionConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Configuration\\DependencyInjectionConfig.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Cliente.API\\Configuration\\DependencyInjectionConfig.cs",
@@ -884,12 +884,11 @@
               "RelativeToolTip": "src\\services\\NSE.Cliente.API\\Configuration\\DependencyInjectionConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T23:38:05.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T23:38:05.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ApiConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Configuration\\ApiConfig.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Cliente.API\\Configuration\\ApiConfig.cs",
@@ -897,12 +896,11 @@
               "RelativeToolTip": "src\\services\\NSE.Cliente.API\\Configuration\\ApiConfig.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwCYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T16:50:38.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T16:50:38.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\DomainObjects\\Entity.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\DomainObjects\\Entity.cs",
@@ -910,21 +908,7 @@
               "RelativeToolTip": "src\\building blocks\\NSE.Core\\DomainObjects\\Entity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T22:40:16.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CarrinhoItem.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Carrinho.API\\Model\\CarrinhoItem.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\Model\\CarrinhoItem.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Carrinho.API\\Model\\CarrinhoItem.cs",
-              "RelativeToolTip": "src\\services\\NSE.Carrinho.API\\Model\\CarrinhoItem.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA1wCwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T13:59:43.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T22:40:16.952Z"
             },
             {
               "$type": "Document",
@@ -936,12 +920,11 @@
               "RelativeToolTip": "src\\services\\NSE.Carrinho.API\\Migrations\\20240926143426_Carrinho.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T14:34:26.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T14:34:26.169Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "DomainException.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\building blocks\\NSE.Core\\DomainObjects\\DomainException.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\DomainObjects\\DomainException.cs",
@@ -949,8 +932,7 @@
               "RelativeToolTip": "src\\building blocks\\NSE.Core\\DomainObjects\\DomainException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T16:52:45.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T16:52:45.589Z"
             },
             {
               "$type": "Document",
@@ -962,8 +944,7 @@
               "RelativeToolTip": "src\\web\\NSE.WebApp.MVC\\Controllers\\MainController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T13:32:50.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T13:32:50.914Z"
             },
             {
               "$type": "Document",
@@ -975,8 +956,7 @@
               "RelativeToolTip": "src\\web\\NSE.WebApp.MVC\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T15:29:53.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T15:29:53.39Z"
             },
             {
               "$type": "Document",
@@ -988,8 +968,7 @@
               "RelativeToolTip": "src\\web\\NSE.WebApp.MVC\\Controllers\\IdentidadeController.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAuwFIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T13:30:20.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T13:30:20.935Z"
             },
             {
               "$type": "Document",
@@ -1001,8 +980,7 @@
               "RelativeToolTip": "src\\web\\NSE.WebApp.MVC\\Controllers\\CatalogoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T15:29:50.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T15:29:50.479Z"
             },
             {
               "$type": "Document",
@@ -1014,8 +992,7 @@
               "RelativeToolTip": "src\\services\\NSE.Catalogo.API\\Controllers\\CatalogoController.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAkwAwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T16:16:15.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T16:16:15.061Z"
             },
             {
               "$type": "Document",
@@ -1027,8 +1004,7 @@
               "RelativeToolTip": "src\\services\\NSE.Cliente.API\\Models\\Endereco.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAADxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T16:30:19.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T16:30:19.541Z"
             },
             {
               "$type": "Document",
@@ -1040,8 +1016,7 @@
               "RelativeToolTip": "src\\services\\NSE.Cliente.API\\Controllers\\ClientesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T10:21:50.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T10:21:50.192Z"
             },
             {
               "$type": "Document",

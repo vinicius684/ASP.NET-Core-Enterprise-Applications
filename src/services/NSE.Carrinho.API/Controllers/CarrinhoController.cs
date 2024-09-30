@@ -37,6 +37,7 @@ namespace NSE.Carrinho.API.Controllers
             else
                 ManipularCarrinhoExistente(carrinho, item);
 
+            ValidarCarrinho(carrinho);
             if (!OperacaoValida()) return CustomResponse();
 
             await PersistirDados();
@@ -52,8 +53,8 @@ namespace NSE.Carrinho.API.Controllers
 
             carrinho.AtualizarUnidades(itemCarrinho, item.Quantidade);//atualiza a qtd do item(produtoId), de acordo com a nova qtd
 
-           // ValidarCarrinho(carrinho);
-            //if (!OperacaoValida()) return CustomResponse();
+            ValidarCarrinho(carrinho);
+            if (!OperacaoValida()) return CustomResponse();
 
             _context.CarrinhoItens.Update(itemCarrinho);//att item
             _context.CarrinhoCliente.Update(carrinho);//att carrinho
@@ -70,7 +71,7 @@ namespace NSE.Carrinho.API.Controllers
             var itemCarrinho = await ObterItemCarrinhoValidado(produtoId, carrinho);
             if (itemCarrinho == null) return CustomResponse();
 
-            //ValidarCarrinho(carrinho);
+            ValidarCarrinho(carrinho);
             if (!OperacaoValida()) return CustomResponse();
 
             carrinho.RemoverItem(itemCarrinho);
@@ -145,19 +146,17 @@ namespace NSE.Carrinho.API.Controllers
 
             return itemCarrinho;
         }
-
         private async Task PersistirDados()
         {
             var result = await _context.SaveChangesAsync();
             if (result <= 0) AdicionarErroProcessamento("Não foi possível persistir os dados no banco");
         }
+        private bool ValidarCarrinho(CarrinhoCliente carrinho)
+        {
+            if (carrinho.EhValido()) return true;
 
-        //private bool ValidarCarrinho(CarrinhoCliente carrinho)
-        //{
-        //    if (carrinho.EhValido()) return true;
-
-        //    carrinho.ValidationResult.Errors.ToList().ForEach(e => AdicionarErroProcessamento(e.ErrorMessage));
-        //    return false;
-        //}
+            carrinho.ValidationResult.Errors.ToList().ForEach(e => AdicionarErroProcessamento(e.ErrorMessage)); //Adicionando erros do carrinho na lista de erros de processamento
+            return false;
+        }
     }
 }

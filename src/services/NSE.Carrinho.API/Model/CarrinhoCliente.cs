@@ -1,4 +1,7 @@
-﻿namespace NSE.Carrinho.API.Model
+﻿using FluentValidation;
+using FluentValidation.Results;
+
+namespace NSE.Carrinho.API.Model
 {
     public class CarrinhoCliente //carrinho do cliente
     {
@@ -8,7 +11,7 @@
         public Guid ClienteId { get; set; }
         public decimal ValorTotal { get; set; }
         public List<CarrinhoItem> Itens { get; set; } = new List<CarrinhoItem>();
-        //public ValidationResult ValidationResult { get; set; }
+        public ValidationResult ValidationResult { get; set; }
 
 
         public CarrinhoCliente(Guid clienteId)
@@ -36,8 +39,6 @@
 
         internal void AdicionarItem(CarrinhoItem item)
         {
-            if (!item.EhValido()) return;
-
             item.AssociarCarrinho(Id);
 
             if (CarrinhoItemExistente(item))
@@ -55,8 +56,6 @@
 
         internal void AtualizarItem(CarrinhoItem item)//remover item com qtd antiga e adicioonar com qtd nova
         {
-            if (!item.EhValido()) return;
-
             item.AssociarCarrinho(Id);
 
             var itemExistente = ObterPorProdutoId(item.ProdutoId);
@@ -79,13 +78,31 @@
             CalcularValorCarrinho();
         }
 
-        //internal bool EhValido()
-        //{
-        //    var erros = Itens.SelectMany(i => new CarrinhoItem.ItemCarrinhoValidation().Validate(i).Errors).ToList();
-        //    erros.AddRange(new CarrinhoClienteValidation().Validate(this).Errors);
-        //    ValidationResult = new ValidationResult(erros);
+        internal bool EhValido() //validar todos os itens do carrinho e tb o próprio carrinho
+        {
+            var erros = Itens.SelectMany(i => new CarrinhoItem.ItemCarrinhoValidation().Validate(i).Errors).ToList(); //para cada item do meu carrinho vou executar a validação ItemCarrinhoValidation e retornar uma coleção de erros que vou materializar para uma lista
+            erros.AddRange(new CarrinhoClienteValidation().Validate(this).Errors); //adicionando nessa lista os erros de validação do CarrinhoClienteValidation
+            ValidationResult = new ValidationResult(erros); //adicionando todos os erros no meu validationResult
 
-        //    return ValidationResult.IsValid;
-        //}
+            return ValidationResult.IsValid;
+        }
+
+        public class CarrinhoClienteValidation : AbstractValidator<CarrinhoCliente>
+        {
+            public CarrinhoClienteValidation()
+            {
+                RuleFor(c => c.ClienteId)
+                    .NotEqual(Guid.Empty)
+                    .WithMessage("Cliente não reconhecido");
+
+                RuleFor(c => c.Itens.Count)
+                    .GreaterThan(0)
+                    .WithMessage("O carrinho não possui itens");
+
+                RuleFor(c => c.ValorTotal)
+                    .GreaterThan(0)
+                    .WithMessage("O valor total do carrinho precisa ser maior que 0");
+            }
+        }
     }
 }
