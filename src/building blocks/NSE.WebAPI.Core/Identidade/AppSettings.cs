@@ -1,6 +1,7 @@
 ﻿namespace NSE.WebAPI.Core.Identidade
 {
-    public class AppSettings
+    //obs: Configure() necessário para mapear infos da app settings pra essa minha classe está na  na JwtConfig
+    public class AppSettings 
     {
         public string Secret { get; set; }
         public int ExpiracaoHoras { get; set; }

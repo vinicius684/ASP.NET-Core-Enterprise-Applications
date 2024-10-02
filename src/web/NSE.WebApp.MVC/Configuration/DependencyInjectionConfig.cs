@@ -15,9 +15,15 @@ namespace NSE.WebApp.MVC.Configuration
         {
             services.AddSingleton<IValidationAttributeAdapterProvider, CpfValidationAttributeAdapterProvider>();//adapter provider que está sendo resolvido em tempo de execução pelo próprioo Razor
 
-            services.AddTransient<HttpClientAuthorizationDelegatingHandler>();//transient(instancia por solicitação) pois já estou trabalhndo no modo scoped do request HttpClient
+            #region HttpServices
 
-            services.AddHttpClient<IAutenticacaoService, AutenticacaoService>(); //forma de configurar e gerenciar instancias HttpClient
+            services.AddTransient<HttpClientAuthorizationDelegatingHandler>();//transient(instancia por solicitação do serviço) pois já estou trabalhndo no modo scoped do request HttpClient
+
+            services.AddHttpClient<IAutenticacaoService, AutenticacaoService>()
+                .AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>()
+                 .AddPolicyHandler(PollyExtensions.EsperarTentar())
+                 .AddTransientHttpErrorPolicy(
+                     p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
 
             services.AddHttpClient<ICatalogoService, CatalogoService>()
                 .AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>() //colocando o Handler para manipular meu request do HttpClient                                                           
@@ -27,10 +33,16 @@ namespace NSE.WebApp.MVC.Configuration
                  .AddTransientHttpErrorPolicy(
                      p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));//Circuit Breaker - Parâmetros n vezs que a app deve falhar(pega multiplos usuários) e o tempo que deve esperar até tentar novamente
 
+            services.AddHttpClient<ICarrinhoService, CarrinhoService>()
+                .AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>()
+                 .AddPolicyHandler(PollyExtensions.EsperarTentar())
+                 .AddTransientHttpErrorPolicy(
+                     p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
+
+            #endregion
 
 
-
-            #region Refit
+            #region Refit - facilita httpcliente get 
             //Refit para ICatalogoService
             //services.AddHttpClient("Refit", options =>
             //    {

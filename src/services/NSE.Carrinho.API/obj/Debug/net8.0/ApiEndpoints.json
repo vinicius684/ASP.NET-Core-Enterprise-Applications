@@ -1,0 +1,75 @@
+[
+  {
+    "ContainingType": "NSE.Carrinho.API.Controllers.CarrinhoController",
+    "Method": "ObterCarrinho",
+    "RelativePath": "carrinho",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "NSE.Carrinho.API.Model.CarrinhoCliente",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NSE.Carrinho.API.Controllers.CarrinhoController",
+    "Method": "AdicionarItemCarrinho",
+    "RelativePath": "carrinho",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item",
+        "Type": "NSE.Carrinho.API.Model.CarrinhoItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NSE.Carrinho.API.Controllers.CarrinhoController",
+    "Method": "AtualizarItemCarrinho",
+    "RelativePath": "carrinho/{produtoId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produtoId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "item",
+        "Type": "NSE.Carrinho.API.Model.CarrinhoItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NSE.Carrinho.API.Controllers.CarrinhoController",
+    "Method": "RemoverItemCarrinho",
+    "RelativePath": "carrinho/{produtoId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produtoId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

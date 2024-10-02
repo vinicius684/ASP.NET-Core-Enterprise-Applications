@@ -7,6 +7,7 @@ using NSE.WebAPI.Core.Usuario;
 
 namespace NSE.WebApp.MVC.Services.Handlers
 {
+    //COlocando o token obtido do cookie nos requests httpclient
     public class HttpClientAuthorizationDelegatingHandler : DelegatingHandler//A ideia é que quando crio um Delegatehandler, estou sobrescrevendo o SendAsync do meu http client. No escopo desse método posso fazer o que quiser com meu Request
     {
         private readonly IAspNetUser _user;
