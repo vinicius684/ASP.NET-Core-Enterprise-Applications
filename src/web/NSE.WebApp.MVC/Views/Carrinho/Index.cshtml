@@ -40,7 +40,7 @@
                                                         </div>
                                                         <figcaption class="info">
                                                             <a asp-controller="Catalogo" asp-action="ProdutoDetalhe" asp-route-id="@item.ProdutoId"><h6 style="padding-top: 10px" class="title text-dark">@item.Nome</h6></a>
-                                                            <p class="text-muted small">@this.UnidadesPorProduto(item.Quantidade)</p>
+
                                                         </figcaption>
                                                     </figure>
                                                 </td>
@@ -51,27 +51,26 @@
                                                     </div>
                                                 </td>
                                                 <form method="post" asp-controller="Carrinho" asp-action="AtualizarItemCarrinho">
-                                                    <td>
+                                                <td>
 
-                                                        <input type="hidden" id="ProdutoId" name="ProdutoId" value="@item.ProdutoId" />
+                                                    <input type="hidden" id="ProdutoId" name="ProdutoId" value="@item.ProdutoId" />
 
-                                                        <div class="text-left">
-                                                            <select id="Quantidade" name="Quantidade" style="width: 80px" class="form-control">
-                                                                @{
-                                                                    @Html.Raw(this.SelectOptionsPorQuantidade(5, item.Quantidade))
-                                                                }
-                                                            </select>
-                                                        </div>
+                                                    <div class="text-left">
+                                                        <select id="Quantidade" name="Quantidade" style="width: 80px" class="form-control">
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                        </select>
+                                                    </div>
 
 
-                                                    </td>
-                                                    <td>
-                                                        <div class="text-right">
-                                                            <button type="submit" class="btn btn-success">
-                                                                <i class="fas fa-sync"></i>
-                                                            </button>
-                                                        </div>
-                                                    </td>
+                                                </td>
+                                                <td>
+                                                    <div class="text-right">
+                                                        <button type="submit" class="btn btn-success">
+                                                            <i class="fas fa-sync"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>
                                                 </form>
                                                 <td>
                                                     <form method="post" asp-controller="Carrinho" asp-action="RemoverItemCarrinho">

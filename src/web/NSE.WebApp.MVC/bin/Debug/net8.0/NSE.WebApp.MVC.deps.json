@@ -12,6 +12,7 @@
           "Microsoft.Extensions.Http.Polly": "8.0.8",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.20.1",
           "NSE.Core": "1.0.0",
+          "NSE.WebAPI.Core": "1.0.0",
           "Refit": "7.1.2"
         },
         "runtime": {
@@ -276,6 +277,18 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "NSE.WebAPI.Core/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "11.9.2",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8"
+        },
+        "runtime": {
+          "NSE.WebAPI.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -517,6 +530,11 @@
       "hashPath": "system.text.json.8.0.0.nupkg.sha512"
     },
     "NSE.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NSE.WebAPI.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

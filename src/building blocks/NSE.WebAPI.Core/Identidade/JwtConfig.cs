@@ -43,6 +43,7 @@ namespace NSE.WebAPI.Core.Identidade
                     ValidAudience = appSettings.ValidoEm,
                     ValidIssuer = appSettings.Emissor,
                 };
+                bearerOptions.MapInboundClaims = false;
             });
             //
 

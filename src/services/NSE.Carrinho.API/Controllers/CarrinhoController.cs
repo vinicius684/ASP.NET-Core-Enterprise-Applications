@@ -37,7 +37,6 @@ namespace NSE.Carrinho.API.Controllers
             else
                 ManipularCarrinhoExistente(carrinho, item);
 
-            ValidarCarrinho(carrinho);
             if (!OperacaoValida()) return CustomResponse();
 
             await PersistirDados();
@@ -94,7 +93,7 @@ namespace NSE.Carrinho.API.Controllers
             var carrinho = new CarrinhoCliente(_user.ObterUserId());
             carrinho.AdicionarItem(item);
 
-            //ValidarCarrinho(carrinho);
+            ValidarCarrinho(carrinho);
             _context.CarrinhoCliente.Add(carrinho);
             /*
               nesse caso em específico, mesmo com o ChangeTracker desativado para consultas, 
@@ -108,7 +107,7 @@ namespace NSE.Carrinho.API.Controllers
             var produtoItemExistente = carrinho.CarrinhoItemExistente(item);
 
             carrinho.AdicionarItem(item);
-            //ValidarCarrinho(carrinho);
+            ValidarCarrinho(carrinho);
 
             if (produtoItemExistente)
             {
