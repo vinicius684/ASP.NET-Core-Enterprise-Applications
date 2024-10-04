@@ -28,5 +28,23 @@ namespace NSE.WebApp.MVC.Extensions
         {
             return quantidade > 0 ? $"Apenas {quantidade} em estoque!" : "Produto esgotado!";
         }
+
+        public static string UnidadesPorProduto(this RazorPage page, int unidades)
+        {
+            return unidades > 1 ? $"{unidades} unidades" : $"{unidades} unidade";
+        }
+
+        public static string SelectOptionsPorQuantidade(this RazorPage page, int quantidade, int valorAtual = 0) //Extensão basicamente para deixar o DropDown selecionado na QtdAtual
+        {
+            var sb = new StringBuilder();
+            for (var i = 1; i <= quantidade; i++)
+            {
+                var selected = "";
+                if (i == valorAtual) selected = "selected"; //se o valorAtual for igual ao i ele ganha um selected. senão vai ficar uma option não selecionada.
+                sb.Append($"<option {selected} value='{i}'>{i}</option>");
+            }
+
+            return sb.ToString();
+        }
     }
 }
