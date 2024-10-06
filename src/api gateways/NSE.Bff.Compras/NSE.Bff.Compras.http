@@ -1,0 +1,6 @@
+@NSE.Bff.Compras_HostAddress = http://localhost:5266
+
+GET {{NSE.Bff.Compras_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

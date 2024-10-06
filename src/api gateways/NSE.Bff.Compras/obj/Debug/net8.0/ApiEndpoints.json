@@ -1,0 +1,64 @@
+[
+  {
+    "ContainingType": "NSE.Bff.Compras.Controllers.CarrinhoController",
+    "Method": "Index",
+    "RelativePath": "compras/carrinho",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NSE.Bff.Compras.Controllers.CarrinhoController",
+    "Method": "ObterQuantidadeCarrinho",
+    "RelativePath": "compras/carrinho-quantidade",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NSE.Bff.Compras.Controllers.CarrinhoController",
+    "Method": "AdicionarItemCarrinho",
+    "RelativePath": "compras/carrinho/items",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NSE.Bff.Compras.Controllers.CarrinhoController",
+    "Method": "AtualizarItemCarrinho",
+    "RelativePath": "compras/carrinho/items/{produtoId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produtoId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NSE.Bff.Compras.Controllers.CarrinhoController",
+    "Method": "RemoverItemCarrinho",
+    "RelativePath": "compras/carrinho/items/{produtoId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produtoId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
