@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel;
 using NSE.WebApp.MVC.Extensions;
+using NSE.Core.Communication;
 
 namespace NSE.WebApp.MVC.Models
 {

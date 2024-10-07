@@ -6,6 +6,7 @@ using System.Text.Json;
 using static System.Net.WebRequestMethods;
 using NSE.WebApp.MVC.Extensions;
 using Microsoft.Extensions.Options;
+using NSE.Core.Communication;
 
 namespace NSE.WebApp.MVC.Services
 {

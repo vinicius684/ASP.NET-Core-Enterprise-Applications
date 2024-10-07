@@ -604,7 +604,9 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "FluentValidation": "11.9.2",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8"
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8",
+          "Microsoft.Extensions.Http.Polly": "8.0.8",
+          "NSE.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/NSE.WebAPI.Core.dll": {}
