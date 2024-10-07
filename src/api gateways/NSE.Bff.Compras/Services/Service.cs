@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using NSE.Core.Communication;
+using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
@@ -34,6 +35,11 @@ namespace NSE.Bff.Compras.Services
             return true;
 
             //qualquer outro erro vou deixar "explodir", vai cair lá embaixo aonde vai ser tratado
+        }
+
+        protected ResponseResult RetornoOk()
+        {
+            return new ResponseResult();
         }
     }
 }
