@@ -17,7 +17,17 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "NSE.Bff.Compras.Controllers.CarrinhoController",
@@ -26,7 +36,13 @@
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "itemProduto",
+        "Type": "NSE.Bff.Compras.Models.ItemCarrinhoDTO",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -39,7 +55,12 @@
     "Parameters": [
       {
         "Name": "produtoId",
-        "Type": "",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "itemProduto",
+        "Type": "NSE.Bff.Compras.Models.ItemCarrinhoDTO",
         "IsRequired": true
       }
     ],
@@ -55,7 +76,7 @@
     "Parameters": [
       {
         "Name": "produtoId",
-        "Type": "",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],

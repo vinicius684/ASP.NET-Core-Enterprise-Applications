@@ -33,7 +33,7 @@ namespace NSE.WebApp.MVC.Configuration
                  .AddTransientHttpErrorPolicy(
                      p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));//Circuit Breaker - Parâmetros n vezs que a app deve falhar(pega multiplos usuários) e o tempo que deve esperar até tentar novamente
 
-            services.AddHttpClient<ICarrinhoService, CarrinhoService>()
+            services.AddHttpClient<IComprasBffService, ComprasBffService>()
                 .AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>()
                  .AddPolicyHandler(PollyExtensions.EsperarTentar())
                  .AddTransientHttpErrorPolicy(

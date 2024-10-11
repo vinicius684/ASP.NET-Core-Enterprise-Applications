@@ -6,38 +6,27 @@ namespace NSE.WebApp.MVC.Controllers
 {
     public class CarrinhoController : MainController
     {
-        private readonly ICarrinhoService _carrinhoService;
-        private readonly ICatalogoService _catalogoService;
+        private readonly IComprasBffService _comprasBffService;
+       
 
-        public CarrinhoController(ICarrinhoService carrinhoService,
-                                  ICatalogoService catalogoService)
+        public CarrinhoController(IComprasBffService comprasBffService)
         {
-            _carrinhoService = carrinhoService;
-            _catalogoService = catalogoService;
+            _comprasBffService = comprasBffService;
         }
 
         [Route("carrinho")]
         public async Task<IActionResult> Index()
         {
-            return View(await _carrinhoService.ObterCarrinho());
+            return View(await _comprasBffService.ObterCarrinho());
         }
 
         [HttpPost]
         [Route("carrinho/adicionar-item")]
-        public async Task<IActionResult> AdicionarItemCarrinho(ItemProdutoViewModel itemProduto)//Vou receber o ProdutoId pela ProdutoDetalhe.cshml em um input Hiden, não poasso receber todas as outras infos dessa forma, pois pdoeriam ser facilmente manipuladas no html, protanto vou obter as outras infos no CatalogoService por meio do produtoId recebido
+        public async Task<IActionResult> AdicionarItemCarrinho(ItemCarrinhoViewModel itemCarrinho)//Vou receber o ProdutoId pela ProdutoDetalhe.cshml em um input Hiden, não poasso receber todas as outras infos dessa forma, pois pdoeriam ser facilmente manipuladas no html, protanto vou obter as outras infos no CatalogoService por meio do produtoId recebido
         {
-            var produto = await _catalogoService.ObterPorId(itemProduto.ProdutoId);
+            var resposta = await _comprasBffService.AdicionarItemCarrinho(itemCarrinho);
 
-            ValidarItemCarrinho(produto, itemProduto.Quantidade);
-            if (!OperacaoValida()) return View("Index", await _carrinhoService.ObterCarrinho());
-
-            itemProduto.Nome = produto.Nome;
-            itemProduto.Valor = produto.Valor;
-            itemProduto.Imagem = produto.Imagem;
-
-            var resposta = await _carrinhoService.AdicionarItemCarrinho(itemProduto);
-
-            if (ResponsePossuiErros(resposta)) return View("Index", await _carrinhoService.ObterCarrinho()); //Retornanda view já com os erros que vão ser exibidos na tela.  Retorna a mesma página que o usuário estava, com os dados do modelo que você quer exibir (incluindo erros).
+            if (ResponsePossuiErros(resposta)) return View("Index", await _comprasBffService.ObterCarrinho()); //Retornanda view já com os erros que vão ser exibidos na tela.  Retorna a mesma página que o usuário estava, com os dados do modelo que você quer exibir (incluindo erros).
 
             return RedirectToAction("Index");//obtem itens do carrinho atualizado e Todos os dados do formulário anterior, como erros ou entradas do usuário, são perdidos. Útil para evitar reenvios
         }
@@ -47,15 +36,10 @@ namespace NSE.WebApp.MVC.Controllers
         public async Task<IActionResult> AtualizarItemCarrinho(Guid produtoId, int quantidade)
         {
 
-            var produto = await _catalogoService.ObterPorId(produtoId);
+            var item = new ItemCarrinhoViewModel { ProdutoId = produtoId, Quantidade = quantidade };
+            var resposta = await _comprasBffService.AtualizarItemCarrinho(produtoId, item);
 
-            ValidarItemCarrinho(produto, quantidade);
-            if (!OperacaoValida()) return View("Index", await _carrinhoService.ObterCarrinho());
-
-            var itemProduto = new ItemProdutoViewModel { ProdutoId = produtoId, Quantidade = quantidade };
-            var resposta = await _carrinhoService.AtualizarItemCarrinho(produtoId, itemProduto);
-
-            if (ResponsePossuiErros(resposta)) return View("Index", await _carrinhoService.ObterCarrinho());
+            if (ResponsePossuiErros(resposta)) return View("Index", await _comprasBffService.ObterCarrinho());
 
             return RedirectToAction("Index");
         }
@@ -64,17 +48,9 @@ namespace NSE.WebApp.MVC.Controllers
         [Route("carrinho/remover-item")]
         public async Task<IActionResult> RemoverItemCarrinho(Guid produtoId)
         {
-            var produto = await _catalogoService.ObterPorId(produtoId);
+            var resposta = await _comprasBffService.RemoverItemCarrinho(produtoId);
 
-            if (produto == null)
-            {
-                AdicionarErroValidacao("Produto inexistente!");
-                return View("Index", await _carrinhoService.ObterCarrinho());
-            }
-
-            var resposta = await _carrinhoService.RemoverItemCarrinho(produtoId);
-
-            if (ResponsePossuiErros(resposta)) return View("Index", await _carrinhoService.ObterCarrinho());
+            if (ResponsePossuiErros(resposta)) return View("Index", await _comprasBffService.ObterCarrinho());
 
             return RedirectToAction("Index");
         }

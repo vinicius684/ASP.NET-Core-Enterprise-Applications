@@ -7,10 +7,10 @@ namespace NSE.WebApp.MVC.Models
     {
         //ClienteId e CarrinhoId irrelevantes nesse caso. ClienteId obtido pelo token e CarrinhoId só precisa ser conhecido pela própria api que vai manipulá-lo utilizando o ClienteId
         public decimal ValorTotal { get; set; }
-        public List<ItemProdutoViewModel> Itens { get; set; } = new List<ItemProdutoViewModel>();
+        public List<ItemCarrinhoViewModel> Itens { get; set; } = new List<ItemCarrinhoViewModel>();
     }
 
-    public class ItemProdutoViewModel
+    public class ItemCarrinhoViewModel
     {
         //ItemId irrelevante nesse caso. Só faz sentido para a api que irá manipulá-lo utilizando o ProdutoId
         public Guid ProdutoId { get; set; }

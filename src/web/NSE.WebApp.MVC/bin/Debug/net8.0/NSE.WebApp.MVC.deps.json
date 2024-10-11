@@ -281,7 +281,9 @@
       "NSE.WebAPI.Core/1.0.0": {
         "dependencies": {
           "FluentValidation": "11.9.2",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8"
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8",
+          "Microsoft.Extensions.Http.Polly": "8.0.8",
+          "NSE.Core": "1.0.0"
         },
         "runtime": {
           "NSE.WebAPI.Core.dll": {
