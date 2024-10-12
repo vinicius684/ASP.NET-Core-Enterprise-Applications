@@ -1,0 +1,16 @@
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Pedidos.Domain\bin\Debug\net8.0\NSE.Pedidos.Domain.deps.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Pedidos.Domain\bin\Debug\net8.0\NSE.Pedidos.Domain.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Pedidos.Domain\bin\Debug\net8.0\NSE.Pedidos.Domain.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Pedidos.Domain\bin\Debug\net8.0\NSE.Core.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Pedidos.Domain\bin\Debug\net8.0\NSE.Core.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Pedidos.Domain\obj\Debug\net8.0\NSE.Pedidos.Domain.csproj.AssemblyReference.cache
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Pedidos.Domain\obj\Debug\net8.0\NSE.Pedidos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Pedidos.Domain\obj\Debug\net8.0\NSE.Pedidos.Domain.AssemblyInfoInputs.cache
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Pedidos.Domain\obj\Debug\net8.0\NSE.Pedidos.Domain.AssemblyInfo.cs
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Pedidos.Domain\obj\Debug\net8.0\NSE.Pedidos.Domain.csproj.CoreCompileInputs.cache
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Pedidos.Domain\obj\Debug\net8.0\NSE.Pedidos.Domain.sourcelink.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Pedidos.Domain\obj\Debug\net8.0\NSE.Pedi.7ABB2DCD.Up2Date
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Pedidos.Domain\obj\Debug\net8.0\NSE.Pedidos.Domain.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Pedidos.Domain\obj\Debug\net8.0\refint\NSE.Pedidos.Domain.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Pedidos.Domain\obj\Debug\net8.0\NSE.Pedidos.Domain.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Pedidos.Domain\obj\Debug\net8.0\ref\NSE.Pedidos.Domain.dll

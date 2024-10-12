@@ -29,7 +29,7 @@ namespace NSE.Pedidos.API.Configuration
             });
         }
 
-        public static void UseApiConfiguration(this IApplicationBuilder app, IWebHostEnvironment env)
+        public static void UseApiConfiguration(this WebApplication app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -44,10 +44,7 @@ namespace NSE.Pedidos.API.Configuration
 
             app.UseAuthConfiguration();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
+            app.MapControllers();
         }
     }
 }

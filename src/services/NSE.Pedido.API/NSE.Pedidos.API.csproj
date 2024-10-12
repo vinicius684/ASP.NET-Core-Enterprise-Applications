@@ -11,6 +11,11 @@
 
   <ItemGroup>
 	 
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	 
 	  <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.20.1" />
 	  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
@@ -25,6 +30,8 @@
     <ProjectReference Include="..\..\building blocks\NSE.Core\NSE.Core.csproj" />
     <ProjectReference Include="..\..\building blocks\NSE.MessageBus\NSE.MessageBus.csproj" />
     <ProjectReference Include="..\..\building blocks\NSE.WebAPI.Core\NSE.WebAPI.Core.csproj" />
+    <ProjectReference Include="..\ClassLibrary1\NSE.Pedidos.Infra.csproj" />
+    <ProjectReference Include="..\NSE.Pedidos.Domain\NSE.Pedidos.Domain.csproj" />
   </ItemGroup>
 
 </Project>

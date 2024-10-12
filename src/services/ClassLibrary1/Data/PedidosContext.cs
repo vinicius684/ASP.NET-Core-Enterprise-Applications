@@ -22,8 +22,8 @@ namespace NSE.Pedidos.Infra.Data
             _mediatorHandler = mediatorHandler;
         }
 
+        public DbSet<Voucher> Vouchers { get; set; }
 
-       
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -34,7 +34,7 @@ namespace NSE.Pedidos.Infra.Data
             modelBuilder.Ignore<Event>();
             modelBuilder.Ignore<ValidationResult>();
 
-            modelBuilder.HasSequence<int>("MinhaSequencia").StartsAt(1000).IncrementsBy(1);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(PedidosContext).Assembly);
         }
 
         public async Task<bool> Commit()

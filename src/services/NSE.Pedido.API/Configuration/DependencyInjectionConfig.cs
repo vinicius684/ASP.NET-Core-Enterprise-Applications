@@ -3,6 +3,7 @@ using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using NSE.Core.Mediator;
+using NSE.Pedidos.Infra.Data;
 using NSE.WebAPI.Core.Usuario;
 
 namespace NSE.Pedidos.API.Configuration
@@ -14,7 +15,7 @@ namespace NSE.Pedidos.API.Configuration
             // API
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped<IAspNetUser, AspNetUser>();
-            
+
             //// Commands
             //services.AddScoped<IRequestHandler<AdicionarPedidoCommand, ValidationResult>, PedidoCommandHandler>();
 
@@ -22,14 +23,14 @@ namespace NSE.Pedidos.API.Configuration
             //services.AddScoped<INotificationHandler<PedidoRealizadoEvent>, PedidoEventHandler>();
 
             //// Application
-            //services.AddScoped<IMediatorHandler, MediatorHandler>();
+            services.AddScoped<IMediatorHandler, MediatorHandler>();
             //services.AddScoped<IVoucherQueries, VoucherQueries>();
             //services.AddScoped<IPedidoQueries, PedidoQueries>();
 
             //// Data
             //services.AddScoped<IPedidoRepository, PedidoRepository>();
             //services.AddScoped<IVoucherRepository, VoucherRepository>();
-            //services.AddScoped<PedidosContext>();
+            services.AddScoped<PedidosContext>();
         }
     }
 }
