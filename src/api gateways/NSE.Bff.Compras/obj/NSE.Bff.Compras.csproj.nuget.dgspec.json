@@ -147,6 +147,10 @@
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "NetDevPack": {
+              "target": "Package",
+              "version": "[6.1.0, )"
             }
           },
           "imports": [

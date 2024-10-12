@@ -499,6 +499,19 @@
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
         }
       },
+      "NetDevPack/6.1.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "10.4.0",
+          "mediatr": "10.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/NetDevPack.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/NetDevPack.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -701,7 +714,8 @@
         "dependencies": {
           "FluentValidation": "11.9.2",
           "MediatR": "12.4.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "NetDevPack": "6.1.0"
         },
         "compile": {
           "bin/placeholder/NSE.Core.dll": {}
@@ -1792,6 +1806,19 @@
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
+      ]
+    },
+    "NetDevPack/6.1.0": {
+      "sha512": "/Qyr2+g/0HA7MFKHwv0kI/zdedLYrZE73dhcxVB3hbTu91J7DGVRXSfvH0Fy4zAe69ZxO0bAizaXSY3bi5JlAg==",
+      "type": "package",
+      "path": "netdevpack/6.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "IconNuget.png",
+        "lib/netstandard2.1/NetDevPack.dll",
+        "netdevpack.6.1.0.nupkg.sha512",
+        "netdevpack.nuspec"
       ]
     },
     "Newtonsoft.Json/13.0.3": {
