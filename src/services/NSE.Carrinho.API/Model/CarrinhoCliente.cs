@@ -5,6 +5,13 @@ namespace NSE.Carrinho.API.Model
 {
     public class CarrinhoCliente //carrinho do cliente
     {
+        /*
+                Lembrando que optamos por uma arquitetura super-simples propositalmente, nosso Models não são DTOs, 
+                são como se fossem entidades, mas não herdam de Entity.cs e tudo mais, pois optamos por essa simplicidade. 
+                Temos regra dee negócio e tudo mais, porém são modelos simplificados(não tendem a querer implementar todas 
+                as práticas do DDD, Modelos Ricos e tudo mais)
+         */
+
         internal const int MAX_QUANTIDADE_ITEM = 5;
 
         public Guid Id { get; set; }
@@ -12,6 +19,11 @@ namespace NSE.Carrinho.API.Model
         public decimal ValorTotal { get; set; }
         public List<CarrinhoItem> Itens { get; set; } = new List<CarrinhoItem>();
         public ValidationResult ValidationResult { get; set; }
+
+        public bool VoucherUtilizado { get; set; }
+        public decimal Desconto { get; set; }
+
+        public Voucher Voucher { get; set; }
 
 
         public CarrinhoCliente(Guid clienteId)
@@ -22,9 +34,44 @@ namespace NSE.Carrinho.API.Model
 
         public CarrinhoCliente() { }
 
+        public void AplicarVoucher(Voucher voucher)
+        {
+            Voucher = voucher;
+            VoucherUtilizado = true;
+            CalcularValorCarrinho();
+        }
+
         internal void CalcularValorCarrinho()
         {
             ValorTotal = Itens.Sum(p => p.CalcularValor());
+        }
+
+        private void CalcularValorTotalDesconto()
+        {
+            if (!VoucherUtilizado) return;
+
+            decimal desconto = 0;
+            var valor = ValorTotal;
+
+            if (Voucher.TipoDesconto == TipoDescontoVoucher.Porcentagem)
+            {
+                if (Voucher.Percentual.HasValue)
+                {
+                    desconto = (valor * Voucher.Percentual.Value) / 100;
+                    valor -= desconto;
+                }
+            }
+            else
+            {
+                if (Voucher.ValorDesconto.HasValue)
+                {
+                    desconto = Voucher.ValorDesconto.Value;
+                    valor -= desconto;
+                }
+            }
+
+            ValorTotal = valor < 0 ? 0 : valor; //se o ValorTotal ficar menor que 0, fica sendo 0, senão o valor restante
+            Desconto = desconto; //seto o desconto
         }
 
         internal bool CarrinhoItemExistente(CarrinhoItem item)

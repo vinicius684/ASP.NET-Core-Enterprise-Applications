@@ -19,7 +19,7 @@ namespace NSE.Carrinho.API.Model
 
         public Guid CarrinhoId { get; set; }
 
-        [JsonIgnore]
+        [JsonIgnore] //evitar que a serialização entre em looping infinito de instanciação
         public CarrinhoCliente CarrinhoCliente { get; set; }
 
         internal void AssociarCarrinho(Guid carrinhoId)

@@ -56,3 +56,4 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-C
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\api gateways\NSE.Bff.Compras\obj\Debug\net8.0\ref\NSE.Bff.Compras.dll
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\api gateways\NSE.Bff.Compras\bin\Debug\net8.0\Microsoft.Extensions.Http.Polly.dll
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\api gateways\NSE.Bff.Compras\bin\Debug\net8.0\Polly.Extensions.Http.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\api gateways\NSE.Bff.Compras\bin\Debug\net8.0\NetDevPack.dll

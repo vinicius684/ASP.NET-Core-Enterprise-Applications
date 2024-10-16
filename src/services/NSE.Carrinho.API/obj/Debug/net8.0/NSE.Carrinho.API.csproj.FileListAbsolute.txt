@@ -180,3 +180,4 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-C
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Carrinho.API\bin\Debug\net8.0\Microsoft.Extensions.Http.Polly.dll
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Carrinho.API\bin\Debug\net8.0\Polly.dll
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Carrinho.API\bin\Debug\net8.0\Polly.Extensions.Http.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\services\NSE.Carrinho.API\bin\Debug\net8.0\NetDevPack.dll

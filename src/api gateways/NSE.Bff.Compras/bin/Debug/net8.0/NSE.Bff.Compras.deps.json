@@ -242,6 +242,18 @@
         }
       },
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.21.0": {},
+      "NetDevPack/6.1.0": {
+        "dependencies": {
+          "FluentValidation": "11.9.2",
+          "MediatR": "12.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/NetDevPack.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
@@ -349,7 +361,8 @@
         "dependencies": {
           "FluentValidation": "11.9.2",
           "MediatR": "12.4.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "NetDevPack": "6.1.0"
         },
         "runtime": {
           "NSE.Core.dll": {
@@ -596,6 +609,13 @@
       "sha512": "sha512-8NudeHOE56YsY59HYY89akRMup8Ho+7Y3cADTGjajjWroXVU9RQai2nA6PfteB8AuzmRHZ5NZQB2BnWhQEul5g==",
       "path": "microsoft.visualstudio.azure.containers.tools.targets/1.21.0",
       "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+    },
+    "NetDevPack/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Qyr2+g/0HA7MFKHwv0kI/zdedLYrZE73dhcxVB3hbTu91J7DGVRXSfvH0Fy4zAe69ZxO0bAizaXSY3bi5JlAg==",
+      "path": "netdevpack/6.1.0",
+      "hashPath": "netdevpack.6.1.0.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.3": {
       "type": "package",

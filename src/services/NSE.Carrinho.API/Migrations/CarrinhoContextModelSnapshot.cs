@@ -31,8 +31,14 @@ namespace NSE.Carrinho.API.Migrations
                     b.Property<Guid>("ClienteId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<decimal>("Desconto")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<decimal>("ValorTotal")
                         .HasColumnType("decimal(18,2)");
+
+                    b.Property<bool>("VoucherUtilizado")
+                        .HasColumnType("bit");
 
                     b.HasKey("Id");
 
@@ -52,11 +58,9 @@ namespace NSE.Carrinho.API.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Imagem")
-                        .IsRequired()
                         .HasColumnType("varchar(100)");
 
                     b.Property<string>("Nome")
-                        .IsRequired()
                         .HasColumnType("varchar(100)");
 
                     b.Property<Guid>("ProdutoId")
@@ -73,6 +77,40 @@ namespace NSE.Carrinho.API.Migrations
                     b.HasIndex("CarrinhoId");
 
                     b.ToTable("CarrinhoItens");
+                });
+
+            modelBuilder.Entity("NSE.Carrinho.API.Model.CarrinhoCliente", b =>
+                {
+                    b.OwnsOne("NSE.Carrinho.API.Model.Voucher", "Voucher", b1 =>
+                        {
+                            b1.Property<Guid>("CarrinhoClienteId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<string>("Codigo")
+                                .HasColumnType("varchar(50)")
+                                .HasColumnName("VoucherCodigo");
+
+                            b1.Property<decimal?>("Percentual")
+                                .HasColumnType("decimal(18,2)")
+                                .HasColumnName("Percentual");
+
+                            b1.Property<int>("TipoDesconto")
+                                .HasColumnType("int")
+                                .HasColumnName("TipoDesconto");
+
+                            b1.Property<decimal?>("ValorDesconto")
+                                .HasColumnType("decimal(18,2)")
+                                .HasColumnName("ValorDesconto");
+
+                            b1.HasKey("CarrinhoClienteId");
+
+                            b1.ToTable("CarrinhoCliente");
+
+                            b1.WithOwner()
+                                .HasForeignKey("CarrinhoClienteId");
+                        });
+
+                    b.Navigation("Voucher");
                 });
 
             modelBuilder.Entity("NSE.Carrinho.API.Model.CarrinhoItem", b =>
