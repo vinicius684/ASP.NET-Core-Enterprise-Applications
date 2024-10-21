@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IMXEUxVuR9Y=",
+  "dgSpecHash": "8M2UD+1GVzs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\api gateways\\NSE.Bff.Compras\\NSE.Bff.Compras.csproj",
+  "projectFilePath": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\NSE.Bff.Compras.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vpinh\\.nuget\\packages\\easynetq\\7.8.0\\easynetq.7.8.0.nupkg.sha512",
     "C:\\Users\\vpinh\\.nuget\\packages\\easynetq.serialization.newtonsoftjson\\7.8.0\\easynetq.serialization.newtonsoftjson.7.8.0.nupkg.sha512",
