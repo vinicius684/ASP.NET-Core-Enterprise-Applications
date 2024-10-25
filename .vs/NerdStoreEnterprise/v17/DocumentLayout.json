@@ -3,16 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{916A09AD-30DF-4F7F-83AE-DC55732B2BAC}|src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.pedidos.domain\\pedidos\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{916A09AD-30DF-4F7F-83AE-DC55732B2BAC}|src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj|solutionrelative:src\\services\\nse.pedidos.domain\\pedidos\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01E7CF7D-3E81-4810-811E-E33E0813D5F6}|src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.catalogo.api\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E7CF7D-3E81-4810-811E-E33E0813D5F6}|src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj|solutionrelative:src\\services\\nse.catalogo.api\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E7CF7D-3E81-4810-811E-E33E0813D5F6}|src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.catalogo.api\\data\\catalogocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E7CF7D-3E81-4810-811E-E33E0813D5F6}|src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj|solutionrelative:src\\services\\nse.catalogo.api\\data\\catalogocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E7CF7D-3E81-4810-811E-E33E0813D5F6}|src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.catalogo.api\\data\\mappings\\produtomappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E7CF7D-3E81-4810-811E-E33E0813D5F6}|src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj|solutionrelative:src\\services\\nse.catalogo.api\\data\\mappings\\produtomappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFF1ACA0-4867-49DD-A50C-F26B9453EF01}|src\\services\\NSE.Pedidos.API\\NSE.Pedidos.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.pedidos.api\\configuration\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFF1ACA0-4867-49DD-A50C-F26B9453EF01}|src\\services\\NSE.Pedidos.API\\NSE.Pedidos.API.csproj|solutionrelative:src\\services\\nse.pedidos.api\\configuration\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EA7195-3150-4208-896E-CAA19949466D}|src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.pedidos.infra\\data\\pedidoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EA7195-3150-4208-896E-CAA19949466D}|src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj|solutionrelative:src\\services\\nse.pedidos.infra\\data\\pedidoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Infra\\Migrations\\20241025125344_pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\NSE.Pedidos.Infra\\Migrations\\20241025125344_pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EA7195-3150-4208-896E-CAA19949466D}|src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.pedidos.infra\\nse.pedidos.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{13EA7195-3150-4208-896E-CAA19949466D}|src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj|solutionrelative:src\\services\\nse.pedidos.infra\\nse.pedidos.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EA7195-3150-4208-896E-CAA19949466D}|src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.pedidos.infra\\data\\mappings\\pedidoitemmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EA7195-3150-4208-896E-CAA19949466D}|src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj|solutionrelative:src\\services\\nse.pedidos.infra\\data\\mappings\\pedidoitemmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EA7195-3150-4208-896E-CAA19949466D}|src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.pedidos.infra\\data\\mappings\\pedidomapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EA7195-3150-4208-896E-CAA19949466D}|src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj|solutionrelative:src\\services\\nse.pedidos.infra\\data\\mappings\\pedidomapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30F4370D-AE2A-4F6A-8974-8EAC5A2EE750}|src\\services\\NSE.Clientes.API\\NSE.Clientes.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.clientes.api\\data\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30F4370D-AE2A-4F6A-8974-8EAC5A2EE750}|src\\services\\NSE.Clientes.API\\NSE.Clientes.API.csproj|solutionrelative:src\\services\\nse.clientes.api\\data\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{916A09AD-30DF-4F7F-83AE-DC55732B2BAC}|src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.pedidos.domain\\pedidos\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{916A09AD-30DF-4F7F-83AE-DC55732B2BAC}|src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj|solutionrelative:src\\services\\nse.pedidos.domain\\pedidos\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{13EA7195-3150-4208-896E-CAA19949466D}|src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.pedidos.infra\\data\\repository\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EA7195-3150-4208-896E-CAA19949466D}|src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj|solutionrelative:src\\services\\nse.pedidos.infra\\data\\repository\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{916A09AD-30DF-4F7F-83AE-DC55732B2BAC}|src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.pedidos.domain\\vouchers\\ivoucherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{916A09AD-30DF-4F7F-83AE-DC55732B2BAC}|src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj|solutionrelative:src\\services\\nse.pedidos.domain\\vouchers\\ivoucherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{916A09AD-30DF-4F7F-83AE-DC55732B2BAC}|src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.pedidos.domain\\pedidos\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{916A09AD-30DF-4F7F-83AE-DC55732B2BAC}|src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj|solutionrelative:src\\services\\nse.pedidos.domain\\pedidos\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{916A09AD-30DF-4F7F-83AE-DC55732B2BAC}|src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.pedidos.domain\\pedidos\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{916A09AD-30DF-4F7F-83AE-DC55732B2BAC}|src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj|solutionrelative:src\\services\\nse.pedidos.domain\\pedidos\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{916A09AD-30DF-4F7F-83AE-DC55732B2BAC}|src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.pedidos.domain\\pedidos\\pedidostatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,20 +118,8 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NerdStoreEnterpriseDB/True/SqlTable/dbo.Vouchers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{916A09AD-30DF-4F7F-83AE-DC55732B2BAC}|src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.pedidos.domain\\vouchers\\ivoucherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{916A09AD-30DF-4F7F-83AE-DC55732B2BAC}|src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj|solutionrelative:src\\services\\nse.pedidos.domain\\vouchers\\ivoucherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFF1ACA0-4867-49DD-A50C-F26B9453EF01}|src\\services\\NSE.Pedidos.API\\NSE.Pedidos.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.pedidos.api\\configuration\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFF1ACA0-4867-49DD-A50C-F26B9453EF01}|src\\services\\NSE.Pedidos.API\\NSE.Pedidos.API.csproj|solutionrelative:src\\services\\nse.pedidos.api\\configuration\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13EA7195-3150-4208-896E-CAA19949466D}|src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.pedidos.infra\\data\\repository\\voucherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13EA7195-3150-4208-896E-CAA19949466D}|src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj|solutionrelative:src\\services\\nse.pedidos.infra\\data\\repository\\voucherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13EA7195-3150-4208-896E-CAA19949466D}|src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.pedidos.infra\\data\\pedidoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13EA7195-3150-4208-896E-CAA19949466D}|src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj|solutionrelative:src\\services\\nse.pedidos.infra\\data\\pedidoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92B8C9E4-8D33-4F02-9569-55E5A92D3066}|src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\web\\nse.webapp.mvc\\services\\handlers\\httpclientauthorizationdelegatinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -232,10 +268,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{01E7CF7D-3E81-4810-811E-E33E0813D5F6}|src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.catalogo.api\\controllers\\catalogocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01E7CF7D-3E81-4810-811E-E33E0813D5F6}|src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj|solutionrelative:src\\services\\nse.catalogo.api\\controllers\\catalogocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01E7CF7D-3E81-4810-811E-E33E0813D5F6}|src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.catalogo.api\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01E7CF7D-3E81-4810-811E-E33E0813D5F6}|src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj|solutionrelative:src\\services\\nse.catalogo.api\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64F90AC6-F659-4EFF-A81A-6F6AEC46CF33}|src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\building blocks\\nse.webapi.core\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -576,10 +608,6 @@
       "RelativeMoniker": "D:0:0:{C5E9607A-D531-4FB0-B069-8252FD063B5B}|src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj|solutionrelative:src\\services\\nse.identidade.api\\extensions\\identitymensagensportugues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01E7CF7D-3E81-4810-811E-E33E0813D5F6}|src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.catalogo.api\\data\\catalogocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01E7CF7D-3E81-4810-811E-E33E0813D5F6}|src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj|solutionrelative:src\\services\\nse.catalogo.api\\data\\catalogocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vpinh\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
@@ -666,10 +694,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{92B8C9E4-8D33-4F02-9569-55E5A92D3066}|src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\web\\nse.webapp.mvc\\wwwroot\\fonts\\fontawesome\\scss\\_icons.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
       "RelativeMoniker": "D:0:0:{92B8C9E4-8D33-4F02-9569-55E5A92D3066}|src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj|solutionrelative:src\\web\\nse.webapp.mvc\\wwwroot\\fonts\\fontawesome\\scss\\_icons.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01E7CF7D-3E81-4810-811E-E33E0813D5F6}|src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\services\\nse.catalogo.api\\data\\mappings\\produtomappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01E7CF7D-3E81-4810-811E-E33E0813D5F6}|src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj|solutionrelative:src\\services\\nse.catalogo.api\\data\\mappings\\produtomappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92B8C9E4-8D33-4F02-9569-55E5A92D3066}|src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_9aspnetenterpriseapplications\\nerdstoreenterprise\\src\\web\\nse.webapp.mvc\\wwwroot\\fonts\\fontawesome\\scss\\_rotated-flipped.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
@@ -1021,43 +1045,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IPedidoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Pedidos\\IPedidoRepository.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Domain\\Pedidos\\IPedidoRepository.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Pedidos\\IPedidoRepository.cs",
-              "RelativeToolTip": "src\\services\\NSE.Pedidos.Domain\\Pedidos\\IPedidoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T11:07:04.147Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PedidoStatus.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Pedidos\\PedidoStatus.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Domain\\Pedidos\\PedidoStatus.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Pedidos\\PedidoStatus.cs",
-              "RelativeToolTip": "src\\services\\NSE.Pedidos.Domain\\Pedidos\\PedidoStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAA==",
+              "Title": "DependencyInjectionConfig.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.API\\Configuration\\DependencyInjectionConfig.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.API\\Configuration\\DependencyInjectionConfig.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.API\\Configuration\\DependencyInjectionConfig.cs",
+              "RelativeToolTip": "src\\services\\NSE.Pedidos.API\\Configuration\\DependencyInjectionConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T11:05:22.311Z"
+              "WhenOpened": "2024-10-16T14:07:54.744Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PedidoItem.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Pedidos\\PedidoItem.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Domain\\Pedidos\\PedidoItem.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Pedidos\\PedidoItem.cs",
-              "RelativeToolTip": "src\\services\\NSE.Pedidos.Domain\\Pedidos\\PedidoItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProdutoMappings.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Data\\Mappings\\ProdutoMappings.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Data\\Mappings\\ProdutoMappings.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Data\\Mappings\\ProdutoMappings.cs",
+              "RelativeToolTip": "src\\services\\NSE.Catalogo.API\\Data\\Mappings\\ProdutoMappings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T11:00:33.894Z"
+              "WhenOpened": "2024-09-02T13:35:28.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CatalogoContext.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Data\\CatalogoContext.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Data\\CatalogoContext.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Data\\CatalogoContext.cs",
+              "RelativeToolTip": "src\\services\\NSE.Catalogo.API\\Data\\CatalogoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T13:20:48.788Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Models\\Produto.cs",
+              "RelativeToolTip": "src\\services\\NSE.Catalogo.API\\Models\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T12:26:17.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PedidosContext.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Infra\\Data\\PedidosContext.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Infra\\Data\\PedidosContext.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Infra\\Data\\PedidosContext.cs",
+              "RelativeToolTip": "src\\services\\NSE.Pedidos.Infra\\Data\\PedidosContext.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwBoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:56:37.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20241025125344_pedidos.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Infra\\Migrations\\20241025125344_pedidos.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Infra\\Migrations\\20241025125344_pedidos.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Infra\\Migrations\\20241025125344_pedidos.cs",
+              "RelativeToolTip": "src\\services\\NSE.Pedidos.Infra\\Migrations\\20241025125344_pedidos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T12:53:44.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NSE.Pedidos.Infra",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj",
+              "RelativeToolTip": "src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-25T12:52:08.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PedidoItemMapping.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Infra\\Data\\Mappings\\PedidoItemMapping.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Infra\\Data\\Mappings\\PedidoItemMapping.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Infra\\Data\\Mappings\\PedidoItemMapping.cs",
+              "RelativeToolTip": "src\\services\\NSE.Pedidos.Infra\\Data\\Mappings\\PedidoItemMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAACoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T12:48:37.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PedidoMapping.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Infra\\Data\\Mappings\\PedidoMapping.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Infra\\Data\\Mappings\\PedidoMapping.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Infra\\Data\\Mappings\\PedidoMapping.cs",
+              "RelativeToolTip": "src\\services\\NSE.Pedidos.Infra\\Data\\Mappings\\PedidoMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T12:48:43.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Clientes.API\\Data\\Repository\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Clientes.API\\Data\\Repository\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Clientes.API\\Data\\Repository\\ClienteRepository.cs",
+              "RelativeToolTip": "src\\services\\NSE.Clientes.API\\Data\\Repository\\ClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T12:42:04.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PedidoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Infra\\Data\\Repository\\PedidoRepository.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Infra\\Data\\Repository\\PedidoRepository.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Infra\\Data\\Repository\\PedidoRepository.cs",
+              "RelativeToolTip": "src\\services\\NSE.Pedidos.Infra\\Data\\Repository\\PedidoRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T12:24:15.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Pedido.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Pedidos\\Pedido.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Domain\\Pedidos\\Pedido.cs",
@@ -1070,31 +1201,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "Endereco.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Pedidos\\Endereco.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Domain\\Pedidos\\Endereco.cs",
               "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Pedidos\\Endereco.cs",
               "RelativeToolTip": "src\\services\\NSE.Pedidos.Domain\\Pedidos\\Endereco.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T10:20:48.505Z"
+              "WhenOpened": "2024-10-25T10:20:48.505Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "VoucherController.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.API\\Controllers\\VoucherController.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.API\\Controllers\\VoucherController.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.API\\Controllers\\VoucherController.cs",
-              "RelativeToolTip": "src\\services\\NSE.Pedidos.API\\Controllers\\VoucherController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvxcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T14:06:01.849Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "CarrinhoCliente.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\Model\\CarrinhoCliente.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\Model\\CarrinhoCliente.cs",
@@ -1106,7 +1226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "VoucherQueries.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.API\\Application\\Queries\\VoucherQueries.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.API\\Application\\Queries\\VoucherQueries.cs",
@@ -1118,7 +1238,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
+              "Title": "IPedidoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Pedidos\\IPedidoRepository.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Domain\\Pedidos\\IPedidoRepository.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Pedidos\\IPedidoRepository.cs",
+              "RelativeToolTip": "src\\services\\NSE.Pedidos.Domain\\Pedidos\\IPedidoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T11:07:04.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IVoucherRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Vouchers\\IVoucherRepository.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Domain\\Vouchers\\IVoucherRepository.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Vouchers\\IVoucherRepository.cs",
+              "RelativeToolTip": "src\\services\\NSE.Pedidos.Domain\\Vouchers\\IVoucherRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T13:17:59.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "VoucherController.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.API\\Controllers\\VoucherController.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.API\\Controllers\\VoucherController.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.API\\Controllers\\VoucherController.cs",
+              "RelativeToolTip": "src\\services\\NSE.Pedidos.API\\Controllers\\VoucherController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:06:01.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PedidoItem.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Pedidos\\PedidoItem.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Domain\\Pedidos\\PedidoItem.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Pedidos\\PedidoItem.cs",
+              "RelativeToolTip": "src\\services\\NSE.Pedidos.Domain\\Pedidos\\PedidoItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T11:00:33.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PedidoStatus.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Pedidos\\PedidoStatus.cs",
+              "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Domain\\Pedidos\\PedidoStatus.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Pedidos\\PedidoStatus.cs",
+              "RelativeToolTip": "src\\services\\NSE.Pedidos.Domain\\Pedidos\\PedidoStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T11:05:22.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "CarrinhoController.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\Controllers\\CarrinhoController.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\Controllers\\CarrinhoController.cs",
@@ -1130,7 +1312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "Voucher.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\Model\\Voucher.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\Model\\Voucher.cs",
@@ -1142,7 +1324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Views\\Carrinho\\Index.cshtml",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Views\\Carrinho\\Index.cshtml",
@@ -1154,7 +1336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "CarrinhoController.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Controllers\\CarrinhoController.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Controllers\\CarrinhoController.cs",
@@ -1166,7 +1348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 26,
               "Title": "VoucherSpec.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Vouchers\\Specs\\VoucherSpec.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Domain\\Vouchers\\Specs\\VoucherSpec.cs",
@@ -1178,7 +1360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 25,
               "Title": "Voucher.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Vouchers\\Voucher.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Domain\\Vouchers\\Voucher.cs",
@@ -1190,7 +1372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 24,
               "Title": "CarrinhoController.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Controllers\\CarrinhoController.cs",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\Controllers\\CarrinhoController.cs",
@@ -1202,7 +1384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 29,
               "Title": "VoucherRepository.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Infra\\Data\\Repository\\VoucherRepository.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Infra\\Data\\Repository\\VoucherRepository.cs",
@@ -1214,7 +1396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 27,
               "Title": "NSE.Pedidos.API.csproj",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.API\\NSE.Pedidos.API.csproj",
               "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.API\\NSE.Pedidos.API.csproj",
@@ -1222,23 +1404,12 @@
               "RelativeToolTip": "src\\services\\NSE.Pedidos.API\\NSE.Pedidos.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-21T14:08:36.786Z"
+              "WhenOpened": "2024-10-21T14:08:36.786Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IVoucherRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Vouchers\\IVoucherRepository.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Domain\\Vouchers\\IVoucherRepository.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Vouchers\\IVoucherRepository.cs",
-              "RelativeToolTip": "src\\services\\NSE.Pedidos.Domain\\Vouchers\\IVoucherRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T13:17:59.248Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 28,
               "Title": "dbo.Vouchers.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NerdStoreEnterpriseDB/True/SqlTable/dbo.Vouchers.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NerdStoreEnterpriseDB/True/SqlTable/dbo.Vouchers.sql",
@@ -1247,19 +1418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "PedidosContext.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Infra\\Data\\PedidosContext.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Infra\\Data\\PedidosContext.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Infra\\Data\\PedidosContext.cs",
-              "RelativeToolTip": "src\\services\\NSE.Pedidos.Infra\\Data\\PedidosContext.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T14:56:37.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 32,
               "Title": "ClaimsPrincipalExtensions.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebAPI.Core\\Usuario\\ClaimsPrincipalExtensions.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.WebAPI.Core\\Usuario\\ClaimsPrincipalExtensions.cs",
@@ -1271,19 +1430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DependencyInjectionConfig.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.API\\Configuration\\DependencyInjectionConfig.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.API\\Configuration\\DependencyInjectionConfig.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.API\\Configuration\\DependencyInjectionConfig.cs",
-              "RelativeToolTip": "src\\services\\NSE.Pedidos.API\\Configuration\\DependencyInjectionConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T14:07:54.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "AspNetUser.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebAPI.Core\\Usuario\\AspNetUser.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.WebAPI.Core\\Usuario\\AspNetUser.cs",
@@ -1295,7 +1442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "HttpClientAuthorizationDelegatingHandler.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Services\\Handlers\\HttpClientAuthorizationDelegatingHandler.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Services\\Handlers\\HttpClientAuthorizationDelegatingHandler.cs",
@@ -1307,7 +1454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
               "Title": "ComprasBffService.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Services\\ComprasBffService.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Services\\ComprasBffService.cs",
@@ -1319,7 +1466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 34,
               "Title": "Service.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Services\\Service.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Services\\Service.cs",
@@ -1331,7 +1478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "CarrinhoService.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Services\\CarrinhoService.cs",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\Services\\CarrinhoService.cs",
@@ -1343,7 +1490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 36,
               "Title": "DependencyInjectionConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Configuration\\DependencyInjectionConfig.cs",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\Configuration\\DependencyInjectionConfig.cs",
@@ -1355,7 +1502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 38,
               "Title": "VoucherDTO.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Models\\VoucherDTO.cs",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\Models\\VoucherDTO.cs",
@@ -1367,7 +1514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 37,
               "Title": "CarrinhoViewModel.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Models\\CarrinhoViewModel.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Models\\CarrinhoViewModel.cs",
@@ -1379,7 +1526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 39,
               "Title": "ProdutoDetalhe.cshtml",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Views\\Catalogo\\ProdutoDetalhe.cshtml",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Views\\Catalogo\\ProdutoDetalhe.cshtml",
@@ -1391,7 +1538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 40,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Views\\Identidade\\Login.cshtml",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Views\\Identidade\\Login.cshtml",
@@ -1403,7 +1550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 41,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Views\\Shared\\Components\\Carrinho\\Default.cshtml",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Views\\Shared\\Components\\Carrinho\\Default.cshtml",
@@ -1415,7 +1562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 42,
               "Title": "CarrinhoViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Extensions\\CarrinhoViewComponent.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Extensions\\CarrinhoViewComponent.cs",
@@ -1427,7 +1574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 43,
               "Title": "CarrinhoDTO.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Models\\CarrinhoDTO.cs",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\Models\\CarrinhoDTO.cs",
@@ -1439,7 +1586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 44,
               "Title": "VoucherViewModel.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Models\\VoucherViewModel.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Models\\VoucherViewModel.cs",
@@ -1451,7 +1598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 45,
               "Title": "CommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\Messages\\CommandHandler.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Messages\\CommandHandler.cs",
@@ -1463,7 +1610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 47,
               "Title": "CarrinhoContext.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\Data\\CarrinhoContext.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\Data\\CarrinhoContext.cs",
@@ -1475,7 +1622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 46,
               "Title": "ClienteCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Clientes.API\\Application\\Commands\\ClienteCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Clientes.API\\Application\\Commands\\ClienteCommandHandler.cs",
@@ -1487,7 +1634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 49,
               "Title": "20241016140819_Voucher.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\Migrations\\20241016140819_Voucher.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\Migrations\\20241016140819_Voucher.cs",
@@ -1499,7 +1646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 48,
               "Title": "20240926143426_Carrinho.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\Migrations\\20240926143426_Carrinho.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\Migrations\\20240926143426_Carrinho.cs",
@@ -1511,7 +1658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 50,
               "Title": "CarrinhoItem.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\Model\\CarrinhoItem.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\Model\\CarrinhoItem.cs",
@@ -1523,7 +1670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 51,
               "Title": "ApiConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.API\\Configuration\\ApiConfig.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.API\\Configuration\\ApiConfig.cs",
@@ -1535,7 +1682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 53,
               "Title": "ClienteMapping.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Clientes.API\\Data\\Mappings\\ClienteMapping.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Clientes.API\\Data\\Mappings\\ClienteMapping.cs",
@@ -1547,7 +1694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 55,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Clientes.API\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Clientes.API\\Models\\Cliente.cs",
@@ -1559,7 +1706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 54,
               "Title": "Cpf.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\DomainObjects\\Cpf.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\DomainObjects\\Cpf.cs",
@@ -1571,7 +1718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 52,
               "Title": "Email.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\DomainObjects\\Email.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\DomainObjects\\Email.cs",
@@ -1583,7 +1730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 56,
               "Title": "ClientesContext.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Clientes.API\\Data\\ClientesContext.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Clientes.API\\Data\\ClientesContext.cs",
@@ -1595,7 +1742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 57,
               "Title": "EnderecoMapping.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Clientes.API\\Data\\Mappings\\EnderecoMapping.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Clientes.API\\Data\\Mappings\\EnderecoMapping.cs",
@@ -1607,7 +1754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 60,
               "Title": "CatalogoService.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Services\\CatalogoService.cs",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\Services\\CatalogoService.cs",
@@ -1619,7 +1766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 59,
               "Title": "PagamentoService.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Services\\PagamentoService.cs",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\Services\\PagamentoService.cs",
@@ -1631,7 +1778,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 225,
+              "DocumentIndex": 231,
               "Title": "VoucherRepository.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\ClassLibrary1\\Data\\Repository\\VoucherRepository.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\ClassLibrary1\\Data\\Repository\\VoucherRepository.cs",
@@ -1643,7 +1790,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 232,
+              "DocumentIndex": 238,
               "Title": "VoucherQueries.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pedido.API\\Application\\Queries\\VoucherQueries.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pedido.API\\Application\\Queries\\VoucherQueries.cs",
@@ -1655,7 +1802,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 231,
+              "DocumentIndex": 237,
               "Title": "VoucherController.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pedido.API\\Controllers\\VoucherController.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pedido.API\\Controllers\\VoucherController.cs",
@@ -1667,7 +1814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 58,
               "Title": "PedidoService.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Services\\PedidoService.cs",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\Services\\PedidoService.cs",
@@ -1679,7 +1826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 61,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\appsettings.Development.json",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\appsettings.Development.json",
@@ -1691,7 +1838,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 62,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\appsettings.json",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\appsettings.json",
@@ -1703,7 +1850,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 63,
               "Title": "Service.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Services\\Service.cs",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\Services\\Service.cs",
@@ -1715,7 +1862,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 233,
+              "DocumentIndex": 239,
               "Title": "VoucherDTO.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pedido.API\\Application\\DTO\\VoucherDTO.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pedido.API\\Application\\DTO\\VoucherDTO.cs",
@@ -1727,7 +1874,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 234,
+              "DocumentIndex": 240,
               "Title": "DependencyInjectionConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pedido.API\\Configuration\\DependencyInjectionConfig.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pedido.API\\Configuration\\DependencyInjectionConfig.cs",
@@ -1739,7 +1886,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 64,
               "Title": "ItemProdutoDTO.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Models\\ItemProdutoDTO.cs",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\Models\\ItemProdutoDTO.cs",
@@ -1751,7 +1898,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 65,
               "Title": "ItemCarrinhoDTO.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Models\\ItemCarrinhoDTO.cs",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\Models\\ItemCarrinhoDTO.cs",
@@ -1763,7 +1910,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 66,
               "Title": "CatalogoController.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Controllers\\CatalogoController.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Controllers\\CatalogoController.cs",
@@ -1775,19 +1922,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Models\\Produto.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Models\\Produto.cs",
-              "RelativeToolTip": "src\\services\\NSE.Catalogo.API\\Models\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T12:26:17.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 67,
               "Title": "MainController.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebAPI.Core\\Controllers\\MainController.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.WebAPI.Core\\Controllers\\MainController.cs",
@@ -1799,7 +1934,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 68,
               "Title": "IdentidadeController.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Controllers\\IdentidadeController.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Controllers\\IdentidadeController.cs",
@@ -1811,7 +1946,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 69,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Controllers\\HomeController.cs",
@@ -1823,7 +1958,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 70,
               "Title": "CatalogoController.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Controllers\\CatalogoController.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Controllers\\CatalogoController.cs",
@@ -1835,7 +1970,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 71,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Controllers\\AuthController.cs",
@@ -1847,7 +1982,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 72,
               "Title": "VoucherValidation.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Vouchers\\Specs\\VoucherValidation.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Domain\\Vouchers\\Specs\\VoucherValidation.cs",
@@ -1859,7 +1994,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 226,
+              "DocumentIndex": 232,
               "Title": "PedidosContext.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\ClassLibrary1\\Data\\PedidosContext.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\ClassLibrary1\\Data\\PedidosContext.cs",
@@ -1871,7 +2006,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 227,
+              "DocumentIndex": 233,
               "Title": "VoucherMapping.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\ClassLibrary1\\Data\\Mappings\\VoucherMapping.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\ClassLibrary1\\Data\\Mappings\\VoucherMapping.cs",
@@ -1883,7 +2018,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 235,
+              "DocumentIndex": 241,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Models\\Cliente.cs",
@@ -1895,7 +2030,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 236,
+              "DocumentIndex": 242,
               "Title": "Endereco.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Models\\Endereco.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Models\\Endereco.cs",
@@ -1907,7 +2042,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 228,
+              "DocumentIndex": 234,
               "Title": "PedidoMapping.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\ClassLibrary1\\Data\\Mappings\\PedidoMapping.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\ClassLibrary1\\Data\\Mappings\\PedidoMapping.cs",
@@ -1919,7 +2054,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 229,
+              "DocumentIndex": 235,
               "Title": "20241012153346_Voucher.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\ClassLibrary1\\Migrations\\20241012153346_Voucher.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\ClassLibrary1\\Migrations\\20241012153346_Voucher.cs",
@@ -1931,7 +2066,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 237,
+              "DocumentIndex": 243,
               "Title": "NSE.Pedidos.API.csproj",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pedido.API\\NSE.Pedidos.API.csproj",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pedido.API\\NSE.Pedidos.API.csproj",
@@ -1943,7 +2078,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 238,
+              "DocumentIndex": 244,
               "Title": "ApiConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pedido.API\\Configuration\\ApiConfig.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pedido.API\\Configuration\\ApiConfig.cs",
@@ -1955,7 +2090,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 239,
+              "DocumentIndex": 245,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pedido.API\\Program.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pedido.API\\Program.cs",
@@ -1967,7 +2102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 73,
               "Title": "JwtConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebAPI.Core\\Identidade\\JwtConfig.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.WebAPI.Core\\Identidade\\JwtConfig.cs",
@@ -1979,7 +2114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 74,
               "Title": "CustomAuthorize.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebAPI.Core\\Identidade\\CustomAuthorize.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.WebAPI.Core\\Identidade\\CustomAuthorize.cs",
@@ -1991,7 +2126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 75,
               "Title": "AppSettings.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebAPI.Core\\Identidade\\AppSettings.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.WebAPI.Core\\Identidade\\AppSettings.cs",
@@ -2003,7 +2138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 230,
+              "DocumentIndex": 236,
               "Title": "PedidoItemMapping.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\ClassLibrary1\\Data\\Mappings\\PedidoItemMapping.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\ClassLibrary1\\Data\\Mappings\\PedidoItemMapping.cs",
@@ -2015,7 +2150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 76,
               "Title": "NSE.Pedidos.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj",
               "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj",
@@ -2023,11 +2158,12 @@
               "RelativeToolTip": "src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-11T13:21:40.105Z"
+              "WhenOpened": "2024-10-11T13:21:40.105Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 77,
               "Title": "TipoDescontoVoucher.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Pedidos.Domain\\Vouchers\\TipoDescontoVoucher.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Pedidos.Domain\\Vouchers\\TipoDescontoVoucher.cs",
@@ -2039,7 +2175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 240,
+              "DocumentIndex": 246,
               "Title": "MessageBusConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pedido.API\\Configuration\\MessageBusConfig.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pedido.API\\Configuration\\MessageBusConfig.cs",
@@ -2051,7 +2187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 241,
+              "DocumentIndex": 247,
               "Title": "NSE.Clientes.API.csproj",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\NSE.Clientes.API.csproj",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\NSE.Clientes.API.csproj",
@@ -2063,7 +2199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 242,
+              "DocumentIndex": 248,
               "Title": "SwaggerConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Configuration\\SwaggerConfig.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Configuration\\SwaggerConfig.cs",
@@ -2075,7 +2211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 243,
+              "DocumentIndex": 249,
               "Title": "MessageBusConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Configuration\\MessageBusConfig.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Configuration\\MessageBusConfig.cs",
@@ -2087,7 +2223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 244,
+              "DocumentIndex": 250,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pedido.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pedido.API\\appsettings.Development.json",
@@ -2099,7 +2235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 245,
+              "DocumentIndex": 251,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Program.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Program.cs",
@@ -2111,7 +2247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 78,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Program.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Program.cs",
@@ -2123,7 +2259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 246,
+              "DocumentIndex": 252,
               "Title": "ApiConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Configuration\\ApiConfig.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Configuration\\ApiConfig.cs",
@@ -2135,7 +2271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 247,
+              "DocumentIndex": 253,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\appsettings.Development.json",
@@ -2147,7 +2283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 248,
+              "DocumentIndex": 254,
               "Title": "DependencyInjectionConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Configuration\\DependencyInjectionConfig.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Configuration\\DependencyInjectionConfig.cs",
@@ -2159,7 +2295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 79,
               "Title": "NSE.Bff.Compras.csproj",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\NSE.Bff.Compras.csproj",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\NSE.Bff.Compras.csproj",
@@ -2167,11 +2303,12 @@
               "RelativeToolTip": "src\\api gateways\\NSE.Bff.Compras\\NSE.Bff.Compras.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-10T15:13:41.457Z"
+              "WhenOpened": "2024-10-10T15:13:41.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 249,
+              "DocumentIndex": 255,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\appsettings.json",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\appsettings.json",
@@ -2183,7 +2320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 80,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\appsettings.Development.json",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\appsettings.Development.json",
@@ -2195,7 +2332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 81,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Program.cs",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\Program.cs",
@@ -2207,7 +2344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 82,
               "Title": "AppSettings.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Extensions\\AppSettings.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Extensions\\AppSettings.cs",
@@ -2219,7 +2356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 84,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Program.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Program.cs",
@@ -2231,7 +2368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 83,
               "Title": "DependencyInjectionConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Configuration\\DependencyInjectionConfig.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Configuration\\DependencyInjectionConfig.cs",
@@ -2243,7 +2380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 85,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\appsettings.json",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\appsettings.json",
@@ -2255,7 +2392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 86,
               "Title": "NSE.Bff.Compras.http",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\NSE.Bff.Compras.http",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\NSE.Bff.Compras.http",
@@ -2267,7 +2404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 87,
               "Title": "CatalogoService.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Services\\CatalogoService.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Services\\CatalogoService.cs",
@@ -2279,7 +2416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 88,
               "Title": "ProdutoViewModel.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Models\\ProdutoViewModel.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Models\\ProdutoViewModel.cs",
@@ -2291,7 +2428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 89,
               "Title": "AutenticacaoService.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Services\\AutenticacaoService.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Services\\AutenticacaoService.cs",
@@ -2303,7 +2440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 90,
               "Title": "MessageBus.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.MessageBus\\MessageBus.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.MessageBus\\MessageBus.cs",
@@ -2315,7 +2452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 91,
               "Title": "IMessageBus.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.MessageBus\\IMessageBus.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.MessageBus\\IMessageBus.cs",
@@ -2327,7 +2464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 92,
               "Title": "DependencyInjectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.MessageBus\\DependencyInjectionExtensions.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.MessageBus\\DependencyInjectionExtensions.cs",
@@ -2339,7 +2476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 250,
+              "DocumentIndex": 256,
               "Title": "RegistroClienteIntegrationHandler.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Services\\RegistroClienteIntegrationHandler.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Services\\RegistroClienteIntegrationHandler.cs",
@@ -2351,7 +2488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 93,
               "Title": "NSE.Identidade.API.csproj",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
@@ -2359,11 +2496,12 @@
               "RelativeToolTip": "src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-03T00:06:55.184Z"
+              "WhenOpened": "2024-10-03T00:06:55.184Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 94,
               "Title": "NSE.MessageBus.csproj",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj",
@@ -2371,11 +2509,12 @@
               "RelativeToolTip": "src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-20T13:53:25.612Z"
+              "WhenOpened": "2024-09-20T13:53:25.612Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 97,
               "Title": "NSE.WebAPI.Core.csproj",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj",
@@ -2383,11 +2522,12 @@
               "RelativeToolTip": "src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-02T18:18:22.353Z"
+              "WhenOpened": "2024-09-02T18:18:22.353Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 95,
               "Title": "PollyExtensions.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebAPI.Core\\Extensions\\PollyExtensions.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.WebAPI.Core\\Extensions\\PollyExtensions.cs",
@@ -2399,7 +2539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 96,
               "Title": "UsuarioViewModel.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Models\\UsuarioViewModel.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Models\\UsuarioViewModel.cs",
@@ -2411,7 +2551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 98,
               "Title": "MainController.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Controllers\\MainController.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Controllers\\MainController.cs",
@@ -2423,7 +2563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 99,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Models\\ErrorViewModel.cs",
@@ -2435,7 +2575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 100,
               "Title": "Container.targets",
               "DocumentMoniker": "C:\\Users\\vpinh\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
@@ -2447,7 +2587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 102,
               "Title": "SwaggerConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Configuration\\SwaggerConfig.cs",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\Configuration\\SwaggerConfig.cs",
@@ -2459,7 +2599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 103,
               "Title": "MessageBusConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Configuration\\MessageBusConfig.cs",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\Configuration\\MessageBusConfig.cs",
@@ -2471,7 +2611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 101,
               "Title": "ApiConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Configuration\\ApiConfig.cs",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\Configuration\\ApiConfig.cs",
@@ -2483,7 +2623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 105,
               "Title": "AppServicesSettings.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Extensions\\AppServicesSettings.cs",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\Extensions\\AppServicesSettings.cs",
@@ -2495,7 +2635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 104,
               "Title": "HttpClientAuthorizationDelegatingHandler.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\api gateways\\NSE.Bff.Compras\\Extensions\\HttpClientAuthorizationDelegatingHandler.cs",
               "RelativeDocumentMoniker": "src\\api gateways\\NSE.Bff.Compras\\Extensions\\HttpClientAuthorizationDelegatingHandler.cs",
@@ -2507,7 +2647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 106,
               "Title": "CustomHttpRequestException.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Extensions\\CustomHttpRequestException.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Extensions\\CustomHttpRequestException.cs",
@@ -2519,7 +2659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 107,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\appsettings.Development.json",
@@ -2531,7 +2671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 108,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\appsettings.Development.json",
@@ -2543,7 +2683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 109,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\Properties\\launchSettings.json",
@@ -2555,7 +2695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 110,
               "Title": "NSE.Carrinho.API.csproj",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj",
               "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj",
@@ -2563,11 +2703,12 @@
               "RelativeToolTip": "src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-02T21:09:19.658Z"
+              "WhenOpened": "2024-10-02T21:09:19.658Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 111,
               "Title": "ExceptionMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Extensions\\ExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Extensions\\ExceptionMiddleware.cs",
@@ -2579,7 +2720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 251,
+              "DocumentIndex": 257,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pagamento.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pagamento.API\\appsettings.Development.json",
@@ -2591,7 +2732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 252,
+              "DocumentIndex": 258,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pagamento.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Pagamento.API\\Properties\\launchSettings.json",
@@ -2603,7 +2744,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 113,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Views\\Shared\\_LoginPartial.cshtml",
@@ -2615,7 +2756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 114,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Views\\_ViewImports.cshtml",
@@ -2627,7 +2768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 112,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Views\\Shared\\_Layout.cshtml",
@@ -2639,7 +2780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 115,
               "Title": "RazorHelpers.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Extensions\\RazorHelpers.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Extensions\\RazorHelpers.cs",
@@ -2651,7 +2792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 116,
               "Title": "IAspNetUser.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebAPI.Core\\Usuario\\IAspNetUser.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.WebAPI.Core\\Usuario\\IAspNetUser.cs",
@@ -2663,7 +2804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 253,
+              "DocumentIndex": 259,
               "Title": "ClientesController.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Controllers\\ClientesController.cs",
@@ -2675,7 +2816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 117,
               "Title": "DependencyInjectionConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\Configuration\\DependencyInjectionConfig.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\Configuration\\DependencyInjectionConfig.cs",
@@ -2687,7 +2828,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 118,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\Program.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\Program.cs",
@@ -2699,7 +2840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 119,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Program.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Program.cs",
@@ -2711,7 +2852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 120,
               "Title": "ApiConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\Configuration\\ApiConfig.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\Configuration\\ApiConfig.cs",
@@ -2723,7 +2864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 121,
               "Title": "ApiConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Configuration\\ApiConfig.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Configuration\\ApiConfig.cs",
@@ -2735,7 +2876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 122,
               "Title": "NSE.Catalogo.API.csproj",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
               "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
@@ -2743,11 +2884,12 @@
               "RelativeToolTip": "src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-02T16:56:32.754Z"
+              "WhenOpened": "2024-09-02T16:56:32.754Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 123,
               "Title": "NSE.WebApp.MVC.csproj",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj",
@@ -2755,11 +2897,12 @@
               "RelativeToolTip": "src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-26T14:49:48.079Z"
+              "WhenOpened": "2024-08-26T14:49:48.079Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 224,
+              "DocumentIndex": 230,
               "Title": "libman.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\libman.json",
               "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\libman.json",
@@ -2771,18 +2914,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 125,
               "Title": "NSE.Catalogo.API",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
               "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
               "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
               "RelativeToolTip": "src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-02T19:45:06.879Z"
+              "WhenOpened": "2024-10-02T19:45:06.879Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 126,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Properties\\launchSettings.json",
@@ -2794,7 +2938,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 124,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Properties\\launchSettings.json",
@@ -2806,7 +2950,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 127,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Properties\\launchSettings.json",
@@ -2818,7 +2962,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 254,
+              "DocumentIndex": 260,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Properties\\launchSettings.json",
@@ -2830,7 +2974,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 128,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Views\\Catalogo\\Index.cshtml",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Views\\Catalogo\\Index.cshtml",
@@ -2842,7 +2986,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 129,
               "Title": "UsuarioRegistradoIntegrationEvent.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\Messages\\Integration\\UsuarioRegistradoIntegrationEvent.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Messages\\Integration\\UsuarioRegistradoIntegrationEvent.cs",
@@ -2854,7 +2998,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 130,
               "Title": "ResponseMessage.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\Messages\\Integration\\ResponseMessage.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Messages\\Integration\\ResponseMessage.cs",
@@ -2866,7 +3010,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 131,
               "Title": "IdentityConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Configuration\\IdentityConfig.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Configuration\\IdentityConfig.cs",
@@ -2878,7 +3022,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 132,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\appsettings.json",
               "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\appsettings.json",
@@ -2890,7 +3034,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 133,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\appsettings.Development.json",
@@ -2902,7 +3046,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 134,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Data\\ApplicationDbContext.cs",
@@ -2914,7 +3058,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 135,
               "Title": "UserViewModels.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Models\\UserViewModels.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Models\\UserViewModels.cs",
@@ -2926,7 +3070,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 255,
+              "DocumentIndex": 261,
               "Title": "ClienteCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Application\\Commands\\ClienteCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Application\\Commands\\ClienteCommandHandler.cs",
@@ -2938,7 +3082,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 256,
+              "DocumentIndex": 262,
               "Title": "RegistrarClienteCommand.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Application\\Commands\\RegistrarClienteCommand.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Application\\Commands\\RegistrarClienteCommand.cs",
@@ -2950,7 +3094,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 257,
+              "DocumentIndex": 263,
               "Title": "ClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Data\\Repository\\ClienteRepository.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Data\\Repository\\ClienteRepository.cs",
@@ -2962,7 +3106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 258,
+              "DocumentIndex": 264,
               "Title": "IClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Models\\IClienteRepository.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Models\\IClienteRepository.cs",
@@ -2974,7 +3118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 259,
+              "DocumentIndex": 265,
               "Title": "ClientesContext.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Data\\ClientesContext.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Data\\ClientesContext.cs",
@@ -2986,7 +3130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 136,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\Data\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Data\\IUnitOfWork.cs",
@@ -2998,7 +3142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 137,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\DomainObjects\\Entity.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\DomainObjects\\Entity.cs",
@@ -3010,7 +3154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 138,
               "Title": "DomainException.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\DomainObjects\\DomainException.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\DomainObjects\\DomainException.cs",
@@ -3022,7 +3166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 139,
               "Title": "dbo.CarrinhoCliente.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NerdStoreEnterpriseDB/True/SqlTable/dbo.CarrinhoCliente.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NerdStoreEnterpriseDB/True/SqlTable/dbo.CarrinhoCliente.sql",
@@ -3031,7 +3175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 140,
               "Title": "SwaggerConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\Configuration\\SwaggerConfig.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Carrinho.API\\Configuration\\SwaggerConfig.cs",
@@ -3043,7 +3187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 141,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Views\\Shared\\Error.cshtml",
@@ -3055,7 +3199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 142,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Views\\Shared\\Components\\Summary\\Default.cshtml",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Views\\Shared\\Components\\Summary\\Default.cshtml",
@@ -3067,7 +3211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 143,
               "Title": "SummaryViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Extensions\\SummaryViewComponent.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Extensions\\SummaryViewComponent.cs",
@@ -3079,7 +3223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 136,
+              "DocumentIndex": 144,
               "Title": "Registro.cshtml",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Views\\Identidade\\Registro.cshtml",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Views\\Identidade\\Registro.cshtml",
@@ -3091,7 +3235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 137,
+              "DocumentIndex": 145,
               "Title": "StringUtils.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\Utils\\StringUtils.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Utils\\StringUtils.cs",
@@ -3103,7 +3247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 138,
+              "DocumentIndex": 146,
               "Title": "IntegrationEvent.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\Messages\\Integration\\IntegrationEvent.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Messages\\Integration\\IntegrationEvent.cs",
@@ -3115,7 +3259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 139,
+              "DocumentIndex": 147,
               "Title": "CpfAnnotation.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Extensions\\CpfAnnotation.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Extensions\\CpfAnnotation.cs",
@@ -3127,7 +3271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 140,
+              "DocumentIndex": 148,
               "Title": "Command.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\Messages\\Command.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Messages\\Command.cs",
@@ -3139,7 +3283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 260,
+              "DocumentIndex": 266,
               "Title": "ClienteRegistradoEvent.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Application\\Events\\ClienteRegistradoEvent.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Application\\Events\\ClienteRegistradoEvent.cs",
@@ -3151,7 +3295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 261,
+              "DocumentIndex": 267,
               "Title": "ClienteEventHandler.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Application\\Events\\ClienteEventHandler.cs",
               "RelativeDocumentMoniker": "..\\ASP.NET-Core-Enterprise-Applications\\src\\services\\NSE.Cliente.API\\Application\\Events\\ClienteEventHandler.cs",
@@ -3163,7 +3307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 141,
+              "DocumentIndex": 149,
               "Title": "WebAppConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Configuration\\WebAppConfig.cs",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Configuration\\WebAppConfig.cs",
@@ -3175,7 +3319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 142,
+              "DocumentIndex": 150,
               "Title": "MediatorHandler.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\Mediator\\MediatorHandler.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Mediator\\MediatorHandler.cs",
@@ -3187,7 +3331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 143,
+              "DocumentIndex": 151,
               "Title": "IdentityMensagensPortugues.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Extensions\\IdentityMensagensPortugues.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Extensions\\IdentityMensagensPortugues.cs",
@@ -3199,7 +3343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 145,
+              "DocumentIndex": 152,
               "Title": "Container.targets",
               "DocumentMoniker": "C:\\Users\\vpinh\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets",
@@ -3211,7 +3355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 147,
+              "DocumentIndex": 154,
               "Title": "IProdutoRepository.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Models\\IProdutoRepository.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Models\\IProdutoRepository.cs",
@@ -3223,19 +3367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 144,
-              "Title": "CatalogoContext.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Data\\CatalogoContext.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Data\\CatalogoContext.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Data\\CatalogoContext.cs",
-              "RelativeToolTip": "src\\services\\NSE.Catalogo.API\\Data\\CatalogoContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T13:20:48.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 148,
+              "DocumentIndex": 155,
               "Title": "IMediatorHandler.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\Mediator\\IMediatorHandler.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Mediator\\IMediatorHandler.cs",
@@ -3247,7 +3379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 146,
+              "DocumentIndex": 153,
               "Title": "ProdutoRepository.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Data\\Repository\\ProdutoRepository.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Data\\Repository\\ProdutoRepository.cs",
@@ -3259,7 +3391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 149,
+              "DocumentIndex": 156,
               "Title": "IAggregateRoot.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\DomainObjects\\IAggregateRoot.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\DomainObjects\\IAggregateRoot.cs",
@@ -3271,7 +3403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 150,
+              "DocumentIndex": 157,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\Messages\\Event.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Messages\\Event.cs",
@@ -3283,7 +3415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 151,
+              "DocumentIndex": 158,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\Data\\IRepository.cs",
               "RelativeDocumentMoniker": "src\\building blocks\\NSE.Core\\Data\\IRepository.cs",
@@ -3295,7 +3427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 152,
+              "DocumentIndex": 159,
               "Title": "bootstrap.css",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -3307,18 +3439,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 153,
+              "DocumentIndex": 160,
               "Title": "NSE.WebApp.MVC",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj",
               "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj",
               "RelativeToolTip": "src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-27T13:00:49.855Z"
+              "WhenOpened": "2024-08-27T13:00:49.855Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 154,
+              "DocumentIndex": 161,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\AppData\\Roaming\\Microsoft\\UserSecrets\\f6a4c382-be37-4dd2-b377-b215b4dc3068\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\f6a4c382-be37-4dd2-b377-b215b4dc3068\\secrets.json",
@@ -3330,7 +3463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 155,
+              "DocumentIndex": 162,
               "Title": "SwaggerConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Configuration\\SwaggerConfig.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Configuration\\SwaggerConfig.cs",
@@ -3342,7 +3475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 157,
+              "DocumentIndex": 164,
               "Title": "dbo.AspNetUsers.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NerdStoreEnterpriseDB/True/SqlTable/dbo.AspNetUsers.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NerdStoreEnterpriseDB/True/SqlTable/dbo.AspNetUsers.sql",
@@ -3351,7 +3484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 156,
+              "DocumentIndex": 163,
               "Title": "dbo.AspNetUserClaims.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NerdStoreEnterpriseDB/True/SqlTable/dbo.AspNetUserClaims.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NerdStoreEnterpriseDB/True/SqlTable/dbo.AspNetUserClaims.sql",
@@ -3360,7 +3493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 159,
+              "DocumentIndex": 166,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\appsettings.json",
               "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\appsettings.json",
@@ -3372,7 +3505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 158,
+              "DocumentIndex": 165,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\appsettings.json",
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\appsettings.json",
@@ -3384,7 +3517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 160,
+              "DocumentIndex": 167,
               "Title": "IdentityConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Configuration\\IdentityConfig.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Configuration\\IdentityConfig.cs",
@@ -3396,7 +3529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 161,
+              "DocumentIndex": 168,
               "Title": "ApiConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Configuration\\ApiConfig.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Configuration\\ApiConfig.cs",
@@ -3408,7 +3541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 164,
+              "DocumentIndex": 171,
               "Title": "DependencyInjectionConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Configuration\\DependencyInjectionConfig.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Configuration\\DependencyInjectionConfig.cs",
@@ -3420,7 +3553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 162,
+              "DocumentIndex": 169,
               "Title": "ProdutosSeed.sql",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Data\\ProdutosSeed.sql",
               "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Data\\ProdutosSeed.sql",
@@ -3431,7 +3564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 163,
+              "DocumentIndex": 170,
               "Title": "SwaggerConfig.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Configuration\\SwaggerConfig.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Configuration\\SwaggerConfig.cs",
@@ -3443,7 +3576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 165,
+              "DocumentIndex": 172,
               "Title": "20240902135252_Initial.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Migrations\\20240902135252_Initial.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Migrations\\20240902135252_Initial.cs",
@@ -3455,7 +3588,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 166,
+              "DocumentIndex": 173,
               "Title": "CatalogoContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Migrations\\CatalogoContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Migrations\\CatalogoContextModelSnapshot.cs",
@@ -3467,7 +3600,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 167,
+              "DocumentIndex": 174,
               "Title": "_icons.scss",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_icons.scss",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_icons.scss",
@@ -3479,19 +3612,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 168,
-              "Title": "ProdutoMappings.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Data\\Mappings\\ProdutoMappings.cs",
-              "RelativeDocumentMoniker": "src\\services\\NSE.Catalogo.API\\Data\\Mappings\\ProdutoMappings.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\Data\\Mappings\\ProdutoMappings.cs",
-              "RelativeToolTip": "src\\services\\NSE.Catalogo.API\\Data\\Mappings\\ProdutoMappings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T13:35:28.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 169,
+              "DocumentIndex": 175,
               "Title": "_rotated-flipped.scss",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_rotated-flipped.scss",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_rotated-flipped.scss",
@@ -3503,7 +3624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 170,
+              "DocumentIndex": 176,
               "Title": "_core.scss",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_core.scss",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_core.scss",
@@ -3515,7 +3636,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 171,
+              "DocumentIndex": 177,
               "Title": "script.js",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\js\\script.js",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\js\\script.js",
@@ -3527,7 +3648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 172,
+              "DocumentIndex": 178,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Views\\_ViewStart.cshtml",
@@ -3539,7 +3660,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 173,
+              "DocumentIndex": 179,
               "Title": "all.css",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\css\\all.css",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\css\\all.css",
@@ -3551,7 +3672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 174,
+              "DocumentIndex": 180,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\css\\site.css",
@@ -3563,7 +3684,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 175,
+              "DocumentIndex": 181,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -3575,7 +3696,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 176,
+              "DocumentIndex": 182,
               "Title": "pay-visa-el.png - PNG [65x38, 32 bits, PNG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\icons\\pay-visa-el.png",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\icons\\pay-visa-el.png",
@@ -3587,7 +3708,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 177,
+              "DocumentIndex": 183,
               "Title": "pay-visa.png - PNG [65x38, 32 bits, PNG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\icons\\pay-visa.png",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\icons\\pay-visa.png",
@@ -3599,7 +3720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 178,
+              "DocumentIndex": 184,
               "Title": "pay-mastercard.png - PNG [65x38, 32 bits, PNG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\icons\\pay-mastercard.png",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\icons\\pay-mastercard.png",
@@ -3611,7 +3732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 179,
+              "DocumentIndex": 185,
               "Title": "pay-bank.png - PNG [65x38, 32 bits, PNG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\icons\\pay-bank.png",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\icons\\pay-bank.png",
@@ -3623,7 +3744,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 180,
+              "DocumentIndex": 186,
               "Title": "pay-american-ex.png - PNG [65x38, 32 bits, PNG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\icons\\pay-american-ex.png",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\icons\\pay-american-ex.png",
@@ -3635,7 +3756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 181,
+              "DocumentIndex": 187,
               "Title": "playmarket.png - PNG [268x80, 32 bits, PNG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\misc\\playmarket.png",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\misc\\playmarket.png",
@@ -3647,7 +3768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 182,
+              "DocumentIndex": 188,
               "Title": "payments.png - PNG [226x38, 32 bits, PNG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\misc\\payments.png",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\misc\\payments.png",
@@ -3659,7 +3780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 183,
+              "DocumentIndex": 189,
               "Title": "appstore.png - PNG [268x80, 32 bits, PNG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\misc\\appstore.png",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\misc\\appstore.png",
@@ -3671,7 +3792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 184,
+              "DocumentIndex": 190,
               "Title": "logo.png - PNG [148x45, 32 bits, PNG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\logo.png",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\logo.png",
@@ -3683,7 +3804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 185,
+              "DocumentIndex": 191,
               "Title": "cards.png - PNG [1400x85, 32 bits, PNG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\cards.png",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\cards.png",
@@ -3695,7 +3816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 186,
+              "DocumentIndex": 192,
               "Title": "caneca4.jpg - Bitmap [800x800, 24 bits, JPG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\caneca4.jpg",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\caneca4.jpg",
@@ -3707,7 +3828,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 187,
+              "DocumentIndex": 193,
               "Title": "caneca3.jpg - Bitmap [800x800, 24 bits, JPG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\caneca3.jpg",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\caneca3.jpg",
@@ -3719,7 +3840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 188,
+              "DocumentIndex": 194,
               "Title": "caneca2.jpg - Bitmap [800x800, 24 bits, JPG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\caneca2.jpg",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\caneca2.jpg",
@@ -3731,7 +3852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 189,
+              "DocumentIndex": 195,
               "Title": "camiseta3.jpg - Bitmap [580x580, 24 bits, JPG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\camiseta3.jpg",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\camiseta3.jpg",
@@ -3743,7 +3864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 190,
+              "DocumentIndex": 196,
               "Title": "camiseta4.jpg - Bitmap [648x800, 24 bits, JPG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\camiseta4.jpg",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\camiseta4.jpg",
@@ -3755,7 +3876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 191,
+              "DocumentIndex": 197,
               "Title": "camiseta2.jpg - Bitmap [1200x1200, 24 bits, JPG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\camiseta2.jpg",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\camiseta2.jpg",
@@ -3767,7 +3888,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 192,
+              "DocumentIndex": 198,
               "Title": "camiseta1.jpg - Bitmap [580x580, 24 bits, JPG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\camiseta1.jpg",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\camiseta1.jpg",
@@ -3779,7 +3900,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 193,
+              "DocumentIndex": 199,
               "Title": "Template.png - PNG [1240x343, 32 bits, PNG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\banners\\Template.png",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\banners\\Template.png",
@@ -3791,7 +3912,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 194,
+              "DocumentIndex": 200,
               "Title": "Template.jpg - Bitmap [1920x500, 24 bits, JPG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\banners\\Template.jpg",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\banners\\Template.jpg",
@@ -3803,7 +3924,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 195,
+              "DocumentIndex": 201,
               "Title": "nerdstore.png - PNG [464x300, 32 bits, PNG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\banners\\nerdstore.png",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\banners\\nerdstore.png",
@@ -3815,7 +3936,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 196,
+              "DocumentIndex": 202,
               "Title": "1.jpg - Bitmap [1200x300, 24 bits, JPG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\banners\\1.jpg",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\banners\\1.jpg",
@@ -3827,7 +3948,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 197,
+              "DocumentIndex": 203,
               "Title": "avatar3.jpg - Bitmap [400x400, 24 bits, JPG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\avatars\\avatar3.jpg",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\avatars\\avatar3.jpg",
@@ -3839,7 +3960,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 198,
+              "DocumentIndex": 204,
               "Title": "avatar2.jpg - Bitmap [400x400, 24 bits, JPG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\avatars\\avatar2.jpg",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\avatars\\avatar2.jpg",
@@ -3851,7 +3972,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 199,
+              "DocumentIndex": 205,
               "Title": "avatar1.jpg - Bitmap [140x140, 24 bits, JPG]",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\avatars\\avatar1.jpg",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\avatars\\avatar1.jpg",
@@ -3863,7 +3984,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 200,
+              "DocumentIndex": 206,
               "Title": "_list.scss",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_list.scss",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_list.scss",
@@ -3875,7 +3996,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 201,
+              "DocumentIndex": 207,
               "Title": "_screen-reader.scss",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_screen-reader.scss",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_screen-reader.scss",
@@ -3887,7 +4008,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 202,
+              "DocumentIndex": 208,
               "Title": "_shims.scss",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_shims.scss",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_shims.scss",
@@ -3899,7 +4020,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 204,
+              "DocumentIndex": 210,
               "Title": "brands.scss",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\brands.scss",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\brands.scss",
@@ -3911,7 +4032,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 206,
+              "DocumentIndex": 212,
               "Title": "v4-shims.scss",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\v4-shims.scss",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\v4-shims.scss",
@@ -3923,7 +4044,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 207,
+              "DocumentIndex": 213,
               "Title": "solid.scss",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\solid.scss",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\solid.scss",
@@ -3935,7 +4056,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 205,
+              "DocumentIndex": 211,
               "Title": "regular.scss",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\regular.scss",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\regular.scss",
@@ -3947,7 +4068,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 203,
+              "DocumentIndex": 209,
               "Title": "_stacked.scss",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_stacked.scss",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_stacked.scss",
@@ -3959,7 +4080,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 208,
+              "DocumentIndex": 214,
               "Title": "_larger.scss",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_larger.scss",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_larger.scss",
@@ -3971,7 +4092,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 209,
+              "DocumentIndex": 215,
               "Title": "_fixed-width.scss",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_fixed-width.scss",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_fixed-width.scss",
@@ -3983,7 +4104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 211,
+              "DocumentIndex": 217,
               "Title": "_bordered-pulled.scss",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_bordered-pulled.scss",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_bordered-pulled.scss",
@@ -3995,7 +4116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 210,
+              "DocumentIndex": 216,
               "Title": "_animated.scss",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_animated.scss",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\scss\\_animated.scss",
@@ -4007,7 +4128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 213,
+              "DocumentIndex": 219,
               "Title": "fa-regular-400.ttf",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\webfonts\\fa-regular-400.ttf",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\webfonts\\fa-regular-400.ttf",
@@ -4018,7 +4139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 212,
+              "DocumentIndex": 218,
               "Title": "fontawesome.css",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\css\\fontawesome.css",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\css\\fontawesome.css",
@@ -4030,7 +4151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 215,
+              "DocumentIndex": 221,
               "Title": "responsive.css",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\css\\responsive.css",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\css\\responsive.css",
@@ -4042,7 +4163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 216,
+              "DocumentIndex": 222,
               "Title": "svg-with-js.css",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\css\\svg-with-js.css",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\css\\svg-with-js.css",
@@ -4054,7 +4175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 217,
+              "DocumentIndex": 223,
               "Title": "v4-shims.css",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\css\\v4-shims.css",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\css\\v4-shims.css",
@@ -4066,7 +4187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 218,
+              "DocumentIndex": 224,
               "Title": "solid.css",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\css\\solid.css",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\css\\solid.css",
@@ -4078,7 +4199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 219,
+              "DocumentIndex": 225,
               "Title": "regular.css",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\css\\regular.css",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\css\\regular.css",
@@ -4090,7 +4211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 214,
+              "DocumentIndex": 220,
               "Title": "brands.css",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\css\\brands.css",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\fonts\\fontawesome\\css\\brands.css",
@@ -4102,7 +4223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 220,
+              "DocumentIndex": 226,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "src\\web\\NSE.WebApp.MVC\\wwwroot\\js\\site.js",
@@ -4114,7 +4235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 222,
+              "DocumentIndex": 228,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\Dockerfile",
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\Dockerfile",
@@ -4126,7 +4247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 221,
+              "DocumentIndex": 227,
               "Title": "NSE.Identidade.API.http",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.http",
               "RelativeDocumentMoniker": "src\\services\\NSE.Identidade.API\\NSE.Identidade.API.http",
@@ -4138,7 +4259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 223,
+              "DocumentIndex": 229,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\vpinh\\AppData\\Roaming\\Microsoft\\UserSecrets\\ec5ade2b-5166-4afd-b25e-bee95dcebd7f\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\ec5ade2b-5166-4afd-b25e-bee95dcebd7f\\secrets.json",
@@ -4147,6 +4268,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-08-25T15:29:41.225Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         },

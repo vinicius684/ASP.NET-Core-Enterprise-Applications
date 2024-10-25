@@ -3,6 +3,8 @@
     /*
         Apesar de Endereço pertencer a Cliente, mudando de contexto as entidades possuem significados diferentes.
         Nesse BC, endereço não é nem uma entidade, nem raiz de agregação. É apenas um objeto de valor que vai ser persistido como dado de Pedido
+
+        Se o endereço do Cliente mudar. Preciso de ter o endereço do Pedido ainda
      */
     public class Endereco
     {
