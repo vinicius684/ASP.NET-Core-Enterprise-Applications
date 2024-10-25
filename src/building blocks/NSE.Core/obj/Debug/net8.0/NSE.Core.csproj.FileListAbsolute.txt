@@ -23,3 +23,4 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-C
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\building blocks\NSE.Core\obj\Debug\net8.0\NSE.Core.pdb
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\building blocks\NSE.Core\obj\Debug\net8.0\ref\NSE.Core.dll
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\ASP.NET-Core-Enterprise-Applications\src\building blocks\NSE.Core\obj\Debug\net8.0\NSE.Core.csproj.AssemblyReference.cache
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\net8.0\NSE.Core.csproj.AssemblyReference.cache

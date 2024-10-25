@@ -44,9 +44,10 @@ namespace NSE.Carrinho.API.Model
         internal void CalcularValorCarrinho()
         {
             ValorTotal = Itens.Sum(p => p.CalcularValor());
+            CalcularValorTotalDesconto();
         }
 
-        private void CalcularValorTotalDesconto()
+        private void CalcularValorTotalDesconto() //Porque calcular valor total e descoonto está aqui dnv? -Tb precisa calcular isso no momento do fechamento do pedido, não pode acreditar no que está no carrinho, vc vai comparar na vdd o que está no seu pedido e o que está no carrinho
         {
             if (!VoucherUtilizado) return;
 

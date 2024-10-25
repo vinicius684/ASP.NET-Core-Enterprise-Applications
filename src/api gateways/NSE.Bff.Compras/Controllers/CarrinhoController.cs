@@ -25,11 +25,6 @@ namespace NSE.Bff.Compras.Controllers
             _pedidoService = pedidoService;
         }
 
-        public CarrinhoController(IPedidoService pedidoService)
-        {
-            _pedidoService = pedidoService;
-        }
-
         [HttpGet]
         [Route("compras/carrinho")]
         public async Task<IActionResult> Index()

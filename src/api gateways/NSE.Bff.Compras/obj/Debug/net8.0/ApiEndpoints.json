@@ -31,6 +31,22 @@
   },
   {
     "ContainingType": "NSE.Bff.Compras.Controllers.CarrinhoController",
+    "Method": "AplicarVoucher",
+    "RelativePath": "compras/carrinho/aplicar-voucher",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "voucherCodigo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NSE.Bff.Compras.Controllers.CarrinhoController",
     "Method": "AdicionarItemCarrinho",
     "RelativePath": "compras/carrinho/items",
     "HttpMethod": "POST",

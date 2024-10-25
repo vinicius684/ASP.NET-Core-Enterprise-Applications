@@ -208,6 +208,18 @@
           }
         }
       },
+      "NetDevPack/6.1.0": {
+        "dependencies": {
+          "FluentValidation": "11.9.2",
+          "MediatR": "12.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/NetDevPack.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
       "Polly/7.2.4": {
         "runtime": {
           "lib/netstandard2.0/Polly.dll": {
@@ -244,7 +256,8 @@
         "dependencies": {
           "FluentValidation": "11.9.2",
           "MediatR": "12.4.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "NetDevPack": "6.1.0"
         },
         "runtime": {
           "NSE.Core.dll": {
@@ -428,6 +441,13 @@
       "sha512": "sha512-oICJMqr3aNEDZOwnH5SK49bR6Z4aX0zEAnOLuhloumOSuqnNq+GWBdQyrgILnlcT5xj09xKCP/7Y7gJYB+ls/g==",
       "path": "microsoft.identitymodel.tokens/7.1.2",
       "hashPath": "microsoft.identitymodel.tokens.7.1.2.nupkg.sha512"
+    },
+    "NetDevPack/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Qyr2+g/0HA7MFKHwv0kI/zdedLYrZE73dhcxVB3hbTu91J7DGVRXSfvH0Fy4zAe69ZxO0bAizaXSY3bi5JlAg==",
+      "path": "netdevpack/6.1.0",
+      "hashPath": "netdevpack.6.1.0.nupkg.sha512"
     },
     "Polly/7.2.4": {
       "type": "package",

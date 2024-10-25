@@ -18,7 +18,7 @@ namespace NSE.Pedidos.API.Application.Queries
             _voucherRepository = voucherRepository;
         }
 
-        public async Task<VoucherDTO> ObterVoucherPorCodigo(string codigo)
+        public async Task<VoucherDTO?> ObterVoucherPorCodigo(string codigo)
         {
             var voucher = await _voucherRepository.ObterVoucherPorCodigo(codigo);
 

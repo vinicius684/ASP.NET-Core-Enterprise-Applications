@@ -71,5 +71,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NSE.Carrinho.API.Controllers.CarrinhoController",
+    "Method": "AplicarVoucher",
+    "RelativePath": "carrinho/aplicar-voucher",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "voucher",
+        "Type": "NSE.Carrinho.API.Model.Voucher",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
