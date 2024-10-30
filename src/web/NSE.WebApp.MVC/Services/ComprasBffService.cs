@@ -59,7 +59,7 @@ namespace NSE.WebApp.MVC.Services
         
         public async Task<ResponseResult> AtualizarItemCarrinho(Guid produtoId, ItemCarrinhoViewModel produto)
         {
-            var itemContent = ObterConteudo(produto);
+            var itemContent = ObterConteudo(produto); //conteúdo serializado
 
             var response = await _httpClient.PutAsync($"/compras/carrinho/items/{produtoId}", itemContent);
 

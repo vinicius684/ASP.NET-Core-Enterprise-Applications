@@ -37,13 +37,13 @@ namespace NSE.Pedidos.Domain
             DataUtilizacao = DateTime.Now;
         }
 
-        //public void DebitarQuantidade()
-        //{
-        //    Quantidade -= 1;
-        //    if (Quantidade >= 1) return;
+        public void DebitarQuantidade() //método utilizado apos o ValidarVoucher, logo já sei que está válido e tem qtd
+        {
+            Quantidade -= 1; 
+            if (Quantidade >= 1) return;
 
-        //    MarcarComoUtilizado();
-        //}
+            MarcarComoUtilizado();
+        }
 
     }
 }
