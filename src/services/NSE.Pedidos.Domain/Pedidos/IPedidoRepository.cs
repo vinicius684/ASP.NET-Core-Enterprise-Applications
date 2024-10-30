@@ -13,10 +13,10 @@ namespace NSE.Pedidos.Domain.Pedidos
         void Adicionar(Pedido pedido);
         void Atualizar(Pedido pedido);
 
-        //DbConnection ObterConexao();
+        DbConnection ObterConexao();
 
 
-        /* Pedido Item - Apenas um repository por agragação */
+        /* Pedido Item - Apenas um repository por raiz de agragação */
         Task<PedidoItem> ObterItemPorId(Guid id);
         Task<PedidoItem> ObterItemPorPedido(Guid pedidoId, Guid produtoId);
     }

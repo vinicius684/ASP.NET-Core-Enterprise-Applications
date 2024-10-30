@@ -20,7 +20,7 @@ namespace NSE.Pedidos.Infra.Data.Repository
 
         public IUnitOfWork UnitOfWork => _context;
 
-        // public DbConnection ObterConexao() => _context.Database.GetDbConnection();
+        public DbConnection ObterConexao() => _context.Database.GetDbConnection();
 
         public async Task<Pedido> ObterPorId(Guid id)
         {

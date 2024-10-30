@@ -27,7 +27,7 @@ namespace NSE.Pedidos.API.Application.Commands
         }
 
         /*
-            Poderia ser resolvido com Poderia ser um serviço de domínio(Receberia o comando, montaria a entidade e chamaria serviço de domínio), poderia ser uma Saga, poderia ser um serviço de aplicação... Não há forma 100% correta de se fazer
+            Poderia ser resolvido com um serviço de domínio(Receberia o comando, montaria a entidade e chamaria serviço de domínio), poderia ser uma Saga, poderia ser um serviço de aplicação... Não há forma 100% correta de se fazer
          */
         public async Task<ValidationResult> Handle(AdicionarPedidoCommand message, CancellationToken cancellationToken)
         {
