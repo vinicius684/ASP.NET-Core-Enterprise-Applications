@@ -495,3 +495,4 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStore
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pedidos.API\obj\Debug\net8.0\NSE.Pedi.A1768223.Up2Date
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pedidos.API\obj\Debug\net8.0\NSE.Pedidos.API.genruntimeconfig.cache
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pedidos.API\obj\Debug\net8.0\ref\NSE.Pedidos.API.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pedidos.API\bin\Debug\net8.0\Dapper.dll

@@ -298,3 +298,10 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStore
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\NSE.WebAPI.Core.dll
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\NSE.Core.pdb
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\NSE.WebAPI.Core.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\EasyNetQ.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\EasyNetQ.Serialization.NewtonsoftJson.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\Polly.Core.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\NSE.MessageBus.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\NSE.MessageBus.pdb
