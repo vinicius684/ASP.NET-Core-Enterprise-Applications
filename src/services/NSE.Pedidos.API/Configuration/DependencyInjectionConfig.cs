@@ -12,6 +12,7 @@ using NSE.Pedidos.Infra.Data;
 using NSE.Pedidos.Infra.Data.Repository;
 using NSE.WebAPI.Core.Usuario;
 
+
 namespace NSE.Pedidos.API.Configuration
 {
     public static class DependencyInjectionConfig
@@ -31,7 +32,7 @@ namespace NSE.Pedidos.API.Configuration
             //// Application
             services.AddScoped<IMediatorHandler, MediatorHandler>();
             services.AddScoped<IVoucherQueries, VoucherQueries>();
-            //services.AddScoped<IPedidoQueries, PedidoQueries>();
+            services.AddScoped<IPedidoQueries, PedidoQueries>();
 
             //// Data
             services.AddScoped<IPedidoRepository, PedidoRepository>();
