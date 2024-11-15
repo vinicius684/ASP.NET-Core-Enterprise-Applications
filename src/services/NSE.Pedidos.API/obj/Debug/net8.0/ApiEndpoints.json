@@ -1,5 +1,41 @@
 [
   {
+    "ContainingType": "NSE.Pedidos.API.Controllers.PedidoController",
+    "Method": "AdicionarPedido",
+    "RelativePath": "pedido",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pedido",
+        "Type": "NSE.Pedidos.API.Application.Commands.AdicionarPedidoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NSE.Pedidos.API.Controllers.PedidoController",
+    "Method": "ListaPorCliente",
+    "RelativePath": "pedido/lista-cliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NSE.Pedidos.API.Controllers.PedidoController",
+    "Method": "UltimoPedido",
+    "RelativePath": "pedido/ultimo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NSE.Pedidos.API.Controllers.VoucherController",
     "Method": "ObterPorCodigo",
     "RelativePath": "voucher/{codigo}",

@@ -21,7 +21,12 @@ namespace NSE.WebApp.MVC.Extensions
 
         public static string FormatoMoeda(this RazorPage page, decimal valor)
         {
-            return valor > 0 ? string.Format(Thread.CurrentThread.CurrentCulture, "{0:C}", valor) : "Gratuito"; // se o valor for maior que 0 vou formatar minha moeda conforme minha cultura(browser)
+            return FormatoMoeda(valor);
+        }
+
+        private static string FormatoMoeda(decimal valor)
+        {
+            return string.Format(Thread.CurrentThread.CurrentCulture, "{0:C}", valor);
         }
 
         public static string MensagemEstoque(this RazorPage page, int quantidade) //extendendo o próprio Razor Page, criando método dentro do razor Page
@@ -32,6 +37,11 @@ namespace NSE.WebApp.MVC.Extensions
         public static string UnidadesPorProduto(this RazorPage page, int unidades)
         {
             return unidades > 1 ? $"{unidades} unidades" : $"{unidades} unidade";
+        }
+
+        public static string UnidadesPorProdutoValorTotal(this RazorPage page, int unidades, decimal valor)
+        {
+            return $"{unidades}x {FormatoMoeda(valor)} = Total: {FormatoMoeda(valor * unidades)}";
         }
 
         public static string SelectOptionsPorQuantidade(this RazorPage page, int quantidade, int valorAtual = 0) //Extensão basicamente para deixar o DropDown selecionado na QtdAtual
