@@ -10,6 +10,7 @@ namespace NSE.WebApp.MVC.Services
 {
     public interface IComprasBffService
     {
+        //Carrinho
         Task<CarrinhoViewModel> ObterCarrinho();
         Task<int> ObterQuantidadeCarrinho();
         Task<ResponseResult> AdicionarItemCarrinho(ItemCarrinhoViewModel carrinho);
@@ -18,6 +19,9 @@ namespace NSE.WebApp.MVC.Services
         Task<ResponseResult> AplicarVoucherCarrinho(string voucher);
 
         //Pedido
+        Task<ResponseResult> FinalizarPedido(PedidoTransacaoViewModel pedidoTransacao);
+        Task<PedidoViewModel> ObterUltimoPedido();
+        Task<IEnumerable<PedidoViewModel>> ObterListaPorClienteId();
         PedidoTransacaoViewModel MapearParaPedido(CarrinhoViewModel carrinho, EnderecoViewModel endereco);
     }
 
@@ -93,7 +97,34 @@ namespace NSE.WebApp.MVC.Services
 
         #region Pedido
 
-        
+        public async Task<ResponseResult> FinalizarPedido(PedidoTransacaoViewModel pedidoTransacao)
+        {
+            var pedidoContent = ObterConteudo(pedidoTransacao);
+
+            var response = await _httpClient.PostAsync("/compras/pedido/", pedidoContent);
+
+            if (!TratarErrosResponse(response)) return await DeserializarObjetoResponse<ResponseResult>(response);
+
+            return RetornoOk();
+        }
+
+        public async Task<PedidoViewModel> ObterUltimoPedido()
+        {
+            var response = await _httpClient.GetAsync("/compras/pedido/ultimo/");
+
+            TratarErrosResponse(response);
+
+            return await DeserializarObjetoResponse<PedidoViewModel>(response);
+        }
+
+        public async Task<IEnumerable<PedidoViewModel>> ObterListaPorClienteId()
+        {
+            var response = await _httpClient.GetAsync("/compras/pedido/lista-cliente/");
+
+            TratarErrosResponse(response);
+
+            return await DeserializarObjetoResponse<IEnumerable<PedidoViewModel>>(response);
+        }
 
         public PedidoTransacaoViewModel MapearParaPedido(CarrinhoViewModel carrinho, EnderecoViewModel endereco)
         {

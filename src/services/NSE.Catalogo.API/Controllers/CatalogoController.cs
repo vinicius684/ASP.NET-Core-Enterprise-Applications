@@ -34,5 +34,11 @@ namespace NSE.Catalogo.API.Controllers
         {
             return await _produtoRepository.ObterPorId(id);
         }
+
+        [HttpGet("catalogo/produtos/lista/{ids}")]
+        public async Task<IEnumerable<Produto>> ObterProdutosPorId(string ids)//string de ids, em bff CatalogoService, Join nos ids, separando por virgula. Em ObterProdutosPorId, dou um split pegando id por id
+        {
+            return await _produtoRepository.ObterProdutosPorId(ids);
+        }
     }
 }

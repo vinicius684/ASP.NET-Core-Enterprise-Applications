@@ -47,8 +47,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpZGFkZVxSZWdpc3Ryby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/vpinh/Desktop/Desenvolvedor.io/_9AspNetEnterpriseApplications/NerdStoreEnterprise/src/web/NSE.WebApp.MVC/Views/Pedido/ConfirmacaoPedido.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXENvbmZpcm1hY2FvUGVkaWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/vpinh/Desktop/Desenvolvedor.io/_9AspNetEnterpriseApplications/NerdStoreEnterprise/src/web/NSE.WebApp.MVC/Views/Pedido/EnderecoEntrega.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXEVuZGVyZWNvRW50cmVnYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vpinh/Desktop/Desenvolvedor.io/_9AspNetEnterpriseApplications/NerdStoreEnterprise/src/web/NSE.WebApp.MVC/Views/Pedido/MeusPedidos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXE1ldXNQZWRpZG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vpinh/Desktop/Desenvolvedor.io/_9AspNetEnterpriseApplications/NerdStoreEnterprise/src/web/NSE.WebApp.MVC/Views/Pedido/Pagamento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXFBhZ2FtZW50by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vpinh/Desktop/Desenvolvedor.io/_9AspNetEnterpriseApplications/NerdStoreEnterprise/src/web/NSE.WebApp.MVC/Views/Pedido/_Endereco.cshtml]

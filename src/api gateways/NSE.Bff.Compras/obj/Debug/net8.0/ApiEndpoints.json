@@ -97,5 +97,41 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NSE.Bff.Compras.Controllers.PedidoController",
+    "Method": "AdicionarPedido",
+    "RelativePath": "compras/pedido",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pedido",
+        "Type": "NSE.Bff.Compras.Models.PedidoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NSE.Bff.Compras.Controllers.PedidoController",
+    "Method": "ListaPorCliente",
+    "RelativePath": "compras/pedido/lista-cliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NSE.Bff.Compras.Controllers.PedidoController",
+    "Method": "UltimoPedido",
+    "RelativePath": "compras/pedido/ultimo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

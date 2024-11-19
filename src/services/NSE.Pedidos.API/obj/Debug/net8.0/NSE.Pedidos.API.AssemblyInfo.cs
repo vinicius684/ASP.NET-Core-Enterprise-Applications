@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NSE.Pedidos.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6b286381063259b667366c2b601357dc588989b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8ea661796ff418013249a9f1a67eae8e4a99d30")]
 [assembly: System.Reflection.AssemblyProductAttribute("NSE.Pedidos.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NSE.Pedidos.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

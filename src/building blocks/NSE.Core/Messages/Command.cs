@@ -11,6 +11,7 @@ namespace NSE.Core.Messages
         protected Command() 
         {
             Timestamp = DateTime.Now;
+            ValidationResult = new ValidationResult();
         }
 
         public virtual bool EhValido() //uma vez que é virtual, posso dar override nele, porém não sou obrigado a dar e se chamar o eh valido dentro de um commando sem implementá-lo, vai cair na exception de método não implementado

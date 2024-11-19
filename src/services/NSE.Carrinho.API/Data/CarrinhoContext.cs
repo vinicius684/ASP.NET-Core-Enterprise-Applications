@@ -52,7 +52,8 @@ namespace NSE.Carrinho.API.Data
             modelBuilder.Entity<CarrinhoCliente>()
                 .HasMany(c => c.Itens)
                 .WithOne(i => i.CarrinhoCliente)
-                .HasForeignKey(c => c.CarrinhoId);
+                .HasForeignKey(c => c.CarrinhoId)
+                .OnDelete(DeleteBehavior.Cascade); ;
 
             foreach (var relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys())) relationship.DeleteBehavior = DeleteBehavior.Cascade;
         }

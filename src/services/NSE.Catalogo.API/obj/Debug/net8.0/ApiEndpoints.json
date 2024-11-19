@@ -44,5 +44,31 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "NSE.Catalogo.API.Controllers.CatalogoController",
+    "Method": "ObterProdutosPorId",
+    "RelativePath": "catalogo/produtos/lista/{ids}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[NSE.Catalogo.API.Models.Produto, NSE.Catalogo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

@@ -1,12 +1,28 @@
 [
   {
     "ContainingType": "NSE.Clientes.API.Controllers.ClientesController",
-    "Method": "Index",
-    "RelativePath": "clientes",
+    "Method": "ObterEndereco",
+    "RelativePath": "cliente/endereco",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NSE.Clientes.API.Controllers.ClientesController",
+    "Method": "AdicionarEndereco",
+    "RelativePath": "cliente/endereco",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "endereco",
+        "Type": "NSE.Clientes.API.Application.Commands.AdicionarEnderecoCommand",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   }
 ]

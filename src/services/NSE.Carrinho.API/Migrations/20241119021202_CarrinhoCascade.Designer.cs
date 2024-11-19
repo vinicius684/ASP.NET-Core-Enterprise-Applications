@@ -12,7 +12,7 @@ using NSE.Carrinho.API.Data;
 namespace NSE.Carrinho.API.Migrations
 {
     [DbContext(typeof(CarrinhoContext))]
-    [Migration("20241102223626_CarrinhoCascade")]
+    [Migration("20241119021202_CarrinhoCascade")]
     partial class CarrinhoCascade
     {
         /// <inheritdoc />
