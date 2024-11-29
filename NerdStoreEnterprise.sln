@@ -57,9 +57,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compras", "Compras", "{65BF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSE.Bff.Compras", "src\api gateways\NSE.Bff.Compras\NSE.Bff.Compras.csproj", "{0C7C71F8-6BA5-43BE-8D0B-F0C1C32ECADC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSE.Pedidos.Domain", "src\services\NSE.Pedidos.Domain\NSE.Pedidos.Domain.csproj", "{916A09AD-30DF-4F7F-83AE-DC55732B2BAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSE.Pedidos.Domain", "src\services\NSE.Pedidos.Domain\NSE.Pedidos.Domain.csproj", "{916A09AD-30DF-4F7F-83AE-DC55732B2BAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSE.Pedidos.Infra", "src\services\NSE.Pedidos.Infra\NSE.Pedidos.Infra.csproj", "{13EA7195-3150-4208-896E-CAA19949466D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSE.Pedidos.Infra", "src\services\NSE.Pedidos.Infra\NSE.Pedidos.Infra.csproj", "{13EA7195-3150-4208-896E-CAA19949466D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSE.Pagamentos.NerdsPag", "src\services\NSE.Pagamento.NerdsPag\NSE.Pagamentos.NerdsPag.csproj", "{E1B41465-10C4-4425-AD09-94759EC0E761}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -119,6 +121,10 @@ Global
 		{13EA7195-3150-4208-896E-CAA19949466D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13EA7195-3150-4208-896E-CAA19949466D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13EA7195-3150-4208-896E-CAA19949466D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1B41465-10C4-4425-AD09-94759EC0E761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1B41465-10C4-4425-AD09-94759EC0E761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1B41465-10C4-4425-AD09-94759EC0E761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1B41465-10C4-4425-AD09-94759EC0E761}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -152,6 +158,7 @@ Global
 		{0C7C71F8-6BA5-43BE-8D0B-F0C1C32ECADC} = {65BFD721-8E2B-4DFB-AC70-9F69E4A525AD}
 		{916A09AD-30DF-4F7F-83AE-DC55732B2BAC} = {4EB08D20-E4C7-4076-B151-C13173DC5F94}
 		{13EA7195-3150-4208-896E-CAA19949466D} = {4EB08D20-E4C7-4076-B151-C13173DC5F94}
+		{E1B41465-10C4-4425-AD09-94759EC0E761} = {761B32EA-3CC2-449A-BB3A-9BB7A86C34D1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E5DC8A6D-D2DC-452A-B7A0-D1C1049F2FF9}
