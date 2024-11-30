@@ -11,17 +11,17 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0-nanoserver-1809 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["src/services/NSE.Pagamento.API/NSE.Pagamento.API.csproj", "src/services/NSE.Pagamento.API/"]
-RUN dotnet restore "./src/services/NSE.Pagamento.API/NSE.Pagamento.API.csproj"
+COPY ["src/services/NSE.Pagamentos.API/NSE.Pagamentos.API.csproj", "src/services/NSE.Pagamentos.API/"]
+RUN dotnet restore "./src/services/NSE.Pagamentos.API/NSE.Pagamentos.API.csproj"
 COPY . .
-WORKDIR "/src/src/services/NSE.Pagamento.API"
-RUN dotnet build "./NSE.Pagamento.API.csproj" -c %BUILD_CONFIGURATION% -o /app/build
+WORKDIR "/src/src/services/NSE.Pagamentos.API"
+RUN dotnet build "./NSE.Pagamentos.API.csproj" -c %BUILD_CONFIGURATION% -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./NSE.Pagamento.API.csproj" -c %BUILD_CONFIGURATION% -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./NSE.Pagamentos.API.csproj" -c %BUILD_CONFIGURATION% -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "NSE.Pagamento.API.dll"]
+ENTRYPOINT ["dotnet", "NSE.Pagamentos.API.dll"]

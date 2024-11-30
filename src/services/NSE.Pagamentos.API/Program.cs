@@ -1,25 +1,34 @@
+﻿using Microsoft.Extensions.Configuration;
+using NSE.Pagamentos.API.Configuration;
+using NSE.WebAPI.Core.Identidade;
+
+//Configura os serviços que a aplicação vai usar, registrando-os no container de DI.
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+builder.Configuration
+    .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: true)
+    .AddEnvironmentVariables();
+if (builder.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    builder.Configuration.AddUserSecrets<Program>();
 }
 
-app.UseHttpsRedirection();
+builder.Services.AddApiConfiguration(builder.Configuration);
 
-app.UseAuthorization();
+builder.Services.AddJwtConfiguration(builder.Configuration);
 
-app.MapControllers();
+builder.Services.AddSwaggerConfiguration();
+
+builder.Services.RegisterServices();
+
+builder.Services.AddMessageBusConfiguration(builder.Configuration);
+
+//Configura o pipeline de requisições, adicionando middlewares que definem como cada requisição será tratada.
+var app = builder.Build();
+
+app.UseSwaggerConfiguration();
+
+app.UseApiConfiguration(app.Environment);
 
 app.Run();

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "NSE.Pagamentos.NerdsPag/1.0.0": {
+        "runtime": {
+          "NSE.Pagamentos.NerdsPag.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NSE.Pagamentos.NerdsPag/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

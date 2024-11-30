@@ -21,7 +21,7 @@ builder.Services.AddSwaggerConfiguration();
 
 builder.Services.AddMediatR(a => a.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
 
-builder.Services.AddMessageBusConfiguartion(builder.Configuration);
+builder.Services.AddMessageBusConfiguration(builder.Configuration);
 
 builder.Services.RegisterServices();
 

@@ -1,0 +1,12 @@
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pagamentos.NerdsPag\bin\Debug\net8.0\NSE.Pagamentos.NerdsPag.deps.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pagamentos.NerdsPag\bin\Debug\net8.0\NSE.Pagamentos.NerdsPag.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pagamentos.NerdsPag\bin\Debug\net8.0\NSE.Pagamentos.NerdsPag.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pagamentos.NerdsPag\obj\Debug\net8.0\NSE.Pagamentos.NerdsPag.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pagamentos.NerdsPag\obj\Debug\net8.0\NSE.Pagamentos.NerdsPag.AssemblyInfoInputs.cache
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pagamentos.NerdsPag\obj\Debug\net8.0\NSE.Pagamentos.NerdsPag.AssemblyInfo.cs
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pagamentos.NerdsPag\obj\Debug\net8.0\NSE.Pagamentos.NerdsPag.csproj.CoreCompileInputs.cache
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pagamentos.NerdsPag\obj\Debug\net8.0\NSE.Pagamentos.NerdsPag.sourcelink.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pagamentos.NerdsPag\obj\Debug\net8.0\NSE.Pagamentos.NerdsPag.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pagamentos.NerdsPag\obj\Debug\net8.0\refint\NSE.Pagamentos.NerdsPag.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pagamentos.NerdsPag\obj\Debug\net8.0\NSE.Pagamentos.NerdsPag.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pagamentos.NerdsPag\obj\Debug\net8.0\ref\NSE.Pagamentos.NerdsPag.dll
