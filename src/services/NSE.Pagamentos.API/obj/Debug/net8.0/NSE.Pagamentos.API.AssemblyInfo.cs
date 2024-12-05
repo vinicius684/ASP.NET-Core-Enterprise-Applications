@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NSE.Pagamentos.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d1dffae657cf885b41886a8fc4d7823b535cef7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0021f9da277b213bb814c4d75c42e1d4f7b1340")]
 [assembly: System.Reflection.AssemblyProductAttribute("NSE.Pagamentos.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NSE.Pagamentos.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

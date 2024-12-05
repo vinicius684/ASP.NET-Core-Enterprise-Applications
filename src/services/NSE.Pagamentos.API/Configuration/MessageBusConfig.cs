@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using NSE.Core.Utils;
 using NSE.MessageBus;
+using NSE.Pagamentos.API.Services;
 
 
 namespace NSE.Pagamentos.API.Configuration
@@ -11,8 +12,8 @@ namespace NSE.Pagamentos.API.Configuration
         public static void AddMessageBusConfiguration(this IServiceCollection services,
             IConfiguration configuration)
         {
-            services.AddMessageBus(configuration.GetMessageQueueConnection("MessageBus"));
-               // .AddHostedService<PagamentoIntegrationHandler>();
+            services.AddMessageBus(configuration.GetMessageQueueConnection("MessageBus"))
+                .AddHostedService<PagamentoIntegrationHandler>();
         }
     }
 }
