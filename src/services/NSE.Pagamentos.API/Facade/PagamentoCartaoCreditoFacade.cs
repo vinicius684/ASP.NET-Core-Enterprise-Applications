@@ -5,7 +5,7 @@ using NSE.Pagamentos.API.Models;
 using NSE.Pagamentos.Facade;
 using NSE.Pagamentos.NerdsPag;
 
-namespace NSE.Pagamentos.CardAntiCorruption
+namespace NSE.Pagamentos.Facade
 {
     /*
         Fez com outro nome diferente da interface pra justificar que: não importa se amanhã mudar pro paypal, pag seguro... Vai implementar uma outra facade ou até mesmo modificar essa
