@@ -8,6 +8,8 @@ namespace NSE.Pedidos.API.Application.Queries
     {
         Task<PedidoDTO> ObterUltimoPedido(Guid clienteId); //usado simplesmente quando você precisar finalizar o pedido
         Task<IEnumerable<PedidoDTO>> ObterListaPorClienteId(Guid clienteId);
+        Task<PedidoDTO> ObterPedidosAutorizados();
+
     }
 
     public class PedidoQueries : IPedidoQueries
@@ -79,6 +81,35 @@ namespace NSE.Pedidos.API.Application.Queries
             var pedidos = await _pedidoRepository.ObterListaPorClienteId(clienteId);
 
             return pedidos.Select(PedidoDTO.ParaPedidoDTO);
+        }
+
+        public async Task<PedidoDTO> ObterPedidosAutorizados()
+        {
+            // Correção para pegar todos os itens do pedido e ordernar pelo pedido mais antigo
+            /*
+              Ponto interessante a comentar: seleciona o Id do Pedido e da um álias, mas tb seleciona o Id do pedido sem dar álias nenhum. A mesma coisa com id do PedidoItem.
+              Pois está selecionando duas tabelas(Join), isso é necessário pq nos próximos passos fala pro dapper que vai receber um PedidoDTO e um PedidoItemDTO, só que no final vai devolver um PedidoDTO. 
+              Em outras palavras preciso popular os Ids, o alias não faz isso, ele é basicamente pra auxliar o dapper
+             
+             */
+            const string sql = @"SELECT 
+                                P.ID as 'PedidoId', P.ID, P.CLIENTEID, 
+                                PI.ID as 'PedidoItemId', PI.ID, PI.PRODUTOID, PI.QUANTIDADE 
+                                FROM PEDIDOS P 
+                                INNER JOIN PEDIDOITEMS PI ON P.ID = PI.PEDIDOID 
+                                WHERE P.PEDIDOSTATUS = 1                                
+                                ORDER BY P.DATACADASTRO";
+
+            var pedido = await _pedidoRepository.ObterConexao().QueryAsync<PedidoDTO, PedidoItemDTO, PedidoDTO>(sql,
+                 (p, pi) =>
+                 {                    
+                     p.PedidoItems ??= new List<PedidoItemDTO>();
+                     p.PedidoItems.Add(pi);
+
+                     return p;
+                 }, splitOn: "PedidoId,PedidoItemId");
+
+            return pedido.FirstOrDefault();
         }
 
         private PedidoDTO MapearPedido(dynamic result)

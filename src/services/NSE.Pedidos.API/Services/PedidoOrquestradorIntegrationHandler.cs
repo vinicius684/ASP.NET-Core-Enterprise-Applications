@@ -1,6 +1,8 @@
 ﻿
+using NSE.Core.Messages.Integration;
 using NSE.MessageBus;
 using NSE.Pedidos.API.Application.Queries;
+using NSE.Pedidos.Infra.Migrations;
 
 namespace NSE.Pedidos.API.Services
 {
@@ -15,13 +17,15 @@ namespace NSE.Pedidos.API.Services
 
     public class PedidoOrquestradorIntegrationHandler : IHostedService, IDisposable
     {
-
+        private readonly IServiceProvider _serviceProvider;
         private readonly ILogger<PedidoOrquestradorIntegrationHandler> _logger;
         private Timer _timer;
 
-        public PedidoOrquestradorIntegrationHandler(ILogger<PedidoOrquestradorIntegrationHandler> logger)
+        public PedidoOrquestradorIntegrationHandler(ILogger<PedidoOrquestradorIntegrationHandler> logger,
+            IServiceProvider serviceProvider)
         {
             _logger = logger;
+            _serviceProvider = serviceProvider;
         }
 
         public Task StartAsync(CancellationToken cancellationToken)//Gatilho de Inicialização: Inicialização da app por parte do desenvolvedor(HostedService é singleton). Tb posso chamar explicitamente no código
@@ -33,25 +37,24 @@ namespace NSE.Pedidos.API.Services
 
             return Task.CompletedTask;
         }
-        private async void ProcessarPedidos(object state)//argumento é estado que vai ser controlado pelo timer
+        private async void ProcessarPedidos(object state)//argumento é estado que vai ser controlado pelo timer 
         {
-            _logger.LogInformation("Processando Pedidos");
-            //using (var scope = _serviceProvider.CreateScope())
-            //{
-            //    var pedidoQueries = scope.ServiceProvider.GetRequiredService<IPedidoQueries>();
-            //    var pedido = await pedidoQueries.ObterPedidosAutorizados();
+            using (var scope = _serviceProvider.CreateScope())
+            {
+                var pedidoQueries = scope.ServiceProvider.GetRequiredService<IPedidoQueries>();
+                var pedido = await pedidoQueries.ObterPedidosAutorizados(); //vai processar 1 pedido a cada 15 s, se fosse um volume mto grande pedidos, tb poderia processar vários por vez, a fila vai obedecer o caminho natural tb
 
-            //    if (pedido == null) return;
+                if (pedido == null) return;
 
-            //    var bus = scope.ServiceProvider.GetRequiredService<IMessageBus>();
+                var bus = scope.ServiceProvider.GetRequiredService<IMessageBus>();
 
-            //    var pedidoAutorizado = new PedidoAutorizadoIntegrationEvent(pedido.ClienteId, pedido.Id,
-            //        pedido.PedidoItems.ToDictionary(p => p.ProdutoId, p => p.Quantidade));
+                var pedidoAutorizado = new PedidoAutorizadoIntegrationEvent(pedido.ClienteId, pedido.Id,
+                    pedido.PedidoItems.ToDictionary(p => p.ProdutoId, p => p.Quantidade));
 
-            //    await bus.PublishAsync(pedidoAutorizado);
+                await bus.PublishAsync(pedidoAutorizado);
 
-            //    _logger.LogInformation($"Pedido ID: {pedido.Id} foi encaminhado para baixa no estoque.");
-            //}
+                _logger.LogInformation($"Pedido ID: {pedido.Id} foi encaminhado para baixa no estoque.");
+            }
         }
 
 
