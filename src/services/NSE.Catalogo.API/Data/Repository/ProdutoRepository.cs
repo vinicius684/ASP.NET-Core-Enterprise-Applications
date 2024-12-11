@@ -38,7 +38,7 @@ namespace NSE.Catalogo.API.Data.Repository
             var idsValue = idsGuid.Select(id => id.Value);//se todos tiverem conseguido ser convertidos, vou dar um select no valor desses guids (coloca-los em uma lista)
 
             return await _context.Produtos.AsNoTracking()
-                .Where(p => idsValue.Contains(p.Id) && p.Ativo).ToListAsync();//retorno os produtos de id que tenho pra consultar e que estejam Ativos
+                .Where(p => idsValue.Contains(p.Id) && p.Ativo).ToListAsync();//retorno os produtos de id que tenho pra consultarpara que  e que estejam Ativos
         }
 
         public void Adicionar(Produto produto)

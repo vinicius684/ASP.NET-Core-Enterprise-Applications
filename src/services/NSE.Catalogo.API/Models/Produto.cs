@@ -11,5 +11,16 @@ namespace NSE.Catalogo.API.Models
         public DateTime DataCadastro { get; set; }
         public string Imagem { get; set; } //poderia possuir mais de uma
         public int QuantidadeEstoque { get; set; } //por ser uma app mais enxuta, Edu não implementaria uma outra API de estoque. Mas se for uma app mais complexa, criaria uma api Estoque e fazeria a integração entre as apis através de fila
+
+        public void RetirarEstoque(int quantidade)
+        {
+            if (QuantidadeEstoque >= quantidade)
+                QuantidadeEstoque -= quantidade;
+        }
+
+        public bool EstaDisponivel(int quantidade)
+        {
+            return Ativo && QuantidadeEstoque >= quantidade;
+        }
     }
 }
