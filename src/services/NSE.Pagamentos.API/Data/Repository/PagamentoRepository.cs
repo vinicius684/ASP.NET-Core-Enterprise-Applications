@@ -32,7 +32,7 @@ namespace NSE.Pagamentos.API.Data.Repository
                 .FirstOrDefaultAsync(p => p.PedidoId == pedidoId);
         }
 
-        public async Task<IEnumerable<Transacao>> ObterTransacaoesPorPedidoId(Guid pedidoId)
+        public async Task<IEnumerable<Transacao>> ObterTransacaoesPorPedidoId(Guid pedidoId)//a transação em si não tem referência do Pedido, tenho que pegar essa info por meio do PedidoId. A Própria consulta do entity gera um join
         {
             return await _context.Transacoes.AsNoTracking()
                 .Where(t => t.Pagamento.PedidoId == pedidoId).ToListAsync();

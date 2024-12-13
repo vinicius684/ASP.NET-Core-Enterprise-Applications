@@ -133,7 +133,7 @@ namespace NSE.Pagamentos.NerdsPag
             return Task.FromResult(transaction);
         }
 
-        public Task<Transaction> CaptureCardTransaction()
+        public Task<Transaction> CaptureCardTransaction()//Bem simples, vai retornar uma transaction com os mesmos dados da transação anterior, mas vai mudar o Status pra Pago
         {
             var transaction = new Transaction
                 {
@@ -150,7 +150,7 @@ namespace NSE.Pagamentos.NerdsPag
             return Task.FromResult(transaction);
         }
 
-        public Task<Transaction> CancelAuthorization()
+        public Task<Transaction> CancelAuthorization()//Bem simples tb, vai retornar uma ransaction com os mesmos dados da transação anterior, e Status Cancelado
         {
             var transaction = new Transaction
             {

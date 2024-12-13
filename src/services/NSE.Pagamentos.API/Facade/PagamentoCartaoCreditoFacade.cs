@@ -53,25 +53,25 @@ namespace NSE.Pagamentos.Facade
             return ParaTransacao(await transacao.AuthorizeCardTransaction());//AuthorizeCardTransaction vai me devolver uma Transaction e quero devolver uma Transação para meu negócio. Logo necessário um método de-para
         }
 
-        //public async Task<Transacao> CapturarPagamento(Transacao transacao)
-        //{
-        //    var nerdsPagSvc = new NerdsPagService(_pagamentoConfig.DefaultApiKey,
-        //        _pagamentoConfig.DefaultEncryptionKey);
+        public async Task<Transacao> CapturarPagamento(Transacao transacao)
+        {
+            var nerdsPagSvc = new NerdsPagService(_pagamentoConfig.DefaultApiKey,//cria instancia de NerdsPag
+                _pagamentoConfig.DefaultEncryptionKey);
 
-        //    var transaction = ParaTransaction(transacao, nerdsPagSvc);
+            var transaction = ParaTransaction(transacao, nerdsPagSvc);//convertendo transação para transaction. Para instanciar transaction é necessário passar uma instancia de NerdsPagService
 
-        //    return ParaTransacao(await transaction.CaptureCardTransaction());
-        //}
+            return ParaTransacao(await transaction.CaptureCardTransaction());//Capturando a transaction e retornando uma nova Transação, de captura
+        }
 
-        //public async Task<Transacao> CancelarAutorizacao(Transacao transacao)
-        //{
-        //    var nerdsPagSvc = new NerdsPagService(_pagamentoConfig.DefaultApiKey,
-        //        _pagamentoConfig.DefaultEncryptionKey);
+        public async Task<Transacao> CancelarAutorizacao(Transacao transacao)
+        {
+            var nerdsPagSvc = new NerdsPagService(_pagamentoConfig.DefaultApiKey,
+                _pagamentoConfig.DefaultEncryptionKey);
 
-        //    var transaction = ParaTransaction(transacao, nerdsPagSvc);
+            var transaction = ParaTransaction(transacao, nerdsPagSvc);
 
-        //    return ParaTransacao(await transaction.CancelAuthorization());
-        //}
+            return ParaTransacao(await transaction.CancelAuthorization());
+        }
 
         public static Transacao ParaTransacao(Transaction transaction)
         {
@@ -89,18 +89,18 @@ namespace NSE.Pagamentos.Facade
             };
         }
 
-        //public static Transaction ParaTransaction(Transacao transacao, NerdsPagService nerdsPagService)
-        //{
-        //    return new Transaction(nerdsPagService)
-        //    {
-        //        Status = (TransactionStatus) transacao.Status,
-        //        Amount = transacao.ValorTotal,
-        //        CardBrand = transacao.BandeiraCartao,
-        //        AuthorizationCode = transacao.CodigoAutorizacao,
-        //        Cost = transacao.CustoTransacao,
-        //        Nsu = transacao.NSU,
-        //        Tid = transacao.TID
-        //    };
-        //}
+        public static Transaction ParaTransaction(Transacao transacao, NerdsPagService nerdsPagService)
+        {
+            return new Transaction(nerdsPagService)
+            {
+                Status = (TransactionStatus)transacao.Status,
+                Amount = transacao.ValorTotal,
+                CardBrand = transacao.BandeiraCartao,
+                AuthorizationCode = transacao.CodigoAutorizacao,
+                Cost = transacao.CustoTransacao,
+                Nsu = transacao.NSU,
+                Tid = transacao.TID
+            };
+        }
     }
 }
