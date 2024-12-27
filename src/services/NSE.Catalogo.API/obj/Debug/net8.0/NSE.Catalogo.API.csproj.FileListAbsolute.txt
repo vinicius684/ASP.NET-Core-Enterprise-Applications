@@ -295,3 +295,11 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStore
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\net8.0\NSE.Catalogo.API.pdb
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\net8.0\NSE.Catalogo.API.genruntimeconfig.cache
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\net8.0\ref\NSE.Catalogo.API.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\net8.0\EasyNetQ.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\net8.0\EasyNetQ.Serialization.NewtonsoftJson.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\net8.0\Polly.Core.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\net8.0\NSE.MessageBus.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\net8.0\NSE.MessageBus.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\net8.0\Dapper.dll

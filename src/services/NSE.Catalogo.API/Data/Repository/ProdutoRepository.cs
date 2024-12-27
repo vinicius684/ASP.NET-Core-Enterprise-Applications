@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using NSE.Core.Data;
+using Dapper;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace NSE.Catalogo.API.Data.Repository
 {
@@ -18,9 +20,45 @@ namespace NSE.Catalogo.API.Data.Repository
 
         public IUnitOfWork UnitOfWork => _context;
 
-        public async Task<IEnumerable<Produto>> ObterTodos()
+        public async Task<PagedResult<Produto>> ObterTodos(int pageSize, int pageIndex, string query = null)
         {
-            return await _context.Produtos.AsNoTracking().ToListAsync();
+            /* +- como ficaria com EF
+            return await _context.Produtos.AsNoTracking()
+                .Skip(pageSize * (pageIndex - 1)).Take(pageSize)
+               .Where(c => c.Nome.Contains(query)).ToListAsync();
+            */
+
+            /*  
+               2 Se minha query for null, ignora OU senão vai filtra pelos nomes que CONTEM a query
+               4 pular um número especifico de linhas(tamanho da página * (número da pagina - 1)), pois a cunsulta parte da página 0    
+               5 obter/quantos registros exibir
+               6-7 outra consulta que retorna o número total de itens da query (duas consultas, recurso do dapper QueryMultipleAsync)
+
+                obs: essa query poderia ser uma store procidure sendo executada pelo dapper tb
+             */
+            var sql = @$"SELECT * FROM Produtos 
+                      WHERE (@Nome IS NULL OR Nome LIKE '%' + @Nome + '%') 
+                      ORDER BY [Nome] 
+                      OFFSET {pageSize * (pageIndex - 1)} ROWS 
+                      FETCH NEXT {pageSize} ROWS ONLY 
+
+                      SELECT COUNT(Id) FROM Produtos 
+                      WHERE (@Nome IS NULL OR Nome LIKE '%' + @Nome + '%')";
+
+            var multi = await _context.Database.GetDbConnection()
+                .QueryMultipleAsync(sql, new { Nome = query });
+
+            var produtos = multi.Read<Produto>();
+            var total = multi.Read<int>().FirstOrDefault();//pegar o firstOrDefault, pq sempre tras uma lista, dessa forma vai pegar só o int
+
+            return new PagedResult<Produto>()
+            {
+                List = produtos,
+                TotalResults = total,
+                PageIndex = pageIndex,
+                PageSize = pageSize,
+                Query = query
+            };
         }
 
         public async Task<Produto> ObterPorId(Guid id)

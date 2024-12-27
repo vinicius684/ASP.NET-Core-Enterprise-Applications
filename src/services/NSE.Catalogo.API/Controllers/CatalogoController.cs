@@ -11,7 +11,6 @@ namespace NSE.Catalogo.API.Controllers
         Nesse caso como a entidade é simples, não tem problema retornar a entidade direto, agora quando a entidade tem mto mais 
         informações do que vc deseja mostrar, o ideal é que vc retorne um objeto response que represente sua entidade.
      */
-    [Authorize]
     public class CatalogoController : MainController
     {
         private readonly IProdutoRepository _produtoRepository;
@@ -21,11 +20,11 @@ namespace NSE.Catalogo.API.Controllers
             _produtoRepository = produtoRepository;
         }
 
-        [AllowAnonymous]
+
         [HttpGet("catalogo/produtos")]
-        public async Task<IEnumerable<Produto>> Index()
+        public async Task<PagedResult<Produto>> Index([FromQuery] int ps = 8, [FromQuery] int page = 1, [FromQuery] string q = null)
         {
-            return await _produtoRepository.ObterTodos();
+            return await _produtoRepository.ObterTodos(ps, page, q);
         }
 
         //[ClaimsAuthorize("Catalogo", "Ler")]

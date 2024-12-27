@@ -6,10 +6,26 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "ps",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "q",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[NSE.Catalogo.API.Models.Produto, NSE.Catalogo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "NSE.Catalogo.API.Models.PagedResult\u00601[[NSE.Catalogo.API.Models.Produto, NSE.Catalogo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
