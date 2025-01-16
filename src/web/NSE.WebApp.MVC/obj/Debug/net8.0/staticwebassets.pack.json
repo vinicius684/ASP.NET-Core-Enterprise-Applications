@@ -281,6 +281,70 @@
       "PackagePath": "staticwebassets\\images\\misc\\playmarket.png"
     },
     {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\4head.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\4head.webp"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\Branca 4head.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\Branca 4head.webp"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\Branco Tiltado.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\Branco Tiltado.webp"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\Heisenberg.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\Heisenberg.webp"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\Kappa.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\Kappa.webp"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\MacGyver.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\MacGyver.webp"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\Maestria.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\Maestria.webp"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\My Yoda.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\My Yoda.webp"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\Pato.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\Pato.webp"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\Quack.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\Quack.webp"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\Rick And Morty Captured.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\Rick And Morty Captured.webp"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\Rick And Morty.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\Rick And Morty.webp"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\Say My Name.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\Say My Name.webp"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\Tryhard.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\Tryhard.webp"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\Xaviers School.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\Xaviers School.webp"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\Yoda.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\Yoda.webp"
+    },
+    {
       "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\camiseta1.jpg",
       "PackagePath": "staticwebassets\\images\\produtos\\camiseta1.jpg"
     },
@@ -295,6 +359,50 @@
     {
       "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\camiseta4.jpg",
       "PackagePath": "staticwebassets\\images\\produtos\\camiseta4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\caneca-Batman.jpg",
+      "PackagePath": "staticwebassets\\images\\produtos\\caneca-Batman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\caneca-Geeks.jpg",
+      "PackagePath": "staticwebassets\\images\\produtos\\caneca-Geeks.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\caneca-Joker.jpg",
+      "PackagePath": "staticwebassets\\images\\produtos\\caneca-Joker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\caneca-Nightmare.jpg",
+      "PackagePath": "staticwebassets\\images\\produtos\\caneca-Nightmare.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\caneca-Ozob.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\caneca-Ozob.webp"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\caneca-Rick and Morty.jpg",
+      "PackagePath": "staticwebassets\\images\\produtos\\caneca-Rick and Morty.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\caneca-Wonder Woman.jpg",
+      "PackagePath": "staticwebassets\\images\\produtos\\caneca-Wonder Woman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\caneca-bbt.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\caneca-bbt.webp"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\caneca-cogumelo.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\caneca-cogumelo.webp"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\caneca-ironman.jpg",
+      "PackagePath": "staticwebassets\\images\\produtos\\caneca-ironman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\caneca-joker Wanted.jpg",
+      "PackagePath": "staticwebassets\\images\\produtos\\caneca-joker Wanted.jpg"
     },
     {
       "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\caneca1.jpg",
@@ -315,6 +423,14 @@
     {
       "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\cards.png",
       "PackagePath": "staticwebassets\\images\\produtos\\cards.png"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\support.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\support.webp"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\images\\produtos\\tiltado.webp",
+      "PackagePath": "staticwebassets\\images\\produtos\\tiltado.webp"
     },
     {
       "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\js\\script.js",

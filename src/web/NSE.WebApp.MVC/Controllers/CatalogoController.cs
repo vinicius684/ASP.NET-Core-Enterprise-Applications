@@ -17,9 +17,12 @@ namespace NSE.WebApp.MVC.Controllers
         [HttpGet]
         [Route("")]
         [Route("vitrine")]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index([FromQuery] int ps = 8, [FromQuery] int page = 1, [FromQuery] string q = null)
         {
-            var produtos = await _catalogoService.ObterTodos();
+            var produtos = await _catalogoService.ObterTodos(ps, page, q);
+            //caixa de texto na layout define valor da query, navegação paginação na Catalogo Index.cshtml pega o valor da Model.Query e envia pra Action, Action define o valor da ViewBag.Pesquisa = q, o caixa de texto da pesquisa salva o texto pesquisado ao navegar pela paginação
+            ViewBag.Pesquisa = q;
+            produtos.ReferenceAction = "Index";
 
             return View(produtos);
         }

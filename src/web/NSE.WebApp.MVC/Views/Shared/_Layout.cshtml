@@ -23,11 +23,21 @@
                             <img alt="Nerd Store Enterprise" class="logo" src="~/images/logo.png">
                         </a>
                     </div>
-                    <div class="col-lg-9 col-sm-7 col-8 order-2 order-lg-3">
+                    <div class="col-lg-5 col-sm-12">
+                        <form method="get" asp-controller="Catalogo" asp-action="Index" class="search">
+                            <div class="input-group w-100">
+                                <input type="text" id="q" name="q" class="form-control" value="@ViewBag.Pesquisa" placeholder="O que você está procurando?">@*id, pro js; name, nome do campo que será enviado ao servidor; view bag, usado para manter o valor que o usuário digitou na busca anterior quando a página é recarregada. *@
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="submit">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-4">
                         <div class="d-flex justify-content-end">
-
                             <partial name="_LoginPartial" />
-
                         </div>
                     </div>
                 </div>

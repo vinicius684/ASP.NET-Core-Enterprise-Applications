@@ -37,13 +37,16 @@ namespace NSE.Catalogo.API.Data.Repository
                 obs: essa query poderia ser uma store procidure sendo executada pelo dapper tb
              */
             var sql = @$"SELECT * FROM Produtos 
-                      WHERE (@Nome IS NULL OR Nome LIKE '%' + @Nome + '%') 
-                      ORDER BY [Nome] 
-                      OFFSET {pageSize * (pageIndex - 1)} ROWS 
-                      FETCH NEXT {pageSize} ROWS ONLY 
+                        WHERE (@Nome IS NULL OR Nome LIKE '%' + @Nome + '%') AND Ativo = 1
+                        ORDER BY [Nome] 
+                        OFFSET {pageSize * (pageIndex - 1)} ROWS 
+                        FETCH NEXT {pageSize} ROWS ONLY;
 
-                      SELECT COUNT(Id) FROM Produtos 
-                      WHERE (@Nome IS NULL OR Nome LIKE '%' + @Nome + '%')";
+                      SELECT COUNT(Id) 
+                        FROM Produtos 
+                        WHERE (@Nome IS NULL OR Nome LIKE '%' + @Nome + '%') AND Ativo = 1;";
+
+
 
             var multi = await _context.Database.GetDbConnection()
                 .QueryMultipleAsync(sql, new { Nome = query });

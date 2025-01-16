@@ -1,5 +1,5 @@
 ﻿@using NSE.WebApp.MVC.Extensions
-@model IEnumerable<NSE.WebApp.MVC.Models.ProdutoViewModel>
+@model PagedViewModel<ProdutoViewModel>
 
 @{
     ViewData["Title"] = "Todos os produtos";
@@ -15,7 +15,7 @@
         <div class="container" style=" padding-top: 20px">
             <div class="row">
                 @{
-                    foreach (var produto in Model.Where(p => p.Ativo).OrderBy(p=>p.Nome))
+                    foreach (var produto in Model.List.Where(p => p.Ativo).OrderBy(p=>p.Nome))
                     {
                         <div class="col-md-3">
                             <div href="#" class="card card-product-grid">
@@ -40,6 +40,32 @@
                     }
                 }
             </div>
+
+            <nav>
+                <ul class="pagination justify-content-center"> @*pagination do bootstrap + alinhamento ao centro*@
+                    @{
+                        for (var i = 1; i < Model.TotalPages + 1; i++) /*Total page +1 não é <= */
+                        {                                                 
+                            if (i == Model.PageIndex)/*para a pagina atual, a opção fica preenchida*/
+                            {
+                                <li class="page-item active">
+                                    <a class="page-link" asp-action="Index" asp-route-page="@i" asp-route-ps="@Model.PageSize" asp-route-q="@Model.Query">@i <span class="sr-only">(current)</span></a>
+                                </li>
+                            }
+                            else
+                            {
+
+                                <li class="page-item">
+                                    @*numeros*@
+                                    <a class="page-link" asp-action="Index" asp-route-ps="@Model.PageSize" asp-route-page="@i" asp-route-q="@Model.Query">@i</a>
+                                    @*page-link, apontando para nossa action Index*@
+                                </li>
+                            }
+                        }
+                    }
+                </ul>
+            </nav>
+
         </div>
     </div>
 </section>
