@@ -305,3 +305,7 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStore
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\net8.0\NSE.Carrinho.API.pdb
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\net8.0\NSE.Carrinho.API.genruntimeconfig.cache
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\net8.0\ref\NSE.Carrinho.API.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\NSE.Carrinho.API.staticwebassets.endpoints.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\net8.0\staticwebassets\msbuild.NSE.Carrinho.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "nCS9dig4fvWC/BnJz4O2klv32oQ/UYtmialCpnp7/e4=",
+  "Hash": "HPWcj3yZCoSEYiwj6+uyFdQTRg9h/iOSngVoxXtirU0=",
   "Source": "NSE.Pagamentos.API",
   "BasePath": "_content/NSE.Pagamentos.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

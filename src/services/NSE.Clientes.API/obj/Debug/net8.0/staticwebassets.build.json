@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "rChjMKTYMsvxSJ/X1fjT8MEbtITBBTxF6JLPRJsofoM=",
+  "Hash": "w9LybxndSOUXvcVtcG+2y9xjz4RIfo/RpZwDpMqCR7I=",
   "Source": "NSE.Clientes.API",
   "BasePath": "_content/NSE.Clientes.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

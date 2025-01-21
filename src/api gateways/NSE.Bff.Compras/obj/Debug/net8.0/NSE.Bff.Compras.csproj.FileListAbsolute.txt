@@ -116,3 +116,7 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStore
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\net8.0\NSE.Bff.Compras.pdb
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\net8.0\NSE.Bff.Compras.genruntimeconfig.cache
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\net8.0\ref\NSE.Bff.Compras.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\bin\Debug\net8.0\NSE.Bff.Compras.staticwebassets.endpoints.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\net8.0\staticwebassets\msbuild.NSE.Bff.Compras.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

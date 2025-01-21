@@ -229,3 +229,7 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStore
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pagamentos.API\obj\Debug\net8.0\NSE.Pagamentos.API.pdb
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pagamentos.API\obj\Debug\net8.0\NSE.Pagamentos.API.genruntimeconfig.cache
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pagamentos.API\obj\Debug\net8.0\ref\NSE.Pagamentos.API.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pagamentos.API\bin\Debug\net8.0\NSE.Pagamentos.API.staticwebassets.endpoints.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pagamentos.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pagamentos.API\obj\Debug\net8.0\staticwebassets\msbuild.NSE.Pagamentos.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Pagamentos.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

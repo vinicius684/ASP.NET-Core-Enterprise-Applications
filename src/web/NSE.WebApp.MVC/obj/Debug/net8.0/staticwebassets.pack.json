@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NSE.WebApp.MVC.bundle.scp.css",
-      "PackagePath": "staticwebassets\\NSE.WebApp.MVC.bundle.scp.css"
+      "PackagePath": "staticwebassets\\NSE.WebApp.MVC.u8zaa9cc9a.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\css\\responsive.css",
@@ -571,6 +571,10 @@
     {
       "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NSE.WebApp.MVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NSE.WebApp.MVC.Microsoft.AspNetCore.StaticWebAssets.props",

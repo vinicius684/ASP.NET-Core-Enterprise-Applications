@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
+using NetDevPack.Security.Jwt.Core.Jwa;
 using NSE.Identidade.API.Data;
 using NSE.Identidade.API.Extensions;
 using NSE.WebAPI.Core.Identidade;
@@ -17,6 +18,10 @@ namespace NSE.Identidade.API.Configuration
         public static IServiceCollection AddIdentityConfiguration(this IServiceCollection services,
             IConfiguration configuration)
         {
+            services.AddJwksManager(options => options.Jws = Algorithm.Create(DigitalSignaturesAlgorithm.EcdsaSha256))//add jwksManeger e definindo esquema de criptografia
+                .PersistKeysToDatabaseStore<ApplicationDbContext>()
+                .UseJwtValidation();
+
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 

@@ -12,6 +12,8 @@ using NSE.WebAPI.Core.Controllers;
 using NSE.Core.Messages.Integration;
 using EasyNetQ;
 using NSE.MessageBus;
+using NSE.WebAPI.Core.Usuario;
+using NetDevPack.Security.Jwt.Core.Interfaces;
 
 namespace NSE.Identidade.API.Controllers
 {
@@ -21,18 +23,22 @@ namespace NSE.Identidade.API.Controllers
         private readonly SignInManager<IdentityUser> _signInManager;//gerenciar login
         private readonly UserManager<IdentityUser> _userManager;//gerenciar usuário
         private readonly AppSettings _appSettings;
+        private readonly IAspNetUser _aspNetUser;
+        private readonly IJwtService _jwtService;
 
         private readonly IMessageBus _bus;
 
         public AuthController(SignInManager<IdentityUser> signInManager, 
             UserManager<IdentityUser> userManager,
             IOptions<AppSettings> appSettings,//IOptions - opção de leitura que o prório asp.net te dá como suporte para ler aquivs de configuração
-            IMessageBus bus)
+            IMessageBus bus, IAspNetUser aspNetUser, IJwtService jwtService)
         {
             _signInManager = signInManager;
             _userManager = userManager;
             _appSettings = appSettings.Value;
             _bus = bus;
+            _jwtService = jwtService;
+            _aspNetUser = aspNetUser;
         }
 
 
@@ -105,7 +111,7 @@ namespace NSE.Identidade.API.Controllers
             var claims = await _userManager.GetClaimsAsync(user); //suas claims Identity
 
             var identityClaims = await ObterClaimsUsuario(claims, user); //passo minha lista de claim do idenentity do Usuário, que será somada às Clains específicas do JWT + roles do identity. Aqui é tipo refeência que é passado(List), portanto mesmo estando em escopo diferente, a var claims passa a receber todas as claims incrementadas nesse método
-            var encodedToken = CodificarToken(identityClaims); //Crio e codifico o Token
+            var encodedToken = await CodificarToken(identityClaims); //Crio e codifico o Token
 
             return ObterRespostaToken(encodedToken, user, claims); //Resposta final, representação do Usuário na minha app, contendo o Token
         }
@@ -132,17 +138,21 @@ namespace NSE.Identidade.API.Controllers
         }
 
 
-        private string CodificarToken(ClaimsIdentity identityClaims) //Criação e  códigicação do JWT
+        private async Task<string> CodificarToken(ClaimsIdentity identityClaims) //Criação e  códigicação do JWT
         {
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(_appSettings.Secret);
+
+            var currentIssuer =
+                $"{_aspNetUser.ObterHttpContext().Request.Scheme}://{_aspNetUser.ObterHttpContext().Request.Host}"; //próprio endpoint da api de autenticação
+
+            var key = await _jwtService.GetCurrentSigningCredentials();
+
             var token = tokenHandler.CreateToken(new SecurityTokenDescriptor
             {
-                Issuer = _appSettings.Emissor,
-                Audience = _appSettings.ValidoEm,
+                Issuer = currentIssuer,
                 Subject = identityClaims,
-                Expires = DateTime.UtcNow.AddHours(_appSettings.ExpiracaoHoras),
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+                Expires = DateTime.UtcNow.AddHours(1),
+                SigningCredentials = key
             });
 
             return tokenHandler.WriteToken(token);

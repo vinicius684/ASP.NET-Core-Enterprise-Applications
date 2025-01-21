@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "CffQXbcKuSw5eLT+ooz4N8SO4Sk8c6krac/3bdiom6Q=",
+  "Hash": "Hh/Qx/bSqRyGwG26BSgHHhklNNFR9Ws2o4dh/bdF3E4=",
   "Source": "NSE.Bff.Compras",
   "BasePath": "_content/NSE.Bff.Compras",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

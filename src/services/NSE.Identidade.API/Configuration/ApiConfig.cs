@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NSE.WebAPI.Core.Identidade;
+using NSE.WebAPI.Core.Usuario;
 
 namespace NSE.Identidade.API.Configuration
 {
@@ -11,6 +12,8 @@ namespace NSE.Identidade.API.Configuration
         public static IServiceCollection AddApiConfiguration(this IServiceCollection services) //ExtensionMethod de Services
         {
             services.AddControllers();
+
+            services.AddScoped<IAspNetUser, AspNetUser>();
 
             return services;
         }
@@ -30,6 +33,11 @@ namespace NSE.Identidade.API.Configuration
             app.UseAuthConfiguration(); //ExtensionMethod de Useidentity está aqui pois  app.UseAuthentication(); app.UseAuthorization() precisam estar extamente entre UseRouting e MapControllers
 
             app.MapControllers();
+
+            
+            //Endpoint personalizado: dominio ou localhost:porta/jwks
+            //Endpoint default: localhost:porta/jwks
+            app.UseJwksDiscovery();//reposnsavel por expor o endpoint da minha chave pública
 
             return app;
         }

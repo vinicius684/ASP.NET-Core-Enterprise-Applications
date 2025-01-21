@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "RprjgAWGD0XdTBAHeCFqeCQhwRNjW3WWn6K+9JAFd4s=",
+  "Hash": "GWJS4LLbIY38sg0rqIS2dNs2ot5XdsE0yjcAS0S9ing=",
   "Source": "NSE.Catalogo.API",
   "BasePath": "_content/NSE.Catalogo.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

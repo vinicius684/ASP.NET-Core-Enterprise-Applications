@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "yhR4idq2sIy454AEMxvQAKRrYfbmpDZqcLoqRmPbtdY=",
+  "Hash": "L0uXGWDzXNj0AHXrtt7GhIeBN40SENWa9ACLGcs+iEs=",
   "Source": "NSE.Pedidos.API",
   "BasePath": "_content/NSE.Pedidos.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

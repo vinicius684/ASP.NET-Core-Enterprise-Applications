@@ -468,3 +468,7 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStore
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Clientes.API\obj\Debug\net8.0\NSE.Clientes.API.pdb
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Clientes.API\obj\Debug\net8.0\NSE.Clientes.API.genruntimeconfig.cache
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Clientes.API\obj\Debug\net8.0\ref\NSE.Clientes.API.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Clientes.API\bin\Debug\net8.0\NSE.Clientes.API.staticwebassets.endpoints.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Clientes.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Clientes.API\obj\Debug\net8.0\staticwebassets\msbuild.NSE.Clientes.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Clientes.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
