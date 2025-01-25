@@ -924,6 +924,19 @@
           }
         }
       },
+      "NetDevPack.Security.JwtExtensions/8.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8",
+          "System.IdentityModel.Tokens.Jwt": "7.5.1",
+          "System.Text.Json": "8.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/NetDevPack.Security.JwtExtensions.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
@@ -1292,7 +1305,8 @@
           "FluentValidation": "11.9.2",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8",
           "Microsoft.Extensions.Http.Polly": "8.0.8",
-          "NSE.Core": "1.0.0"
+          "NSE.Core": "1.0.0",
+          "NetDevPack.Security.JwtExtensions": "8.0.0"
         },
         "runtime": {
           "NSE.WebAPI.Core.dll": {
@@ -1798,6 +1812,13 @@
       "sha512": "sha512-RSJveSuxesmqn47F7pbx3iqHYVPWzIh83UiM/c8x4M5irmir4H65ZldvXjbbwpx1eowi+987TMPusmzLH+fWvQ==",
       "path": "netdevpack.security.jwt.store.entityframeworkcore/8.1.5",
       "hashPath": "netdevpack.security.jwt.store.entityframeworkcore.8.1.5.nupkg.sha512"
+    },
+    "NetDevPack.Security.JwtExtensions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ikynI90CXtCJRdlBz/RnTk8ZUT+mqRJTut0hwSf/Zg5wbUSXEEw69fJ+RoP8QSkt9/9AXd1N9RCIsaNfLJACNg==",
+      "path": "netdevpack.security.jwtextensions/8.0.0",
+      "hashPath": "netdevpack.security.jwtextensions.8.0.0.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.3": {
       "type": "package",

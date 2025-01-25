@@ -111,3 +111,4 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStore
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\net8.0\staticwebassets\msbuild.NSE.WebApp.MVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\net8.0\NetDevPack.Security.JwtExtensions.dll

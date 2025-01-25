@@ -31,7 +31,8 @@ namespace NSE.Identidade.API.Configuration
                             .AddEntityFrameworkStores<ApplicationDbContext>()
                             .AddDefaultTokenProviders();//token para caso precise resetar uma senha, autenticar uma conta recem gerada. Em outras palavras, uma criptografia dentro de um link para te reconhecer
 
-            services.AddJwtConfiguration(configuration);
+            //Não precisa mais estar aqui (config pra entender o token) uma vez que apos a implementação do JWK essa api não precisa mais do AppSettings com infos do Token, a não ser que coloque outras funcionalidade aqui que dependa de um usuário autenticado. NEcessário colocar section AppSettings com Url da chave privada caso for usar.
+            //services.AddJwtConfiguration(configuration);
 
             return services;
         }

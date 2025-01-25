@@ -120,3 +120,4 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStore
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\net8.0\staticwebassets\msbuild.NSE.Bff.Compras.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\api gateways\NSE.Bff.Compras\bin\Debug\net8.0\NetDevPack.Security.JwtExtensions.dll

@@ -151,7 +151,7 @@ namespace NSE.Identidade.API.Controllers
             {
                 Issuer = currentIssuer,
                 Subject = identityClaims,
-                Expires = DateTime.UtcNow.AddHours(1),
+                Expires = DateTime.UtcNow.AddHours(1),//quando o token vai expirar
                 SigningCredentials = key
             });
 
@@ -164,7 +164,7 @@ namespace NSE.Identidade.API.Controllers
             return new UsuarioRespostaLogin
             {
                 AccessToken = encodedToken,
-                ExpiresIn = TimeSpan.FromHours(_appSettings.ExpiracaoHoras).TotalSeconds,
+                ExpiresIn = TimeSpan.FromHours(1).TotalSeconds,//informando no token quanto de tempo ele está válido
                 UsuarioToken = new UsuarioToken
                 {
                     Id = user.Id,

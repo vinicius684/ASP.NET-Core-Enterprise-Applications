@@ -13,7 +13,7 @@ namespace NSE.Identidade.API.Configuration
         {
             services.AddControllers();
 
-            services.AddScoped<IAspNetUser, AspNetUser>();
+           // services.AddScoped<IAspNetUser, AspNetUser>();
 
             return services;
         }

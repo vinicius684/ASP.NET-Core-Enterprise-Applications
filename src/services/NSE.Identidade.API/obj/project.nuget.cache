@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "B85FtcdneG8=",
+  "dgSpecHash": "kJ60O0sJRTQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_9AspNetEnterpriseApplications\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
   "expectedPackageFiles": [
@@ -74,6 +74,7 @@
     "C:\\Users\\vpinh\\.nuget\\packages\\netdevpack.security.jwt.aspnetcore\\8.1.5\\netdevpack.security.jwt.aspnetcore.8.1.5.nupkg.sha512",
     "C:\\Users\\vpinh\\.nuget\\packages\\netdevpack.security.jwt.core\\8.1.5\\netdevpack.security.jwt.core.8.1.5.nupkg.sha512",
     "C:\\Users\\vpinh\\.nuget\\packages\\netdevpack.security.jwt.store.entityframeworkcore\\8.1.5\\netdevpack.security.jwt.store.entityframeworkcore.8.1.5.nupkg.sha512",
+    "C:\\Users\\vpinh\\.nuget\\packages\\netdevpack.security.jwtextensions\\8.0.0\\netdevpack.security.jwtextensions.8.0.0.nupkg.sha512",
     "C:\\Users\\vpinh\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\vpinh\\.nuget\\packages\\polly\\8.4.1\\polly.8.4.1.nupkg.sha512",
     "C:\\Users\\vpinh\\.nuget\\packages\\polly.core\\8.4.1\\polly.core.8.4.1.nupkg.sha512",

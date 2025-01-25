@@ -4,15 +4,17 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
+using NetDevPack.Security.JwtExtensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace NSE.WebAPI.Core.Identidade
 {
-    public static class JwtConfig
+    public static class JwtConfig //configs de como ler um token
     {
         public static IServiceCollection AddJwtConfiguration(this IServiceCollection services,
            IConfiguration configuration)
@@ -23,7 +25,6 @@ namespace NSE.WebAPI.Core.Identidade
             services.Configure<AppSettings>(appSettingsSection);//"pedindo" classe AppSettings represente os dados da seção obtida
 
             var appSettings = appSettingsSection.Get<AppSettings>();//através da section, obtendo a classe já populada
-            var key = Encoding.ASCII.GetBytes(appSettings.Secret);//tranformando minha chave em uma sequencia de bytes no formato ASCII
 
             services.AddAuthentication(options =>//Dizendo que tanto a forma de autenticar, quanto o "desafio" de como apresentar e credenciar um usuário é feito internamente dependem do Padrão JWT, poderia usar via cookie, via outros providers...
             {
@@ -33,18 +34,10 @@ namespace NSE.WebAPI.Core.Identidade
             {
                 bearerOptions.RequireHttpsMetadata = true;
                 bearerOptions.SaveToken = true;
-                bearerOptions.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuerSigningKey = true,//validar o emissor com base na assinatura, não posso utilizar um token qualquer com uma ssinatura qualquer
-                    IssuerSigningKey = new SymmetricSecurityKey(key),//assinatura do emissor, segredo do token
-                    ValidateIssuer = true,//validar emissor
-                    ValidateAudience = true,//validar onde o oken é válido
-                                            //ValidAudiences =
-                    ValidAudience = appSettings.ValidoEm,
-                    ValidIssuer = appSettings.Emissor,
-                };
+                bearerOptions.SetJwksOptions(new JwkOptions(appSettings.AutenticacaoJwksUrl));//olha, vai entender um JWT e pra ententer como ele funciona, vai precisar pegar a url desse endpoint e ir lá consultar chave publica pra entender a validar o Token
                 bearerOptions.MapInboundClaims = false;
             });
+            
             //
 
             return services;
