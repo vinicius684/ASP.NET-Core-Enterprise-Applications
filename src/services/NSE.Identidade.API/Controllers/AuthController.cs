@@ -5,40 +5,27 @@ using Microsoft.IdentityModel.Tokens;
 using NSE.Identidade.API.Extensions;
 using NSE.Identidade.API.Models;
 using NSE.WebAPI.Core.Identidade;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
 using NSE.WebAPI.Core.Controllers;
 using NSE.Core.Messages.Integration;
-using EasyNetQ;
 using NSE.MessageBus;
 using NSE.WebAPI.Core.Usuario;
 using NetDevPack.Security.Jwt.Core.Interfaces;
+using NSE.Identidade.API.Services;
 
 namespace NSE.Identidade.API.Controllers
 {
     [Route("api/identidade")]
     public class AuthController : MainController
     {
-        private readonly SignInManager<IdentityUser> _signInManager;//gerenciar login
-        private readonly UserManager<IdentityUser> _userManager;//gerenciar usuário
-        private readonly AppSettings _appSettings;
-        private readonly IAspNetUser _aspNetUser;
-        private readonly IJwtService _jwtService;
-
+        private readonly AuthenticationService _authenticationService;
         private readonly IMessageBus _bus;
 
-        public AuthController(SignInManager<IdentityUser> signInManager, 
-            UserManager<IdentityUser> userManager,
-            IOptions<AppSettings> appSettings,//IOptions - opção de leitura que o prório asp.net te dá como suporte para ler aquivs de configuração
-            IMessageBus bus, IAspNetUser aspNetUser, IJwtService jwtService)
+        public AuthController(
+                              AuthenticationService authenticationService, 
+                              IMessageBus bus)
         {
-            _signInManager = signInManager;
-            _userManager = userManager;
-            _appSettings = appSettings.Value;
+           _authenticationService = authenticationService;
             _bus = bus;
-            _jwtService = jwtService;
-            _aspNetUser = aspNetUser;
         }
 
 
@@ -55,7 +42,7 @@ namespace NSE.Identidade.API.Controllers
                 EmailConfirmed = true //se quiser habilitar para que o Usuário confirme o email depois e aí terá que enviar um email de confirmação, é config do identity. Olhar na Doc
             };
 
-            var result = await _userManager.CreateAsync(user, usuarioRegistro.Senha);
+            var result = await _authenticationService._userManager.CreateAsync(user, usuarioRegistro.Senha);
 
             if (result.Succeeded)
             {
@@ -64,12 +51,12 @@ namespace NSE.Identidade.API.Controllers
 
                 if (!clienteReuslt.ValidationResult.IsValid) //tratamento regrade negócio, sucesso ou não da operação de criar clien
                 {
-                    await _userManager.DeleteAsync(user);
+                    await _authenticationService._userManager.DeleteAsync(user);
                     return CustomResponse(clienteReuslt.ValidationResult);
                     throw new Exception("Erro ao validar o cliente");
                 }
 
-                return CustomResponse(await GerarJwt(usuarioRegistro.Email));
+                return CustomResponse(await _authenticationService.GerarJwt(usuarioRegistro.Email));
             }
 
             foreach (var error in result.Errors)
@@ -87,11 +74,11 @@ namespace NSE.Identidade.API.Controllers
 
             if (!ModelState.IsValid) return CustomResponse(ModelState);
 
-            var result = await _signInManager.PasswordSignInAsync(usuarioLogin.Email, usuarioLogin.Senha, false, true); //validar login conforme a senha
+            var result = await _authenticationService._signInManager.PasswordSignInAsync(usuarioLogin.Email, usuarioLogin.Senha, false, true); //validar login conforme a senha
 
             if (result.Succeeded)
             {
-                return CustomResponse(await GerarJwt(usuarioLogin.Email));
+                return CustomResponse(await _authenticationService.GerarJwt(usuarioLogin.Email));
             }
 
             if (result.IsLockedOut)
@@ -104,84 +91,9 @@ namespace NSE.Identidade.API.Controllers
             return CustomResponse();
         }
 
-
-        private async Task<UsuarioRespostaLogin> GerarJwt(string email)
-        {
-            var user = await _userManager.FindByEmailAsync(email); //obtenho user do identity
-            var claims = await _userManager.GetClaimsAsync(user); //suas claims Identity
-
-            var identityClaims = await ObterClaimsUsuario(claims, user); //passo minha lista de claim do idenentity do Usuário, que será somada às Clains específicas do JWT + roles do identity. Aqui é tipo refeência que é passado(List), portanto mesmo estando em escopo diferente, a var claims passa a receber todas as claims incrementadas nesse método
-            var encodedToken = await CodificarToken(identityClaims); //Crio e codifico o Token
-
-            return ObterRespostaToken(encodedToken, user, claims); //Resposta final, representação do Usuário na minha app, contendo o Token
-        }
-
-
-        private async Task<ClaimsIdentity> ObterClaimsUsuario(ICollection<Claim> claims, IdentityUser user) //Populo Claims específica JWT e Roles Identity e devolto o Objeto ClaimIdentity esperado pelo user
-        {
-            var userRoles = await _userManager.GetRolesAsync(user);
-
-            claims.Add(new Claim(JwtRegisteredClaimNames.Sub, user.Id));
-            claims.Add(new Claim(JwtRegisteredClaimNames.Email, user.Email));
-            claims.Add(new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()));
-            claims.Add(new Claim(JwtRegisteredClaimNames.Nbf, ToUnixEpochDate(DateTime.UtcNow).ToString()));
-            claims.Add(new Claim(JwtRegisteredClaimNames.Iat, ToUnixEpochDate(DateTime.UtcNow).ToString(), ClaimValueTypes.Integer64));
-            foreach (var userRole in userRoles)
-            {
-                claims.Add(new Claim("role", userRole));
-            }
-
-            var identityClaims = new ClaimsIdentity();
-            identityClaims.AddClaims(claims);
-
-            return identityClaims;
-        }
-
-
-        private async Task<string> CodificarToken(ClaimsIdentity identityClaims) //Criação e  códigicação do JWT
-        {
-            var tokenHandler = new JwtSecurityTokenHandler();
-
-            var currentIssuer =
-                $"{_aspNetUser.ObterHttpContext().Request.Scheme}://{_aspNetUser.ObterHttpContext().Request.Host}"; //próprio endpoint da api de autenticação
-
-            var key = await _jwtService.GetCurrentSigningCredentials();
-
-            var token = tokenHandler.CreateToken(new SecurityTokenDescriptor
-            {
-                Issuer = currentIssuer,
-                Subject = identityClaims,
-                Expires = DateTime.UtcNow.AddHours(1),//quando o token vai expirar
-                SigningCredentials = key
-            });
-
-            return tokenHandler.WriteToken(token);
-        }
-
-
-        private UsuarioRespostaLogin ObterRespostaToken(string encodedToken, IdentityUser user, IEnumerable<Claim> claims) //Resposta representação do meu Usuário na app, contendo o token
-        {
-            return new UsuarioRespostaLogin
-            {
-                AccessToken = encodedToken,
-                ExpiresIn = TimeSpan.FromHours(1).TotalSeconds,//informando no token quanto de tempo ele está válido
-                UsuarioToken = new UsuarioToken
-                {
-                    Id = user.Id,
-                    Email = user.Email,
-                    Claims = claims.Select(c => new UsuarioClaim { Type = c.Type, Value = c.Value })
-                }
-            };
-        }
-
-
-        private static long ToUnixEpochDate(DateTime date) //pegar um data e transformar ela no padrão que o JWT espera, EpochDate
-            => (long)Math.Round((date.ToUniversalTime() - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.Zero)).TotalSeconds);
-
-
         private async Task<ResponseMessage> RegistrarCliente(UsuarioRegistro usuarioRegistro)
         {
-            var usuario = await _userManager.FindByEmailAsync(usuarioRegistro.Email); //todas as infos do usuário principalmente o Id que o UsuarioRegistro não entrega
+            var usuario = await _authenticationService._userManager.FindByEmailAsync(usuarioRegistro.Email); //todas as infos do usuário principalmente o Id que o UsuarioRegistro não entrega
 
             var usuarioRegistrado = new UsuarioRegistradoIntegrationEvent(
                 Guid.Parse(usuario.Id), usuarioRegistro.Nome, usuarioRegistro.Email, usuarioRegistro.Cpf);
@@ -192,9 +104,30 @@ namespace NSE.Identidade.API.Controllers
             }
             catch
             {
-                await _userManager.DeleteAsync(usuario);
+                await _authenticationService._userManager.DeleteAsync(usuario);
                 throw;
             }
+        }
+
+
+        [HttpPost("refresh-token")]
+        public async Task<ActionResult> RefreshToken([FromBody] string refreshToken)//receber através do corpo da requisição um string refreshToken
+        {
+            if (string.IsNullOrEmpty(refreshToken))
+            {
+                AdicionarErroProcessamento("Refresh Token inválido");
+                return CustomResponse();
+            }
+
+            var token = await _authenticationService.ObterRefreshToken(Guid.Parse(refreshToken));//aqui retorna um tokn preenchido ou nulo se nõ for mais válido
+
+            if (token is null)
+            {
+                AdicionarErroProcessamento("Refresh Token expirado");
+                return CustomResponse();
+            }
+
+            return CustomResponse(await _authenticationService.GerarJwt(token.Username));
         }
 
     }

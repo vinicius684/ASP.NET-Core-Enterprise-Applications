@@ -30,5 +30,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NSE.Identidade.API.Controllers.AuthController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/identidade/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

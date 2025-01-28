@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NSE.Identidade.API.Services;
 using NSE.WebAPI.Core.Identidade;
 using NSE.WebAPI.Core.Usuario;
 
@@ -13,7 +14,8 @@ namespace NSE.Identidade.API.Configuration
         {
             services.AddControllers();
 
-           // services.AddScoped<IAspNetUser, AspNetUser>();
+            services.AddScoped<AuthenticationService>();
+            services.AddScoped<IAspNetUser, AspNetUser>();//utilizando basicamnte pra obter endpoint da api, no CodificarToken
 
             return services;
         }

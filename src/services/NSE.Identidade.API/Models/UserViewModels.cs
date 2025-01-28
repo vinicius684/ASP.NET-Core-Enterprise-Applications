@@ -36,6 +36,7 @@ namespace NSE.Identidade.API.Models
     public class UsuarioRespostaLogin//Ao receber uma reposta do Login, vou ter o Token de acesso(JWT), expiração desse Token e dados do user logado dentro do Token
     {
         public string AccessToken { get; set; } 
+        public Guid RefreshToken { get; set; }  
         public double ExpiresIn { get; set; }
         public UsuarioToken UsuarioToken { get; set; }
     }

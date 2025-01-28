@@ -43,6 +43,7 @@ namespace NSE.WebApp.MVC.Models
     public class UsuarioRespostaLogin
     {
         public string AccessToken { get; set; }
+        public string RefreshToken { get; set; }//string mais vantajoso de se guardar no cookie por isso não é guid(?)
         public double ExpiresIn { get; set; }
         public UsuarioToken UsuarioToken { get; set; }
         public ResponseResult ResponseResult { get; set; }
