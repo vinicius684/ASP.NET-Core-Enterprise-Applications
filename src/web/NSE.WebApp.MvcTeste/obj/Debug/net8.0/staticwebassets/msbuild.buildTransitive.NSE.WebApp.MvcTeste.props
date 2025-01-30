@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\NSE.WebApp.MvcTeste.props" />
-</Project>

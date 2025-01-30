@@ -32,6 +32,11 @@ namespace NSE.WebAPI.Core.Usuario
             return EstaAutenticado() ? _accessor.HttpContext.User.GetUserToken() : "";
         }
 
+        public string ObterUserRefreshToken()
+        {
+            return EstaAutenticado() ? _accessor.HttpContext.User.GetUserRefreshToken() : "";
+        }
+
         public bool EstaAutenticado()
         {
             return _accessor.HttpContext.User.Identity.IsAuthenticated;

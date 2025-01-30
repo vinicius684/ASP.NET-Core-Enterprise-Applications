@@ -88,7 +88,7 @@ namespace NSE.Identidade.API.Services
             {
                 Issuer = currentIssuer,
                 Subject = identityClaims,
-                Expires = DateTime.UtcNow.AddHours(1),//quando o token vai expirar
+                Expires = DateTime.UtcNow.AddMinutes(1),//quando o token vai expirar
                 SigningCredentials = key
             });
 

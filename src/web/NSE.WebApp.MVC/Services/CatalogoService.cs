@@ -25,11 +25,11 @@ namespace NSE.WebApp.MVC.Services
     {
         private readonly HttpClient _httpClient;
 
-        public CatalogoService(HttpClient httpCliente, IOptions<AppSettings> settings)
+        public CatalogoService(HttpClient httpClient, IOptions<AppSettings> settings)
         {
-            httpCliente.BaseAddress = new Uri(settings.Value.CatalogoUrl);
+            httpClient.BaseAddress = new Uri(settings.Value.CatalogoUrl);
 
-            _httpClient = httpCliente;
+            _httpClient = httpClient;
         }
 
         public async Task<ProdutoViewModel> ObterPorId(Guid id)
