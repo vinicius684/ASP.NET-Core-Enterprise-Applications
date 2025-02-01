@@ -28,4 +28,9 @@
     <ProjectReference Include="..\..\building blocks\NSE.WebAPI.Core\NSE.WebAPI.Core.csproj" />
   </ItemGroup>
 
+	<ItemGroup>
+		<Protobuf Include="Protos\carrinho.proto" GrpcServices="Server" />
+	</ItemGroup>
+	
+	
 </Project>
