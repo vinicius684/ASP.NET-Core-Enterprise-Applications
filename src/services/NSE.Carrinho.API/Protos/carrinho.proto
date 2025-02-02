@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option csharp_namespace = "NSE.Carrinho.API.Service.gRPC";
+option csharp_namespace = "NSE.Carrinho.API.Services.gRPC";
 
 package CarrinhoAPI;
 

@@ -26,6 +26,8 @@ builder.Services.RegisterServices();
 
 builder.Services.AddMessageBusConfiguration(builder.Configuration);
 
+builder.Services.ConfigureGrpcServices(builder.Configuration);
+
 //Configura o pipeline de requisições, adicionando middlewares que definem como cada requisição será tratada.
 var app = builder.Build();
 

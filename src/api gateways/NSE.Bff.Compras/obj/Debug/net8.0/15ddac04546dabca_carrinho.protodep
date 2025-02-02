@@ -1,0 +1,2 @@
+obj\Debug\net8.0/Carrinho.cs \
+obj\Debug\net8.0/CarrinhoGrpc.cs: ../../services/NSE.Carrinho.API/Protos/carrinho.proto

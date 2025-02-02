@@ -1,6 +1,5 @@
 ﻿using System.Threading.Tasks;
 using Grpc.Core;
-using NSE.Carrinho.API.Service.gRPC;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;

@@ -7,7 +7,7 @@
 
 using grpc = global::Grpc.Core;
 
-namespace NSE.Carrinho.API.Service.gRPC {
+namespace NSE.Carrinho.API.Services.gRPC {
   public static partial class CarrinhoCompras
   {
     static readonly string __ServiceName = "CarrinhoAPI.CarrinhoCompras";
@@ -46,12 +46,12 @@ namespace NSE.Carrinho.API.Service.gRPC {
     }
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::NSE.Carrinho.API.Service.gRPC.ObterCarrinhoRequest> __Marshaller_CarrinhoAPI_ObterCarrinhoRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::NSE.Carrinho.API.Service.gRPC.ObterCarrinhoRequest.Parser));
+    static readonly grpc::Marshaller<global::NSE.Carrinho.API.Services.gRPC.ObterCarrinhoRequest> __Marshaller_CarrinhoAPI_ObterCarrinhoRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::NSE.Carrinho.API.Services.gRPC.ObterCarrinhoRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::NSE.Carrinho.API.Service.gRPC.CarrinhoClienteResponse> __Marshaller_CarrinhoAPI_CarrinhoClienteResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::NSE.Carrinho.API.Service.gRPC.CarrinhoClienteResponse.Parser));
+    static readonly grpc::Marshaller<global::NSE.Carrinho.API.Services.gRPC.CarrinhoClienteResponse> __Marshaller_CarrinhoAPI_CarrinhoClienteResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::NSE.Carrinho.API.Services.gRPC.CarrinhoClienteResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::NSE.Carrinho.API.Service.gRPC.ObterCarrinhoRequest, global::NSE.Carrinho.API.Service.gRPC.CarrinhoClienteResponse> __Method_ObterCarrinho = new grpc::Method<global::NSE.Carrinho.API.Service.gRPC.ObterCarrinhoRequest, global::NSE.Carrinho.API.Service.gRPC.CarrinhoClienteResponse>(
+    static readonly grpc::Method<global::NSE.Carrinho.API.Services.gRPC.ObterCarrinhoRequest, global::NSE.Carrinho.API.Services.gRPC.CarrinhoClienteResponse> __Method_ObterCarrinho = new grpc::Method<global::NSE.Carrinho.API.Services.gRPC.ObterCarrinhoRequest, global::NSE.Carrinho.API.Services.gRPC.CarrinhoClienteResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "ObterCarrinho",
@@ -61,7 +61,7 @@ namespace NSE.Carrinho.API.Service.gRPC {
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
-      get { return global::NSE.Carrinho.API.Service.gRPC.CarrinhoReflection.Descriptor.Services[0]; }
+      get { return global::NSE.Carrinho.API.Services.gRPC.CarrinhoReflection.Descriptor.Services[0]; }
     }
 
     /// <summary>Base class for server-side implementations of CarrinhoCompras</summary>
@@ -69,7 +69,7 @@ namespace NSE.Carrinho.API.Service.gRPC {
     public abstract partial class CarrinhoComprasBase
     {
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::NSE.Carrinho.API.Service.gRPC.CarrinhoClienteResponse> ObterCarrinho(global::NSE.Carrinho.API.Service.gRPC.ObterCarrinhoRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::NSE.Carrinho.API.Services.gRPC.CarrinhoClienteResponse> ObterCarrinho(global::NSE.Carrinho.API.Services.gRPC.ObterCarrinhoRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -92,7 +92,7 @@ namespace NSE.Carrinho.API.Service.gRPC {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public static void BindService(grpc::ServiceBinderBase serviceBinder, CarrinhoComprasBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_ObterCarrinho, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::NSE.Carrinho.API.Service.gRPC.ObterCarrinhoRequest, global::NSE.Carrinho.API.Service.gRPC.CarrinhoClienteResponse>(serviceImpl.ObterCarrinho));
+      serviceBinder.AddMethod(__Method_ObterCarrinho, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::NSE.Carrinho.API.Services.gRPC.ObterCarrinhoRequest, global::NSE.Carrinho.API.Services.gRPC.CarrinhoClienteResponse>(serviceImpl.ObterCarrinho));
     }
 
   }
