@@ -8,6 +8,5 @@
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\8.0.1\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\8.0.1\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets\1.20.1\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets\1.20.1\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.identity.ui\8.0.8\buildTransitive\Microsoft.AspNetCore.Identity.UI.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.identity.ui\8.0.8\buildTransitive\Microsoft.AspNetCore.Identity.UI.targets')" />
-    <Import Project="$(NuGetPackageRoot)grpc.tools\2.67.0\build\Grpc.Tools.targets" Condition="Exists('$(NuGetPackageRoot)grpc.tools\2.67.0\build\Grpc.Tools.targets')" />
   </ImportGroup>
 </Project>

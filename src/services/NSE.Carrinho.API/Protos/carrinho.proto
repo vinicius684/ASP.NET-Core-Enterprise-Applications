@@ -15,7 +15,7 @@ message ObterCarrinhoRequest{
 
 message CarrinhoClienteResponse{
 	string id = 1;//os números são pra refletir a sequencia das propriedades
-	string clientid = 2;
+	string clienteid = 2;
 	double valortotal = 3;
 	repeated CarrinhoItemResponse itens = 4;
 	bool voucherutilizado = 5;
