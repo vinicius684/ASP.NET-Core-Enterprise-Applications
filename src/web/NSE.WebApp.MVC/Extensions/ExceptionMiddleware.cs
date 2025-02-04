@@ -1,4 +1,5 @@
-﻿using NSE.WebApp.MVC.Extensions;
+﻿using Grpc.Core;
+using NSE.WebApp.MVC.Extensions;
 using NSE.WebApp.MVC.Services;
 using Polly.CircuitBreaker;
 using Refit;
@@ -41,6 +42,26 @@ namespace NSE.Identidade.API.Extensions
             catch (BrokenCircuitException)
             {
                 HandleCircuitBreakerExceptionAsync(httpContext);
+            }
+            catch (RpcException ex)
+            {
+                //400 Bad Request	    INTERNAL
+                //401 Unauthorized      UNAUTHENTICATED
+                //403 Forbidden         PERMISSION_DENIED
+                //404 Not Found         UNIMPLEMENTED
+
+                var statusCode = ex.StatusCode switch
+                {
+                    StatusCode.Internal => 400,
+                    StatusCode.Unauthenticated => 401,
+                    StatusCode.PermissionDenied => 403,
+                    StatusCode.Unimplemented => 404,
+                    _ => 500
+                };
+
+                var httpStatusCode = (HttpStatusCode)Enum.Parse(typeof(HttpStatusCode), statusCode.ToString());
+
+                HandleRequestExceptionAsync(httpContext, httpStatusCode);
             }
         }
 

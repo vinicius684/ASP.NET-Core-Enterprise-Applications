@@ -1,0 +1,39 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\services\\NSE.Clientes.API\\NSE.Clientes.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\services\\NSE.Pedidos.API\\NSE.Pedidos.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\services\\NSE.Pagamentos.API\\NSE.Pagamentos.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\api gateways\\NSE.Bff.Compras\\NSE.Bff.Compras.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

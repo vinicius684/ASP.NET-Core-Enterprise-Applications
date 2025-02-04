@@ -230,6 +230,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Grpc.Core.Api": {
+              "target": "Package",
+              "version": "[2.67.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.8, )"

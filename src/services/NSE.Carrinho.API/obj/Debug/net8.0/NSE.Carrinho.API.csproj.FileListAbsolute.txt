@@ -310,3 +310,10 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStore
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\net8.0\staticwebassets\msbuild.NSE.Carrinho.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\NetDevPack.Security.JwtExtensions.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\Grpc.AspNetCore.Server.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_9AspNetEnterpriseApplications\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\net8.0\Grpc.Net.Common.dll

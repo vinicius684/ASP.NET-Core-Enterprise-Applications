@@ -37,8 +37,8 @@ namespace NSE.Carrinho.API.Services.gRPC {
             "AiABKAESDgoGY29kaWdvGAMgASgJEhQKDHRpcG9kZXNjb250bxgEIAEoBTJt",
             "Cg9DYXJyaW5ob0NvbXByYXMSWgoNT2J0ZXJDYXJyaW5obxIhLkNhcnJpbmhv",
             "QVBJLk9idGVyQ2FycmluaG9SZXF1ZXN0GiQuQ2FycmluaG9BUEkuQ2Fycmlu",
-            "aG9DbGllbnRlUmVzcG9uc2UiAEIgqgIdTlNFLkNhcnJpbmhvLkFQSS5TZXJ2",
-            "aWNlLmdSUENiBnByb3RvMw=="));
+            "aG9DbGllbnRlUmVzcG9uc2UiAEIhqgIeTlNFLkNhcnJpbmhvLkFQSS5TZXJ2",
+            "aWNlcy5nUlBDYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -572,7 +572,7 @@ namespace NSE.Carrinho.API.Services.gRPC {
           }
           case 58: {
             if (voucher_ == null) {
-              Voucher = new global::NSE.Carrinho.API.Service.gRPC.VoucherResponse();
+              Voucher = new global::NSE.Carrinho.API.Services.gRPC.VoucherResponse();
             }
             input.ReadMessage(Voucher);
             break;
